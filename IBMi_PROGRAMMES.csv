@@ -1,0 +1,1200 @@
+OBJLIB#OBJNAME#OBJTYPE#OBJOWNER#OBJTEXT#OBJSIZE#SOURCE_MEMBER#CHANGE_DATE#SOURCE_DATE#LAST_USED_DATE#DAYS_USED_COUNT
+SPRLIB#£F0401A#*PGM#QPGMR#V01R00 Options: 1=Crt 2=Modif 4=Sup 6=Imp 8=Réact.#98304#£F0401A#2022-08-25#1992-07-07##0
+SPRLIB#£F0402A#*PGM#QPGMR#V01R00 Options: 1=Sél 2=Modif 4=Sup 6=Imp 8=Réact.#94208#£F0402A#2022-08-25#1991-11-29##0
+SPRLIB#£F0404A#*PGM#QPGMR#V01R00 Options: 1=Sél 2=Modif 4=Sup 6=Imp 8=Réact.#106496#£F0404A#2022-08-25#1991-11-29##0
+SPRLIB#£F0404B#*PGM#QPGMR#V01R00 Options: 1=Sél 2=Modif 4=Sup 6=Imp 8=Réact.#110592#£F0404B#2022-08-25#1991-11-29##0
+SPRLIB#à£CTL01A#*PGM#QPGMR#V01R00 Saisie des écitures. Paramètres#57344#à£CTL01A#2022-08-25#1991-11-29##0
+SPRLIB#à£CT004A#*PGM#QPGMR#V01R00 Recherche du libellé pour une date donnée#57344#à£CT004A#2022-08-25#1994-03-21##0
+SPRLIB#à£D0001A#*PGM#QPGMR#V01R00 Controle de date  (AAAAMMJJ)#53248#à£D0001A#2022-08-25#1999-08-16##0
+SPRLIB#à£D0002A#*PGM#QPGMR#V01R00 différence de 2 dates en nombre de jours#53248#à£D0002A#2022-08-25#1991-11-29##0
+SPRLIB#à£D0003A#*PGM#QPGMR#V01R00 Calcul de date_en fonction de nbr de jours#53248#à£D0003A#2022-08-25#1993-01-15##0
+SPRLIB#à£D0003B#*PGM#QPGMR#V02R00 Calcul de date_en fonction de nbr de jours#53248#à£D0003B#2022-08-25#2002-01-09##0
+SPRLIB#à£D0004A#*PGM#QPGMR#V01R00 Formatt.date édition 8 --> 8 et 10#53248#à£D0004A#2022-08-25#1991-11-29##0
+SPRLIB#à£D0006A#*PGM#QPGMR#Controle de date (AAAAMMJJ) entre 2 dates#45056#à£D0006A#2022-08-25#1991-11-29##0
+SPRLIB#à£D0010A#*PGM#QPGMR#Conversion et contrôle date AAAASSJ#69632#à£D0010A#2022-08-25#1992-10-06##0
+SPRLIB#à£D0011A#*PGM#QPGMR#Ctrl Date, Conversion (AMJ<->ASJ),Ctrl Bornes#77824#à£D0011A#2022-08-25#1999-08-17##0
+SPRLIB#à£D0011B#*PGM#QPGMR#Ctrl Date, Conversion (AMJ<->ASJ),Ctrl Bornes J159#167936##2022-08-25###0
+SPRLIB#à£D0012A#*PGM#QPGMR#Ctrl Date, Conversion (AMJ<->ASJ),Ctrl Bornes#57344#à£D0012A#2022-08-25#2001-04-04##0
+SPRLIB#à£L0001A#*PGM#QPGMR#chiffre = lettre en français#86016#à£L0001A#2022-08-25#1991-11-29##0
+SPRLIB#à£L0001A0#*PGM#QPGMR#chiffre = lettre en français#86016#à£L0001A0#2022-08-25#1991-11-29##0
+SPRLIB#à£L0001A1#*PGM#QPGMR#chiffre = lettre en français#86016#à£L0001A1#2022-08-25#1991-11-29##0
+SPRLIB#à£L0001A2#*PGM#QPGMR#chiffre = lettre en anglais#73728#à£L0001A2#2022-08-25#1991-11-29##0
+SPRLIB#à£L0001A3#*PGM#QPGMR#chiffre = lettre en allemand  (à voir)#73728#à£L0001A3#2022-08-25#1991-11-29##0
+SPRLIB#à£L0001A4#*PGM#QPGMR#chiffre = lettre en hollandais#61440#à£L0001A4#2022-08-25#1991-11-29##0
+SPRLIB#à£L0001A5#*PGM#QPGMR#chiffre = lettre en espagnol#69632#à£L0001A5#2022-08-25#1992-02-25##0
+SPRLIB#à£L0001A6#*PGM#QPGMR#chiffre = lettre en italien#81920#à£L0001A6#2022-08-25#1991-11-29##0
+SPRLIB#à£L0001A7#*PGM#QPGMR#chiffre = lettre en belge#86016#à£L0001A7#2022-08-25#1991-11-29##0
+SPRLIB#à£N0001B#*PGM#QPGMR#V01R00 Récupération du numéro d'exercice#86016#à£N0001B#2022-08-25#1991-11-29##0
+SPRLIB#à£N0002B#*PGM#QPGMR#V01R00 Dates du début et de la fin des périodes#77824#à£N0002B#2022-08-25#1991-11-29##0
+SPRLIB#à£N0003B#*PGM#QPGMR#V01R00 Récupération du numéro de période#86016#à£N0003B#2022-08-25#1991-11-29##0
+SPRLIB#à£N0004B#*PGM#QPGMR#V01R00 Idem à£N0003B + gestion +sieurs périodes#86016#à£N0004B#2022-08-25#1991-11-29##0
+SPRLIB#à£P0001A#*PGM#QPGMR#V01R00 Gestion des éditions#57344#à£P0001A#2022-08-25#1993-03-02##0
+SPRLIB#à£T0005B#*PGM#QPGMR#Recherche et mise à jour du n° de relevé   (table)#86016#à£T0005B#2022-08-25#1991-11-29##0
+SPRLIB#à£T0006B#*PGM#QPGMR#Mise à jour de l'argument de la table#86016#à£T0006B#2022-08-25#1991-11-29##0
+SPRLIB#à£T0007B#*PGM#QPGMR#Mise à jour de N° de chrono analytique#94208#à£T0007B#2022-08-25#1993-05-24##0
+SPRLIB#à£T0008B#*PGM#QPGMR#Rech. et mise à jour du n° de transmission (table)#86016#à£T0008B#2022-08-25#1991-11-29##0
+SPRLIB#à£01CFI#*PGM#QPGMR#V01R00 Module de controle du code fiscal#49152#à£01CFI#2022-08-25#1991-11-29##0
+SPRLIB#à£01NRT#*PGM#QPGMR#V01R00 Module de controle du N° registre de T.V.A.#53248#à£01NRT#2022-08-25#1991-11-29##0
+SPRLIB#àCG9001A#*PGM#QPGMR#Calcul de la date échéance (GENCOD)#65536#àCG9001A#2022-08-25#1999-08-17##0
+SPRLIB#àP0001A#*PGM#QPGMR#V03R20 Gestion des éditions#65536#àP0001A#2022-08-25#1992-10-21##0
+SPRLIB#àP0001C#*PGM#QPGMR#V03R20 Consultation de la table des éditions#172032#àP0001C#2022-08-25###0
+SPRLIB#ACTABLE#*PGM#QSECOFR#Arno : Pgm one shot alimentation du fichier TABLE#118784#ACTABLE#2022-08-25#2014-02-05##0
+SPRLIB#AC0101A#*PGM#QPGMR#Traitement des demandes d'achats : Sélection  J129#315392#AC0101A#2022-08-25#2017-03-17##0
+SPRLIB#AC0101B#*PGM#QSECOFR#Traitement des demandes d'achats : Sous-fich. J091#356352#AC0101B#2022-08-25#2017-09-07##0
+SPRLIB#AC0101D#*PGM#QPGMR#Traitement des demandes d'achats : Gestion    J129#638976#AC0101D#2022-08-25#2017-04-13##0
+SPRLIB#AC0101K#*PGM#QPGMR#Traitement des demandes d'achats : Contrôle#81920#AC0101K#2022-08-25#1994-10-26##0
+SPRLIB#AC0102B#*PGM#QSECOFR#Traitement des commandes : Sous-fichier#466944#AC0102B#2022-08-25#2014-10-06##0
+SPRLIB#AC0102D#*PGM#QSECOFR#Traitement des commandes : Gestion  (ALN)     J221#1658880#AC0102D#2022-08-25#2020-04-27##0
+SPRLIB#AC0102K#*PGM#QPGMR#Traitement des commandes : Contrôle#81920#AC0102K#2022-08-25#1992-10-01##0
+SPRLIB#AC0103A#*PGM#QSECOFR#Traitement des commandes : Sélection          J221#335872#AC0103A#2022-08-25#2020-04-27##0
+SPRLIB#AC0103B#*PGM#QSECOFR#Fichier Commande d'achat : Sous-fichier  (ALN)J221#663552##2022-08-25###0
+SPRLIB#AC0103F#*PGM#QPGMR#Annulation d''une facture fournnisseur        J220#2596864##2022-08-25###0
+SPRLIB#AC0103K#*PGM#QPGMR#Fichier commande d'achat : Contrôle           J213#135168#AC0103K#2022-08-25#2019-05-15##0
+SPRLIB#AC0104B#*PGM#QPGMR#Fichier Accusés de réception : Sous-fichier#405504#AC0104B#2022-08-25#2004-09-05##0
+SPRLIB#AC0104B_SV#*PGM#QPGMR#Fichier Accusés de réception : Sous-fichier#241664#AC0104B#2022-08-25#1999-07-09##0
+SPRLIB#AC0104D#*PGM#QPGMR#Fichier Accusés de réception : Gestion        J220#749568#AC0104D#2022-08-25#2020-02-26##0
+SPRLIB#AC0104K#*PGM#QPGMR#Fichier Accusés de réception : Contrôle#81920#AC0104K#2022-08-25#1994-03-21##0
+SPRLIB#AC0105A#*PGM#QPGMR#Gestion des navires/rotations : Sélection#139264#AC0105A#2022-08-25#1999-07-09##0
+SPRLIB#AC0105B#*PGM#QPGMR#Gestion des navires/rotations : Fenêtre#262144#AC0105B#2022-08-25#1995-05-16##0
+SPRLIB#AC0105C#*PGM#QPGMR#Gestion des navires/rotations : Positionnement#110592#AC0105C#2022-08-25#1992-12-31##0
+SPRLIB#AC0105D#*PGM#QPGMR#Gestion des navires/rotations : Mise à jour#233472#AC0105D#2022-08-25#2001-04-06##0
+SPRLIB#AC0105F#*PGM#QPGMR#Gestion des navires/rotations : Fenêtre#249856#AC0105F#2022-08-25#1993-03-26##0
+SPRLIB#AC0105K#*PGM#QPGMR#Gestion des navires/rotations : Contrôle#81920#AC0105K#2022-08-25#1992-12-31##0
+SPRLIB#AC0106B#*PGM#QPGMR#Prévisions de livraison par navire : Sous-fichier#249856#AC0106B#2022-08-25#1999-07-09##0
+SPRLIB#AC0106D#*PGM#QPGMR#Prévisions de livraison par navire : Gestion#196608#AC0106D#2022-08-25#1999-07-16##0
+SPRLIB#AC0106K#*PGM#QPGMR#Prévisions de livraison par navire : Contrôle#81920#AC0106K#2022-08-25#1994-03-21##0
+SPRLIB#AC0107B#*PGM#QSECOFR#Gestion des prévisions de livraison : Sous-ficJ221#442368#AC0107B#2022-08-25#2020-04-28##0
+SPRLIB#AC0107D#*PGM#QSECOFR#Gestion des prévisions de livraison : Gestion J221#950272#AC0107D#2022-08-25#2020-04-27##0
+SPRLIB#AC0107K#*PGM#QPGMR#Gestion des prévisions de livraison : Contrôle#81920#AC0107K#2022-08-25#1994-03-21##0
+SPRLIB#AC0108B#*PGM#QPGMR#Fichier Avis d'expédition : Sous-fichier#282624#AC0108B#2022-08-25#1999-07-09##0
+SPRLIB#AC0108D#*PGM#QPGMR#Fichier Avis d'expédition : Gestion           J220#1126400#AC0108D#2022-08-25#2020-02-26##0
+SPRLIB#AC0108D_SV#*PGM#QPGMR#Fichier Avis d'expédition : Gestion           J220#1126400#AC0108D#2022-08-25#2020-02-26##0
+SPRLIB#AC0108K#*PGM#QPGMR#Fichier Avis d'expédition : Contrôle#77824#AC0108K#2022-08-25#1993-01-08##0
+SPRLIB#AC0109A#*PGM#QSECOFR#Contrôle des factures fourn. : pied selection#180224#AC0109A#2022-08-25#2015-05-29##0
+SPRLIB#AC0109B#*PGM#QPGMR#Contrôle des factures fourn. : pied sous-fichier#487424#AC0109B#2022-08-25#2000-09-11##0
+SPRLIB#AC0109D#*PGM#QPGMR#Contrôle des factures fourn. : pied saisie#421888#AC0109D#2022-08-25#2015-05-29##0
+SPRLIB#AC0109F#*PGM#QPGMR#Contrôle des factures fourn. : cde non tot payées#233472#AC0109F#2022-08-25#2000-11-09##0
+SPRLIB#AC0109K#*PGM#QPGMR#Contrôle des factures fourn. : pied contrôle#81920#AC0109K#2022-08-25#1993-03-09##0
+SPRLIB#AC0110B#*PGM#QPGMR#Contrôle des factures fourn. : sf exécution   J163#487424#AC0110B#2022-08-25#2019-03-22##0
+SPRLIB#AC0110D#*PGM#QPGMR#Contrôle des factures fourn. topage exécution J220#339968#AC0110D#2022-08-25#2020-02-26##0
+SPRLIB#AC0110K#*PGM#QPGMR#Contrôle des factures fourn. : ctrl exécution#81920#AC0110K#2022-08-25#1993-02-08##0
+SPRLIB#AC0111B#*PGM#QPGMR#Contrôle des factures fourn. : ajustements pied#278528#AC0111B#2022-08-25#2000-09-11##0
+SPRLIB#AC0111D#*PGM#QPGMR#Contrôle des factures fourn. : maj ajustement#286720#AC0111D#2022-08-25#2000-09-11##0
+SPRLIB#AC0111K#*PGM#QPGMR#Contrôle des factures fourn. : ctl ajustement#81920#AC0111K#2022-08-25#1993-01-28##0
+SPRLIB#AC0112D#*PGM#QPGMR#Traitement des commandes : Gestion  (ALN)#217088#AC0112D#2022-08-25#1999-07-09##0
+SPRLIB#AC0120A#*PGM#QPGMR#Traitement propositions d'ajustement (Sélection)#143360#AC0120A#2022-08-25#1999-07-09##0
+SPRLIB#AC0120B#*PGM#QPGMR#Traitement propositions d'ajustement (Sous-fich.)#249856#AC0120B#2022-08-25#2001-01-22##0
+SPRLIB#AC0120D#*PGM#QPGMR#Traitement propositions d'ajustement (Gestion)#253952#AC0120D#2022-08-25#1999-07-09##0
+SPRLIB#AC0120K#*PGM#QPGMR#Traitement propositions d'ajustement (Contrôle)#81920#AC0120K#2022-08-25#1993-04-09##0
+SPRLIB#AC0130A#*PGM#QSECOFR#Suivi des cdes expéditions réceptions : Sél.( J221#385024#AC0130A#2022-08-25#2020-05-05##0
+SPRLIB#AC0130B#*PGM#QSECOFR#Suivi cdes expéditions réceptions : S-fic(ALN)J221#1245184#AC0130B#2022-08-25#2020-05-05##0
+SPRLIB#AC0130K#*PGM#QPGMR#suivi expédition/BE controle  (ALN)#81920#AC0130K#2022-08-25#1994-07-09##0
+SPRLIB#AC0140A#*PGM#QPGMR#Gestion des commandes d'achats à transmettre sel#155648#AC0140A#2022-08-25#1999-07-06##0
+SPRLIB#AC0140B#*PGM#QPGMR#Gestion des commandes d'achats à transmettre  J215#471040#AC0140B#2022-08-25#2019-10-18##0
+SPRLIB#AC0140D#*PGM#QPGMR#Gestion des commandes d'achats à transmettre maj#131072#AC0140D#2022-08-25#1994-12-09##0
+SPRLIB#AC0140K#*PGM#QPGMR#Gestion des commandes d'achats à transmettre ctlk#81920#AC0140K#2022-08-25#1994-11-29##0
+SPRLIB#AC0150A#*PGM#QSECOFR#Gestion retours fournisseurs (R+F) Sélection#167936#AC0150A#2022-08-25#2013-12-12##0
+SPRLIB#AC0150B#*PGM#QPGMR#Gestion retours fournisseurs (R+F) S-fic#299008#AC0150B#2022-08-25#2001-01-22##0
+SPRLIB#AC0150D#*PGM#QPGMR#Gestion retours fournisseurs (R) : Gestion    J220#1519616#AC0150D#2022-08-25#2020-02-26##0
+SPRLIB#AC0150K#*PGM#QPGMR#Gestion retours fournisseurs (R) : Contrôle#81920#AC0150K#2022-08-25#1994-03-21##0
+SPRLIB#AC0151B#*PGM#QPGMR#Gestion prévisions de retour (R) : Sous-fichier#249856#AC0151B#2022-08-25#1999-07-06##0
+SPRLIB#AC0151D#*PGM#QPGMR#Gestion prévisions de retour (R) : Gestion    J220#831488#AC0151D#2022-08-25#2020-02-26##0
+SPRLIB#AC0151K#*PGM#QPGMR#Gestion prévisions de retour (R) : Contrôle#81920#AC0151K#2022-08-25#1994-03-21##0
+SPRLIB#AC0152B#*PGM#QPGMR#Gestion des retours directs  (R) : Sous-fichier#278528#AC0152B#2022-08-25#1999-07-06##0
+SPRLIB#AC0152D#*PGM#QPGMR#Gestion des retours directs  (R) : Gestion    J220#856064#AC0152D#2022-08-25#2020-02-26##0
+SPRLIB#AC0152K#*PGM#QPGMR#Gestion des retours directs  (R) : Contrôle#77824#AC0152K#2022-08-25#1993-01-20##0
+SPRLIB#AC0153D#*PGM#QSECOFR#Gestion retours fournisseurs (F) : Gestion#421888#AC0153D#2022-08-25#2014-02-04##0
+SPRLIB#AC0153K#*PGM#QPGMR#Gestion retours fournisseurs (F) : Contrôle#81920#AC0153K#2022-08-25#1993-01-14##0
+SPRLIB#AC0170A#*PGM#QPGMR#Fichier Litiges: Sélection#208896#AC0170A#2022-08-25#1999-07-06##0
+SPRLIB#AC0170B#*PGM#QSECOFR#Fichier Litiges: Fenêtre#421888#AC0170B#2022-08-25#2014-04-02##0
+SPRLIB#AC0170C#*PGM#QPGMR#Fichier Litiges: Positionnement#110592#AC0170C#2022-08-25#1993-01-05##0
+SPRLIB#AC0170D#*PGM#QPGMR#Fichier Litiges: Gestion#331776#AC0170D#2022-08-25#2001-03-22##0
+SPRLIB#AC0170K#*PGM#QPGMR#Fichier Litiges: Contrôle#81920#AC0170K#2022-08-25#1994-04-01##0
+SPRLIB#AC0171B#*PGM#QPGMR#Fichier évenements : Fenêtre#299008#AC0171B#2022-08-25#2001-01-30##0
+SPRLIB#AC0171D#*PGM#QPGMR#Fichier évenements : Gestion#204800#AC0171D#2022-08-25#2001-01-30##0
+SPRLIB#AC0171K#*PGM#QPGMR#Fichier évenements : Contrôle#81920#AC0171K#2022-08-25#2001-01-30##0
+SPRLIB#AC0190A#*PGM#QPGMR#Calcul du résultat             (Sélection)#139264#AC0190A#2022-08-25#2001-03-16##0
+SPRLIB#AC0190C#*PGM#QPGMR#Calcul du résultat            (Calcul)#450560#AC0190C#2022-08-25#2001-02-28##0
+SPRLIB#AC0190C1#*PGM#QPGMR#Calcul du résultat            (Calcul)#421888#AC0190C#2022-08-25#1993-02-03##0
+SPRLIB#AC0190N#*PGM#QPGMR#Calcul du résultat  (TRT NUIT) (Sélection)#65536#AC0190N#2022-08-25#1994-06-06##0
+SPRLIB#AC0501A#*PGM#QPGMR#Fichier Real. Achat: Sélection#172032#AC0501A#2022-08-25#1999-07-06##0
+SPRLIB#AC0501B#*PGM#QPGMR#Fichier Réal Achat: Consultation#438272#AC0501B#2022-08-25#1999-07-06##0
+SPRLIB#AC1001A#*PGM#QPGMR#Edition des Commandes (Sélection)#135168#AC1001A#2022-08-25#1999-07-06##0
+SPRLIB#AC1001C#*PGM#QPGMR#Edition des Commandes#139264#AC1001C#2022-08-25#2001-02-28##0
+SPRLIB#AC1001D#*PGM#QSECOFR#Edition/Trans des Commandes (Transmis)        J160#876544#AC1001D#2022-08-25#2018-01-15##0
+SPRLIB#AC1001D_V1#*PGM#QPGMR#Edition/Trans des Commandes (Transmis)#872448#AC1001D#2022-08-22#2014-12-04##0
+SPRLIB#AC1004A#*PGM#QPGMR#Etat des commandes à surveiller (Sélection)#118784#AC1004A#2022-08-25#1999-07-06##0
+SPRLIB#AC1004C#*PGM#QPGMR#Etat des commandes à surveiller (Fichier)  (ALN)#192512#AC1004C#2022-08-25#2014-07-21##0
+SPRLIB#AC1004D#*PGM#QPGMR#Etat des commandes à surveiller (Edition)  (ALN)#163840#AC1004D#2022-08-25#1999-08-19##0
+SPRLIB#AC1004N#*PGM#QPGMR#Etat des commandes à surveiller (Traitement nuit)#49152#AC1004N#2022-08-25#1993-12-09##0
+SPRLIB#AC1005A#*PGM#QPGMR#Etat de suivi de commandes d'achat (Sél.) (ALN)#167936#AC1005A#2022-08-25#1999-07-06##0
+SPRLIB#AC1005C#*PGM#QPGMR#Etat de suivi de commandes d'achat (Fichier) (ALN)#139264#AC1005C#2022-08-25#1995-05-03##0
+SPRLIB#AC1005D#*PGM#QPGMR#Etat de suivi de commandes d'achat (Semaine) (ALN)#212992#AC1005D#2022-08-25#2014-07-21##0
+SPRLIB#AC1005E#*PGM#QPGMR#Etat de suivi de commandes d'achat (Us/N°cde)(ALN)#225280#AC1005E#2022-08-25#1999-08-19##0
+SPRLIB#AC1005F#*PGM#QPGMR#Etat de suivi de commandes d'achat (Us/Sem) (ALN)#225280#AC1005F#2022-08-25#1999-08-19##0
+SPRLIB#AC1006A#*PGM#QPGMR#MAJ rétroactive des tarifs (forcés) (Sélection)#147456#AC1006A#2022-08-25#1999-07-06##0
+SPRLIB#AC1006C#*PGM#QPGMR#MAJ rétroactive des tarifs (forcés) (fichier)#126976#AC1006C#2022-08-25#1993-04-26##0
+SPRLIB#AC1006D#*PGM#QPGMR#MAJ rétroactive des tarifs (forcés) (Edition NF)#188416#AC1006D#2022-08-25#1999-08-19##0
+SPRLIB#AC1006E#*PGM#QPGMR#MAJ rétroactive des tarifs (forcés) (Edition FA)#188416#AC1006E#2022-08-25#1999-08-19##0
+SPRLIB#AC1007A#*PGM#QPGMR#MAJ rétroactive des tarifs (Sélection)#143360#AC1007A#2022-08-25#1999-07-06##0
+SPRLIB#AC1007B#*PGM#QPGMR#MAJ rétroactive des tarifs (fichier)#114688#AC1007B#2022-08-25#2001-03-07##0
+SPRLIB#AC1007C#*PGM#QPGMR#MAJ rétroactive des tarifs (fichier)#233472#AC1007C#2022-08-25#1994-01-28##0
+SPRLIB#AC1007D#*PGM#QPGMR#MAJ rétroactive des tarifs (Edition)#184320#AC1007D#2022-08-25#1999-08-19##0
+SPRLIB#AC1008A#*PGM#QPGMR#Liste des échanges communautaires   (Sélection)#139264#AC1008A#2022-08-25#2002-07-12##0
+SPRLIB#AC1008C#*PGM#QSECOFR#Liste des echanges communautaires  (Fichier)  J140#241664#AC1008C#2022-08-25#2017-10-02##0
+SPRLIB#AC1008C2#*PGM#QPGMR# Mise a jour du fichier     EIEIN     #126976#AC1008C2#2022-08-25#2001-02-28##0
+SPRLIB#AC1008D#*PGM#QPGMR#Echanges communautaires  pour support magnétique#126976#AC1008D#2022-08-25#2000-02-16##0
+SPRLIB#AC1008F#*PGM#QPGMR#Interface comptable intracommunautaire (inject)#225280#AC1008F#2022-08-25#2001-06-10##0
+SPRLIB#AC1008G#*PGM#QPGMR#liste des echanges communautaires  (Fichier)#135168#AC1008G#2022-08-25#1999-11-15##0
+SPRLIB#AC1009A#*PGM#QPGMR#Topage automatique des factures fournisseurs#118784#AC1009A#2022-08-25#2000-09-13##0
+SPRLIB#AC1009C#*PGM#QPGMR#Topage automatique des factures fournisseurs(FICH)#196608#AC1009C#2022-08-25#2001-03-16##0
+SPRLIB#AC1009N#*PGM#QPGMR#Topage automatique des factures fournisseurs(batc)#49152#AC1009N#2022-08-25#2000-09-13##0
+SPRLIB#AC1010A#*PGM#QPGMR#Edition des factures fournisseur (Sélection)#319488#AC1010A#2022-08-25#2015-09-08##0
+SPRLIB#AC1010B#*PGM#QPGMR#Edition des factures fournisseur:(Edition)#442368#AC1010B#2022-08-25#2015-09-08##0
+SPRLIB#AC1011A#*PGM#QPGMR#demande d'édition des demandes d'ajustements.#118784#AC1011A#2022-08-25#1999-07-06##0
+SPRLIB#AC1011C#*PGM#QPGMR#Edition des demandes d'ajustements#208896#AC1011C#2022-08-25#1994-12-06##0
+SPRLIB#AC1011N#*PGM#QPGMR#Topage automatique des factures fournisseurs(batc)#49152#AC1011N#2022-08-25#1994-10-17##0
+SPRLIB#AC1030A#*PGM#QPGMR#Liste des tonnages CDE + AE - Sélection#143360#AC1030A#2022-08-25#1999-11-30##0
+SPRLIB#AC1030C#*PGM#QPGMR#Liste des tonnages CDE + AE - Constitution#151552#AC1030C#2022-08-25#2014-07-21##0
+SPRLIB#AC1030D#*PGM#QPGMR#Liste des tonnages CDE + AE - Edition#172032#AC1030D#2022-08-25#1999-11-30##0
+SPRLIB#AC1031A#*PGM#QPGMR#Statistiques Réalisations/Commandes#135168#AC1031A#2022-08-25#2000-08-29##0
+SPRLIB#AC1031C#*PGM#QPGMR#Statistiques Réalisations/Commandes#372736#AC1031C#2022-08-25#2004-04-20##0
+SPRLIB#AC1031D#*PGM#QPGMR#Statistiques Réalisations/Commandes#94208#AC1031D#2022-08-25#2000-08-30##0
+SPRLIB#AC1070A#*PGM#QPGMR#Etat détaillé des Litiges / Evénements#131072#AC1070A#2022-08-25#1999-08-19##0
+SPRLIB#AC1070D#*PGM#QPGMR#Dossier de litige   (Edition)#262144#AC1070D#2022-08-25#1999-08-19##0
+SPRLIB#AC1090A#*PGM#QPGMR#Edition du resultat fournisseur (Sélection)#163840#AC1090A#2022-08-25#2001-03-16##0
+SPRLIB#AC1090C#*PGM#QPGMR#Edition du resultat fournisseur : (Fichier)#344064#AC1090C#2022-08-25#1994-08-25##0
+SPRLIB#AC1090D#*PGM#QPGMR#Edition du résultat fournisseur : (Edition)#368640#AC1090D#2022-08-25#1999-08-19##0
+SPRLIB#AC1091A#*PGM#QPGMR#Edition du resultat fournisseur (Sélection)#155648#AC1091A#2022-08-25#2001-03-16##0
+SPRLIB#AC1091C#*PGM#QPGMR#Edition du resultat fournisseur : (Fichier)#307200#AC1091C#2022-08-25#1995-01-31##0
+SPRLIB#AC1091D#*PGM#QPGMR#Edition du résultat fournisseur : (Edition)#327680#AC1091D#2022-08-25#1999-08-19##0
+SPRLIB#AC1091E#*PGM#QPGMR#Edition du résultat fournisseur : (Edition)#327680#AC1091E#2022-08-25#1999-08-19##0
+SPRLIB#AC1095A#*PGM#QPGMR#Liste des prévisions de livraison - Sélection#135168#AC1095A#2022-08-25#1999-11-30##0
+SPRLIB#AC1095C#*PGM#QPGMR#Liste des prévisions de livraison - Constitution#122880#AC1095C#2022-08-25#1999-11-30##0
+SPRLIB#AC1095D1#*PGM#QPGMR#Liste des prévisions de livraison - Edition#192512#AC1095D1#2022-08-25#1999-11-30##0
+SPRLIB#AC1095D2#*PGM#QPGMR#Liste des prévisions de livraison - Edition#196608#AC1095D2#2022-08-25#1999-11-30##0
+SPRLIB#AP0101A#*PGM#QSECOFR#Gestion de la couverture des besoins : Sélection#200704#AP0101A#2022-08-25#2014-05-06##0
+SPRLIB#AP0101B#*PGM#QSECOFR#Gestion de la couverture des besoins : SF  (ALN)#266240#AP0101B#2022-08-25#2014-05-19##0
+SPRLIB#AP0101K#*PGM#QPGMR#Gestion de la couverture des besoins : Contrôle#81920#AP0101K#2022-08-25#1993-04-21##0
+SPRLIB#AP0102B#*PGM#QSECOFR#Gestion des propositions de couverture : SF (ALN)#450560#AP0102B#2022-08-25#2016-01-28##0
+SPRLIB#AP0102D#*PGM#QPGMR#Gestion des proposisions de couverture : Ges.(ALN)#647168#AP0102D#2022-08-25#2013-01-28##0
+SPRLIB#AP0102K#*PGM#QPGMR#Gestion des propositions de couverture : Contrôle#81920#AP0102K#2022-08-25#1993-04-22##0
+SPRLIB#AP0103B#*PGM#QPGMR#Gestion des entrées/sorties : Sous-fichier#237568#AP0103B#2022-08-25#1999-07-06##0
+SPRLIB#AP0501A#*PGM#QPGMR#Gestion des ruptures et surstocks#184320#AP0501A#2022-08-25#1999-07-06##0
+SPRLIB#AP0501A1#*PGM#QPGMR#Gestion des ruptures et surstocks#188416#AP0501A1#2022-08-25#1994-06-22##0
+SPRLIB#AP0501B#*PGM#QSECOFR#Gestion des ruptures et des surstocks#798720#AP0501B#2022-08-25#2016-01-28##0
+SPRLIB#AP1001A#*PGM#QPGMR#Calcul des besoins de réappro. (Sélection)#139264#AP1001A#2022-08-25#2001-03-07##0
+SPRLIB#AP1001B#*PGM#QPGMR#Calcul des besoins de réappro.#204800#AP1001B#2022-08-25#2001-03-08##0
+SPRLIB#AP1001B1#*PGM#QPGMR#Calcul des besoins de réappro.#106496#AP1001B1#2022-08-25#2001-03-08##0
+SPRLIB#AP1001C#*PGM#QPGMR#Calcul des besoins de réappro. (Prin. gén.) (ALN)#585728#AP1001C#2022-08-25#1996-03-11##0
+SPRLIB#AP1001D#*PGM#QPGMR#Calcul des besoins de réappro. (Ent fictifs) (ALN)#352256#AP1001D#2022-08-25#1994-07-09##0
+SPRLIB#AP1001E#*PGM#QPGMR#Calcul des besoins de réappro. (Rupt. surst.) (ALN#299008#AP1001E#2022-08-25#1995-03-24##0
+SPRLIB#AP1001E1#*PGM#QPGMR#Calcul des besoins de réappro. (Rupt. surst.)(ALN)#167936#AP1001E1#2022-08-25#1999-08-19##0
+SPRLIB#AP1001N#*PGM#QPGMR#Calcul besoins réappro. (Traitements nuit) (ALN)#61440#AP1001N#2022-08-25#1994-06-22##0
+SPRLIB#AP1001N2#*PGM#QPGMR#Calcul besoins réappro.(Trts nuit Vendredi) (ALN)#65536#AP1001N2#2022-08-25#1994-06-22##0
+SPRLIB#AP1002A#*PGM#QPGMR#Edition des propositions de couverture : Sélection#184320#AP1002A#2022-08-25#1999-07-06##0
+SPRLIB#AP1002C#*PGM#QPGMR#Edition des propositions de couverture : Edition#241664#AP1002C#2022-08-25#1999-08-19##0
+SPRLIB#AS0101A#*PGM#QPGMR#Gestion des valeurs d'assurances#143360#AS0101A#2022-08-25#1999-07-06##0
+SPRLIB#AS0101B#*PGM#QPGMR#Gestion des valeurs d'assurances#258048#AS0101B#2022-08-25#2001-01-22##0
+SPRLIB#AS0101D#*PGM#QPGMR#Gestion des valeurs d'assurances#188416#AS0101D#2022-08-25#2001-01-22##0
+SPRLIB#AS0101K#*PGM#QPGMR#Gestion des valeurs d'assurances#81920#AS0101K#2022-08-25#2001-01-22##0
+SPRLIB#AS1001A#*PGM#QPGMR#bordereaux d'assurance#155648#AS1001A#2022-08-25#1999-07-06##0
+SPRLIB#AS1001C#*PGM#QPGMR#Bordereaux d'assurance          (Fichier)#237568#AS1001C#2022-08-25#2001-02-28##0
+SPRLIB#AS1001E#*PGM#QPGMR#Bordereau d'assurance Terrestre (Edition)#237568#AS1001E#2022-08-25#1999-08-18##0
+SPRLIB#AS1001F#*PGM#QPGMR#Bordereau des Avis d'expédition non assurés#225280#AS1001F#2022-08-25#1999-08-18##0
+SPRLIB#AS1002A#*PGM#QPGMR#Edition des valeurs d'assurances#139264#AS1002A#2022-08-25#1999-07-06##0
+SPRLIB#AS1002B#*PGM#QPGMR#Edition des valeurs d'assurances#180224#AS1002B#2022-08-25#2001-04-06##0
+SPRLIB#AS1003A#*PGM#QPGMR#Définition des valeurs d'assurances#135168#AS1003A#2022-08-25#2001-05-03##0
+SPRLIB#AS1003B#*PGM#QPGMR#Définition des valeurs d'assurances  dup mois ant#114688#AS1003B#2022-08-25#2002-01-21##0
+SPRLIB#AS1003C#*PGM#QPGMR#Définition des valeurs d'assurances#139264#AS1003C#2022-08-25#2014-07-21##0
+SPRLIB#AS1003D#*PGM#QPGMR#Définition des valeurs d'assurances moyenne pondér#126976#AS1003D#2022-08-25#2002-01-21##0
+SPRLIB#BD0101A#*PGM#QPGMR#Fichier fournisseur : Sélection.#118784#BD0101A#2022-08-25#1999-10-22##0
+SPRLIB#BD0101B#*PGM#QPGMR#Fichier fournisseur : Fenêtre#233472#BD0101B#2022-08-25###0
+SPRLIB#BD0101C#*PGM#QPGMR#Fichier fournisseur : Positionnement fenêtre#110592#BD0101C#2022-08-25###0
+SPRLIB#BD0101D#*PGM#QPGMR#Fichier fournisseur : Gestion#323584#BD0101D#2022-08-25#2014-09-09##0
+SPRLIB#BD0101K#*PGM#QPGMR#Fichier fournisseur : Contrôle#77824#BD0101K#2022-08-25###0
+SPRLIB#BD0102D#*PGM#QPGMR#Fichier interlocuteur : Gestion#241664#BD0102D#2022-08-25#2014-07-22##0
+SPRLIB#BD0102K#*PGM#QPGMR#Fichier interlocuteur : Contrôle#131072#BD0102K#2022-08-25#2004-09-05##0
+SPRLIB#BD0104A#*PGM#QPGMR#Fichier usines : Sélection#118784#BD0104A#2022-08-25#1999-10-22##0
+SPRLIB#BD0104B#*PGM#QPGMR#Fichier usines : Fenêtre#266240#BD0104B#2022-08-25#1992-11-19##0
+SPRLIB#BD0104C#*PGM#QPGMR#Fichier usines : Positionnement fenêtre#110592#BD0104C#2022-08-25###0
+SPRLIB#BD0104D#*PGM#QPGMR#Fichier usines : Gestion#479232#BD0104D#2022-08-25#2015-05-29##0
+SPRLIB#BD0104K#*PGM#QPGMR#Fichier usines : Contrôle#81920#BD0104K#2022-08-25#1992-09-30##0
+SPRLIB#BD0105D#*PGM#QPGMR#Fichier régions tarifaires : Gestion#204800#BD0105D#2022-08-25#1999-11-15##0
+SPRLIB#BD0105K#*PGM#QPGMR#Fichier régions tarifaires : Contrôle#77824#BD0105K#2022-08-25###0
+SPRLIB#BD0106K#*PGM#QPGMR#Fichier interlocuteur/usine : Contrôle#81920#BD0106K#2022-08-25#1994-03-21##0
+SPRLIB#BD0108A#*PGM#QPGMR#Fichier article : Sélection                   J206#1126400##2022-08-25###0
+SPRLIB#BD0108B#*PGM#QPGMR#Fichier article : Consultation en fenêtrage   J206#2207744##2022-08-25###0
+SPRLIB#BD0108C#*PGM#QSECOFR#Fichier article : Positionnement fenêtre#196608#BD0108C#2022-08-25#2016-01-28##0
+SPRLIB#BD0108D#*PGM#QPGMR#Fichier article : Gestion                     J206#667648#BD0108D#2022-08-25#2019-02-21##0
+SPRLIB#BD0108E#*PGM#QPGMR#Purge Fichier Article (Soumission)            J202#180224#BD0108E#2022-08-25#2019-01-15##0
+SPRLIB#BD0108F#*PGM#QPGMR#Purge Fichier Article                         J202#262144#BD0108F#2022-08-25#2019-01-15##0
+SPRLIB#BD0108K#*PGM#QSECOFR#Fichier article : Controle#110592#BD0108K#2022-08-25#2014-06-03##0
+SPRLIB#BD0109A#*PGM#QPGMR#Fichier marché : Sélection#118784#BD0109A#2022-08-25#1999-10-22##0
+SPRLIB#BD0109B#*PGM#QPGMR#Fichier marché : Fenêtre#208896#BD0109B#2022-08-25###0
+SPRLIB#BD0109C#*PGM#QPGMR#Fichier marché : Positionnement#106496#BD0109C#2022-08-25#1992-02-09##0
+SPRLIB#BD0109D#*PGM#QPGMR#Fichier marché : Gestion#311296#BD0109D#2022-08-25#1999-10-29##0
+SPRLIB#BD0109K#*PGM#QPGMR#Fichier marché : Contrôle#77824#BD0109K#2022-08-25#1992-02-09##0
+SPRLIB#BD0110B#*PGM#QPGMR#Fichier enveloppes : Fenêtre#212992#BD0110B#2022-08-25#1999-07-07##0
+SPRLIB#BD0110D#*PGM#QPGMR#Fichier enveloppes : Gestion#290816#BD0110D#2022-08-25#1999-11-15##0
+SPRLIB#BD0110K#*PGM#QPGMR#Fichier enveloppes : Contrôle#77824#BD0110K#2022-08-25#1992-10-09##0
+SPRLIB#BD0111A#*PGM#QPGMR#Objectif par usine      : Sélection PP#167936#BD0111A#2022-08-25#1999-07-07##0
+SPRLIB#BD0111B#*PGM#QPGMR#Objectif par usine      : liste PP#282624#BD0111B#2022-08-25#1999-07-07##0
+SPRLIB#BD0111D#*PGM#QPGMR#Objectif par usine      : gestion#217088#BD0111D#2022-08-25#1999-07-07##0
+SPRLIB#BD0111K#*PGM#QPGMR#Objectif par usine      : Contrôle#86016#BD0111K#2022-08-25#1998-09-10##0
+SPRLIB#BD0113A#*PGM#QPGMR#Fichier tarifs d'achat : Sélection#151552#BD0113A#2022-08-25#1999-07-07##0
+SPRLIB#BD0113B#*PGM#QPGMR#Fichier tarifs d'achat : Sous-fichier#233472#BD0113B#2022-08-25#1999-07-07##0
+SPRLIB#BD0113D#*PGM#QPGMR#Fichier tarifs d'achat : Gestion#208896#BD0113D#2022-08-25#1999-07-07##0
+SPRLIB#BD0113K#*PGM#QPGMR#Fichier tarifs d'achat : Contrôle#77824#BD0113K#2022-08-25#1992-03-09##0
+SPRLIB#BD0114A#*PGM#QPGMR#Fichier éditeur : Sélection#118784#BD0114A#2022-08-25#1999-10-22##0
+SPRLIB#BD0114B#*PGM#QPGMR#Fichier éditeur : Fenêtre#208896#BD0114B#2022-08-25###0
+SPRLIB#BD0114C#*PGM#QPGMR#Fichier éditeur : Positionnement fenêtre#110592#BD0114C#2022-08-25###0
+SPRLIB#BD0114D#*PGM#QPGMR#Fichier éditeur : Gestion#237568#BD0114D#2022-08-25#2014-07-21##0
+SPRLIB#BD0114K#*PGM#QPGMR#Fichier éditeur : Contrôle#77824#BD0114K#2022-08-25#1992-09-09##0
+SPRLIB#BD0116A#*PGM#QPGMR#Fichier titres : Sélection#126976#BD0116A#2022-08-25#2014-07-21##0
+SPRLIB#BD0116B#*PGM#QPGMR#Fichier titres : Fenêtre#307200#BD0116B#2022-08-25#2014-07-18##0
+SPRLIB#BD0116C#*PGM#QPGMR#Fichier titres : Positionnement#110592#BD0116C#2022-08-25#1994-07-23##0
+SPRLIB#BD0116D#*PGM#QPGMR#Fichier titres : Gestion                      J135#684032#BD0116D#2022-08-25#2017-05-05##0
+SPRLIB#BD0116K#*PGM#QPGMR#Fichier titres : Contrôle#131072#BD0116K#2022-08-25#2014-07-21##0
+SPRLIB#BD0116KR#*PGM#QPGMR#Fichier titres : Contrôle + Lib réduit#81920#BD0116KR#2022-08-25#2014-07-21##0
+SPRLIB#BD0118D#*PGM#QPGMR#Fichier éditeurs/titre : Gestion#229376#BD0118D#2022-08-25#2014-07-21##0
+SPRLIB#BD0118K#*PGM#QPGMR#Fichier éditeurs/titre : Contrôle#77824#BD0118K#2022-08-25###0
+SPRLIB#BD0119D#*PGM#QPGMR#Fichier regroupement de presse /titre : Gestion#229376#BD0119D#2022-08-25#2014-07-21##0
+SPRLIB#BD0119K#*PGM#QPGMR#Fichier regroupement de presse /titre : Contrôle#77824#BD0119K#2022-08-25###0
+SPRLIB#BD0120D#*PGM#QPGMR#Fichier payeurs imprimerie/titre : Gestion#229376#BD0120D#2022-08-25#2000-01-27##0
+SPRLIB#BD0120K#*PGM#QPGMR#Fichier payeurs imprimerie/titre : Contrôle#77824#BD0120K#2022-08-25#1992-09-09##0
+SPRLIB#BD0121A#*PGM#QPGMR#Fichier imprimeries par titre : sélection#159744#BD0121A#2022-08-25#1999-10-22##0
+SPRLIB#BD0121B#*PGM#QPGMR#Fichier imprimeries par titre : Fenêtre#233472#BD0121B#2022-08-25#2014-07-21##0
+SPRLIB#BD0121C#*PGM#QPGMR#Fichier imprimeries par titre : Critère Fenêtre#110592#BD0121C#2022-08-25#1993-02-02##0
+SPRLIB#BD0121D#*PGM#QSECOFR#Fichier imprimeries par titre : Gestion       J155#229376#BD0121D#2022-08-25#2017-12-15##0
+SPRLIB#BD0121K#*PGM#QPGMR#Fichier imprimeries par titre : Contrôle#81920#BD0121K#2022-08-25#1993-02-03##0
+SPRLIB#BD0122A#*PGM#QPGMR#Fichier tarifs transporteur : Sélection#184320#BD0122A#2022-08-25#1999-07-07##0
+SPRLIB#BD0122B#*PGM#QPGMR#Fichier tarifs transporteur : Sous-fichier#208896#BD0122B#2022-08-25#1999-07-07##0
+SPRLIB#BD0122D#*PGM#QPGMR#Fichier tarifs transporteur : Gestion         J190#618496##2022-08-25###0
+SPRLIB#BD0122K#*PGM#QPGMR#Fichier tarifs transporteur : Contrôle#81920#BD0122K#2022-08-25#1992-12-17##0
+SPRLIB#BD0123A#*PGM#QPGMR#Fichier transporteurs/relation : Sélection#167936#BD0123A#2022-08-25#1999-10-22##0
+SPRLIB#BD0123B#*PGM#QPGMR#Fichier transporteurs/relation : Fenêtre#241664#BD0123B#2022-08-25#1993-07-23##0
+SPRLIB#BD0123C#*PGM#QPGMR#Fichier transporteurs/relation : Positionnement#110592#BD0123C#2022-08-25###0
+SPRLIB#BD0123D#*PGM#QPGMR#Fichier transporteurs/relation : Gestion#245760#BD0123D#2022-08-25#1999-10-29##0
+SPRLIB#BD0123F#*PGM#QPGMR#Fichier transporteurs/relation : Fenêtre      J193#389120##2022-08-25###0
+SPRLIB#BD0123K#*PGM#QPGMR#Fichier transporteurs/relation : Contrôle#81920#BD0123K#2022-08-25#1992-12-08##0
+SPRLIB#BD0124B#*PGM#QSECOFR#Lien imprim. / titre et entrepôts : Liste PP  J155#200704#BD0124B#2022-08-25#2017-12-19##0
+SPRLIB#BD0124D#*PGM#QSECOFR#Lien imprim. / titre et entrepôts : Gestion   J155#212992#BD0124D#2022-08-25#2017-12-20##0
+SPRLIB#BD0124K#*PGM#QSECOFR#Lien imprim. / titre et entrepôts : Contrôle  J155#81920#BD0124K#2022-08-25#2017-12-19##0
+SPRLIB#BD0125A#*PGM#QPGMR#Fichier entrepôts géographiques : Sélection#118784#BD0125A#2022-08-25#1999-10-22##0
+SPRLIB#BD0125B#*PGM#QPGMR#Fichier entrepôts géographiques : Fenêtre#245760#BD0125B#2022-08-25#1992-06-11##0
+SPRLIB#BD0125C#*PGM#QPGMR#Fichier entrepôts géographiques : Positionnement#110592#BD0125C#2022-08-25#1992-03-09##0
+SPRLIB#BD0125D#*PGM#QPGMR#Fichier entrepôts géographiques : Gestion     J217#634880#BD0125D#2022-08-25#2019-11-06##0
+SPRLIB#BD0125K#*PGM#QPGMR#Fichier entrepôts géographiques : Contrôle#81920#BD0125K#2022-08-25#1992-12-17##0
+SPRLIB#BD0127B#*PGM#QPGMR#Fichier lieux logiques : Sous-fichier#212992#BD0127B#2022-08-25#1999-07-07##0
+SPRLIB#BD0127D#*PGM#QPGMR#Fichier lieux logiques : Gestion#204800#BD0127D#2022-08-25#1999-11-17##0
+SPRLIB#BD0127F#*PGM#QPGMR#Fichier lieux logiques : Fenêtre#163840#BD0127F#2022-08-25###0
+SPRLIB#BD0127K#*PGM#QPGMR#Fichier lieux logiques : Contrôle#81920#BD0127K#2022-08-25#1992-12-17##0
+SPRLIB#BD0128B#*PGM#QPGMR#Fichier parc machines : Sous-fichier#212992#BD0128B#2022-08-25#1999-07-07##0
+SPRLIB#BD0128D#*PGM#QPGMR#Fichier parc machines : Gestion#241664#BD0128D#2022-08-25#1999-11-15##0
+SPRLIB#BD0128K#*PGM#QPGMR#Fichier parc machines : Contrôle#77824#BD0128K#2022-08-25###0
+SPRLIB#BD0129A#*PGM#QPGMR#Fichier param. ordres mouvements : Sélection#118784#BD0129A#2022-08-25#1999-10-22##0
+SPRLIB#BD0129B#*PGM#QPGMR#Fichier param. ordres mouvements : Fenêtre#229376#BD0129B#2022-08-25#1992-09-18##0
+SPRLIB#BD0129C#*PGM#QPGMR#Fichier param. ordres mouvements : Positionnement#110592#BD0129C#2022-08-25#1992-01-10##0
+SPRLIB#BD0129D#*PGM#QPGMR#Fichier param. ordres mouvements : Gestion#258048#BD0129D#2022-08-25#1999-11-04##0
+SPRLIB#BD0129F#*PGM#QPGMR#Fichier param. ordres mouvements : Consultation#217088#BD0129F#2022-08-25#1992-09-21##0
+SPRLIB#BD0129K#*PGM#QPGMR#Fichier param. ordres mouvements : Contrôle#81920#BD0129K#2022-08-25#1992-10-12##0
+SPRLIB#BD0130A#*PGM#QPGMR#Fichier paramétrage mouvements : Sélection#118784#BD0130A#2022-08-25#1999-10-22##0
+SPRLIB#BD0130B#*PGM#QPGMR#Fichier paramétrage mouvements : Fenêtre#221184#BD0130B#2022-08-25###0
+SPRLIB#BD0130C#*PGM#QPGMR#Fichier paramétrage mouvements : Positionnement#110592#BD0130C#2022-08-25###0
+SPRLIB#BD0130D#*PGM#QPGMR#Fichier paramétrage mouvements : Gestion#229376#BD0130D#2022-08-25#1999-11-04##0
+SPRLIB#BD0130F#*PGM#QPGMR#Fichier paramétrage mouvements : Consultation#212992#BD0130F#2022-08-25###0
+SPRLIB#BD0130K#*PGM#QPGMR#Fichier paramétrage mouvements : Contrôle#77824#BD0130K#2022-08-25#1992-01-10##0
+SPRLIB#BD0137A#*PGM#QPGMR#Fichier paramètres de réappro. : Sélection#172032#BD0137A#2022-08-25#1999-10-22##0
+SPRLIB#BD0137B#*PGM#QPGMR#Fichier paramètres de réappro. : Fenêtre#237568#BD0137B#2022-08-25###0
+SPRLIB#BD0137C#*PGM#QPGMR#Fichier paramètres de réappro. : Positionnement#110592#BD0137C#2022-08-25#1992-03-09##0
+SPRLIB#BD0137D#*PGM#QPGMR#Fichier paramètres de réappro. : Gestion#233472#BD0137D#2022-08-25#1999-11-04##0
+SPRLIB#BD0137K#*PGM#QPGMR#Fichier paramètres de réappro. : Contrôle#77824#BD0137K#2022-08-25#1992-03-09##0
+SPRLIB#BD0138A#*PGM#QPGMR#Fichier paramètres de couverture : marc houx#172032#BD0138A#2022-08-25#1999-11-30##0
+SPRLIB#BD0138B#*PGM#QPGMR#Fichier paramètres de couverture : Fenêtre#237568#BD0138B#2022-08-25#1993-01-11##0
+SPRLIB#BD0138C#*PGM#QPGMR#Fichier paramètres de couverture : Positionnement#106496#BD0138C#2022-08-25#1992-03-09##0
+SPRLIB#BD0138D#*PGM#QPGMR#Fichier paramètres de couverture : Gestion#286720#BD0138D#2022-08-25#1999-11-30##0
+SPRLIB#BD0138K#*PGM#QPGMR#Fichier paramètres de couverture : Contrôle#81920#BD0138K#2022-08-25#1999-11-30##0
+SPRLIB#BD0139A#*PGM#QPGMR#Fichier grille de disponibilités : Sélection#176128#BD0139A#2022-08-25#1999-11-30##0
+SPRLIB#BD0139B#*PGM#QPGMR#Fichier grille de disponibilités : Fenêtre#225280#BD0139B#2022-08-25#1992-06-11##0
+SPRLIB#BD0139C#*PGM#QPGMR#Fichier grille de disponibilités : Positionnement#106496#BD0139C#2022-08-25#1992-03-09##0
+SPRLIB#BD0139D#*PGM#QPGMR#Fichier grille de disponibilités : Gestion#233472#BD0139D#2022-08-25#1999-11-30##0
+SPRLIB#BD0139K#*PGM#QPGMR#Fichier grille de disponibilités : Contrôle#81920#BD0139K#2022-08-25#1999-11-30##0
+SPRLIB#BD0141A#*PGM#QPGMR#Fichier PAYEUR : Sélection#122880#BD0141A#2022-08-25#2014-07-21##0
+SPRLIB#BD0141B#*PGM#QPGMR#Fichier Payeur : Fenêtre#282624#BD0141B#2022-08-25#2014-07-21##0
+SPRLIB#BD0141C#*PGM#QPGMR#Fichier PAYEUR : Positionnement fenêtre#110592#BD0141C#2022-08-25#1994-07-25##0
+SPRLIB#BD0141D#*PGM#QPGMR#Fichier PAYEUR : Gestion                      J223#516096#BD0141D#2022-08-25#2020-03-02##0
+SPRLIB#BD0141K#*PGM#QPGMR#Fichier PAYEUR : Contrôle#81920#BD0141K#2022-08-25#2014-07-21##0
+SPRLIB#BD0141M#*PGM#QSECOFR#Calcul de l'encours payeur#110592#BD0141M#2022-08-25#2014-05-26##0
+SPRLIB#BD0142K#*PGM#QPGMR#Fichier interlocuteur/payeur : Contrôle#81920#BD0142K#2022-08-25#1994-03-21##0
+SPRLIB#BD0143B#*PGM#QPGMR#Liens comptables : Liste#249856#BD0143B#2022-08-25#2014-07-22##0
+SPRLIB#BD0143D#*PGM#QPGMR#Liens comptables : Gestion                    J203#557056#BD0143D#2022-08-25#2019-01-29##0
+SPRLIB#BD0143K#*PGM#QPGMR#Liens comptables : Contrôle#90112#BD0143K#2022-08-25#1992-09-11##0
+SPRLIB#BD0144B#*PGM#QPGMR#Conditions reglt/catégorie article : Liste PP#217088#BD0144B#2022-08-25#2014-07-22##0
+SPRLIB#BD0144D#*PGM#QPGMR#Conditions reglt/catégorie article : Gestion#208896#BD0144D#2022-08-25#2014-07-22##0
+SPRLIB#BD0144K#*PGM#QPGMR#Conditions reglt/catégorie article : Contrôle#81920#BD0144K#2022-08-25#1999-11-30##0
+SPRLIB#BD0145A#*PGM#QPGMR#Fichier plus ou moins values : Sélection#159744#BD0145A#2022-08-25#1999-07-07##0
+SPRLIB#BD0145B#*PGM#QPGMR#Fichier plus ou moins values : Sous-fichier  J205A#749568##2022-08-25###0
+SPRLIB#BD0145B_01#*PGM#QPGMR#Fichier plus ou moins values : Sous-fichier#217088#BD0145B#2022-08-22#1999-07-07##0
+SPRLIB#BD0145D#*PGM#QPGMR#Fichier plus ou moins values : Gestion#237568#BD0145D#2022-08-25#1999-11-04##0
+SPRLIB#BD0145F#*PGM#QPGMR#Neutralisation ajustement masqué sur facture J205A#352256##2022-08-25###0
+SPRLIB#BD0145K#*PGM#QPGMR#Fichier plus ou moins values : Contrôle      J205A#131072#BD0145K#2022-08-25#2019-11-15##0
+SPRLIB#BD0145K_01#*PGM#QPGMR#Fichier plus ou moins values : Contrôle#81920#BD0145K#2022-08-22#1992-08-31##0
+SPRLIB#BD0146A#*PGM#QPGMR#Fichier répertoire des ajustements : Sélection#118784#BD0146A#2022-08-25#1999-10-22##0
+SPRLIB#BD0146B#*PGM#QPGMR#Fichier répertoire des ajustements : Fenêtre#217088#BD0146B#2022-08-25#1992-03-09##0
+SPRLIB#BD0146C#*PGM#QPGMR#Fichier répertoire des ajustements : Position.#110592#BD0146C#2022-08-25#1992-03-09##0
+SPRLIB#BD0146D#*PGM#QPGMR#Fichier répertoire des ajustements : Gestion#208896#BD0146D#2022-08-25#1999-11-04##0
+SPRLIB#BD0146K#*PGM#QPGMR#Fichier répertoire des ajustements : Contrôle#81920#BD0146K#2022-08-25#1992-12-17##0
+SPRLIB#BD0146KR#*PGM#QPGMR#Fichier répertoire des ajustements : Ctrl + lib ré#81920#BD0146KR#2022-08-25#1992-12-24##0
+SPRLIB#BD0147A#*PGM#QPGMR#Fichier répertoire des modalités : Sélection#118784#BD0147A#2022-08-25#1999-10-22##0
+SPRLIB#BD0147B#*PGM#QPGMR#Fichier répertoire des modalités : Fenêtre#208896#BD0147B#2022-08-25#1992-04-09##0
+SPRLIB#BD0147C#*PGM#QPGMR#Fichier répertoire des modalités : Positionnement#110592#BD0147C#2022-08-25#1992-04-09##0
+SPRLIB#BD0147D#*PGM#QPGMR#Fichier répertoire des modalités : Gestion#270336#BD0147D#2022-08-25#1999-11-04##0
+SPRLIB#BD0147K#*PGM#QPGMR#Fichier répertoire des modalités : Contrôle#81920#BD0147K#2022-08-25#1992-12-17##0
+SPRLIB#BD0147KR#*PGM#QPGMR#Fichier répertoire des modalités : Ctrl + lib réd#81920#BD0147KR#2022-08-25#1992-12-24##0
+SPRLIB#BD0148A#*PGM#QPGMR#Fichier prix de vente catalogue : Sélection#143360#BD0148A#2022-08-25#1999-07-07##0
+SPRLIB#BD0148B#*PGM#QPGMR#Fichier prix de vente catalogue : Sous-fichier#208896#BD0148B#2022-08-25#1999-07-07##0
+SPRLIB#BD0148D#*PGM#QPGMR#Fichier prix de vente catalogue : Gestion#221184#BD0148D#2022-08-25#1999-11-04##0
+SPRLIB#BD0148K#*PGM#QPGMR#Fichier prix de vente catalogue : Contrôle#77824#BD0148K#2022-08-25#1992-09-09##0
+SPRLIB#BD0149A#*PGM#QPGMR#Fichier conditions de paiement agios : Sélection#151552#BD0149A#2022-08-25#1999-07-07##0
+SPRLIB#BD0149B#*PGM#QPGMR#Fichier conditions de paiement agios : Sous-fich.#212992#BD0149B#2022-08-25#2014-07-22##0
+SPRLIB#BD0149D#*PGM#QPGMR#Fichier conditions de paiement agios : Gestion#217088#BD0149D#2022-08-25#1999-11-04##0
+SPRLIB#BD0149K#*PGM#QPGMR#Fichier conditions de paiement agios : Contrôle#77824#BD0149K#2022-08-25#1992-07-09##0
+SPRLIB#BD0150A#*PGM#QSECOFR#Fichier Tarifs clients : Sélection#196608#BD0150A#2022-08-25#2015-09-22##0
+SPRLIB#BD0150B#*PGM#QPGMR#Fichier Tarifs clients : Sous-fichier        AJ129#233472#BD0150B#2022-08-25#2017-05-18##0
+SPRLIB#BD0150B_S1#*PGM#QSECOFR#Fichier Tarifs clients : Sous-fichier#368640#BD0150B#2022-08-25#2015-09-21##0
+SPRLIB#BD0150D#*PGM#QPGMR#Fichier Tarifs clients : Gestion              J129#512000#BD0150D#2022-08-25#2017-04-07##0
+SPRLIB#BD0150D_S1#*PGM#QSECOFR#Fichier Tarifs clients : Gestion#512000#BD0150D#2022-08-25#2016-02-09##0
+SPRLIB#BD0150K#*PGM#QPGMR#Fichier Tarifs clients : Contrôle#81920#BD0150K#2022-08-25#2017-05-24##0
+SPRLIB#BD0155A#*PGM#QPGMR#Regroupements d'usines  : Sélection#118784#BD0155A#2022-08-25#1999-10-22##0
+SPRLIB#BD0155B#*PGM#QPGMR#Regroupements d'usines  : Fenêtre#208896#BD0155B#2022-08-25###0
+SPRLIB#BD0155C#*PGM#QPGMR#Regroupements d'usines  : Positionnement#106496#BD0155C#2022-08-25###0
+SPRLIB#BD0155D#*PGM#QPGMR#Regroupements d'usines  : Gestion#270336#BD0155D#2022-08-25#2004-09-05##0
+SPRLIB#BD0155K#*PGM#QPGMR#Regroupement d'usines   : Contrôle#77824#BD0155K#2022-08-25###0
+SPRLIB#BD0160A#*PGM#QPGMR#Table Prix de vente brut : Sélection         J205A#675840##2022-08-25###0
+SPRLIB#BD0160B#*PGM#QPGMR#Table prix de vente brut : Sous-fichier      J205A#794624##2022-08-25###0
+SPRLIB#BD0160B_01#*PGM#QPGMR#Table prix de vente brut : Sous-fichier      J205A#794624##2022-08-25###0
+SPRLIB#BD0160D#*PGM#QPGMR#Table prix de vente brut : Gestion           J205B#1114112##2022-08-25###0
+SPRLIB#BD0160K#*PGM#QPGMR#Table prix de vente brut : Contrôle          J205A#270336##2022-08-25###0
+SPRLIB#BD0164A#*PGM#QPGMR#Email/profil user : Sélection                 J220#319488##2022-08-25###0
+SPRLIB#BD0164B#*PGM#QPGMR#Email/profil user : Fenêtre                   J220#544768##2022-08-25###0
+SPRLIB#BD0164C#*PGM#QPGMR#Email/profil user : Positionnement fenêtre    J220#274432##2022-08-25###0
+SPRLIB#BD0164D#*PGM#QPGMR#Email/profil user : Gestion                   J220#503808##2022-08-25###0
+SPRLIB#BD0164K#*PGM#QPGMR#Email/profil user : Contrôle                  J220#237568##2022-08-25###0
+SPRLIB#BD0502B#*PGM#QPGMR#Fichier interlocuteur : Liste PP#290816#BD0502B#2022-08-25#2015-09-09##0
+SPRLIB#BD0505B#*PGM#QPGMR#Fichier régions tarifaires : Sous-fichier#212992#BD0505B#2022-08-25#1999-07-07##0
+SPRLIB#BD0518B#*PGM#QPGMR#Fichier éditeurs/titre : Liste PP#196608#BD0518B#2022-08-25#1999-07-07##0
+SPRLIB#BD0519B#*PGM#QPGMR#Fichier regroupement de presse /titre : Liste PP#200704#BD0519B#2022-08-25#2014-07-21##0
+SPRLIB#BD0520B#*PGM#QPGMR#Fichier payeurs imprimerie/titre : Liste PP#212992#BD0520B#2022-08-25#2014-07-22##0
+SPRLIB#BD1001A#*PGM#QPGMR#Etat des Objectifs par Usine  (Sélection)#155648#BD1001A#2022-08-25#1999-07-07##0
+SPRLIB#BD1001C#*PGM#QPGMR#Etat des Objectifs par Usine  (Fichier)#135168#BD1001C#2022-08-25#1996-02-13##0
+SPRLIB#BD1002A#*PGM#QPGMR#Etat des Objectifs Vte (Acc Cadres) (Sélection)#155648#BD1002A#2022-08-25#1999-07-07##0
+SPRLIB#BD1002C#*PGM#QPGMR#Etat des Objectifs Vte (Acc Cadres) (Fichier)#188416#BD1002C#2022-08-25#1993-01-15##0
+SPRLIB#BD1003A#*PGM#QPGMR#Etat des Marchés et Enveloppes (Sélection)#122880#BD1003A#2022-08-25#1999-07-07##0
+SPRLIB#BD1003C#*PGM#QPGMR#Etat des Marchés et Enveloppes (Fichier)#151552#BD1003C#2022-08-25#1993-01-15##0
+SPRLIB#BD1004A#*PGM#QPGMR#Etat des P.V.C.                (Sélection)#143360#BD1004A#2022-08-25#1999-07-07##0
+SPRLIB#BD1004C#*PGM#QPGMR#Etat des P.V.C.                 (Fichier)#122880#BD1004C#2022-08-25#1997-07-17##0
+SPRLIB#BD1005A#*PGM#QPGMR#Etat des +/- Values et Modalités (Sélection)#143360#BD1005A#2022-08-25#1999-07-07##0
+SPRLIB#BD1005C#*PGM#QPGMR#Etat des +/- Values et Modalités  (Fichier)#155648#BD1005C#2022-08-25#1992-12-16##0
+SPRLIB#BD1006A#*PGM#QPGMR#Etat des Tarifs Achats         (Sélection)  (ALN)#143360#BD1006A#2022-08-25#1999-07-07##0
+SPRLIB#BD1006C#*PGM#QPGMR#Etat des Tarifs Achat           (Fichier)#114688#BD1006C#2022-08-25#1993-03-25##0
+SPRLIB#BD1007A#*PGM#QPGMR#Fichier articles                (Sélection) (ALN)#151552#BD1007A#2022-08-25#1999-07-07##0
+SPRLIB#BD1007C#*PGM#QPGMR#Etat des Articles               (Fichier)#122880#BD1007C#2022-08-25#1993-04-08##0
+SPRLIB#BD1008A#*PGM#QPGMR#Etat des tarifs de transport   (Sélection)#167936#BD1008A#2022-08-25#2002-08-05##0
+SPRLIB#BD1008C#*PGM#QPGMR#Etat des tarifs de transport    (Fichier)#118784#BD1008C#2022-08-25#2002-08-05##0
+SPRLIB#BD1008F#*PGM#QPGMR#Etat des tarifs de transport    (Fichier)#106496#BD1008F#2022-08-25#2002-08-05##0
+SPRLIB#BD1009A#*PGM#QPGMR#Liste titre impr.payeur lien compt.  (Sélection)#167936#BD1009A#2022-08-25#1999-07-07##0
+SPRLIB#BD1009C#*PGM#QPGMR#Liste titre impr.payeur lien compt. (Fichier)#348160#BD1009C#2022-08-25#2014-07-21##0
+SPRLIB#BD1010A#*PGM#QPGMR#Liste des ajustements - Sélection#102400#BD1010A#2022-08-25#1999-10-29##0
+SPRLIB#BD1010D#*PGM#QPGMR#Liste des ajustements - Edition#163840#BD1010D#2022-08-25#2001-02-28##0
+SPRLIB#BD1011A#*PGM#QPGMR#Liste des transporteurs - Sélection#106496#BD1011A#2022-08-25#1999-10-29##0
+SPRLIB#BD1011D#*PGM#QPGMR#Liste des transporteurs - Edition#184320#BD1011D#2022-08-25#2004-09-05##0
+SPRLIB#BD1012A#*PGM#QPGMR#Liste des usines par catégorie - Sélection#122880#BD1012A#2022-08-25#1999-11-19##0
+SPRLIB#BD1012C#*PGM#QPGMR#Liste des usines par catégorie - Constitution#139264#BD1012C#2022-08-25#2001-02-28##0
+SPRLIB#BD1012D#*PGM#QPGMR#Liste des usines par catégorie - Edition#163840#BD1012D#2022-08-25#1999-11-19##0
+SPRLIB#BD1013A#*PGM#QPGMR#Liste des entrepôts ou imprimeries - Sélection#122880#BD1013A#2022-08-25#1999-11-19##0
+SPRLIB#BD1013D#*PGM#QPGMR#Liste des entrepôts ou imprimeries - Edition#163840#BD1013D#2022-08-25#2001-02-28##0
+SPRLIB#BD1014A#*PGM#QPGMR#Liste des articles - Sélection#110592#BD1014A#2022-08-25#1999-11-30##0
+SPRLIB#BD1014D#*PGM#QPGMR#Liste des articles - Edition#188416#BD1014D#2022-08-25#2001-02-28##0
+SPRLIB#BD1016A#*PGM#QPGMR#Liste des titres ayant des remises - Sélection#155648#BD1016A#2022-08-25#2014-07-21##0
+SPRLIB#BD1016D#*PGM#QPGMR#Liste des titres ayant des remises - Edition#188416#BD1016D#2022-08-25#2001-02-28##0
+SPRLIB#BD1017A#*PGM#QSECOFR#Etat Tarifs Clients            (Sélection)#196608#BD1017A#2022-08-25#2015-09-22##0
+SPRLIB#BD1017C#*PGM#QPGMR#Etat Tarifs Clients             (Fichier)    J205A#204800#BD1017C#2022-08-25#2019-11-18##0
+SPRLIB#BD1017C_A#*PGM#QPGMR#Etat Tarifs Clients             (Fichier)     J205#204800#BD1017C#2022-08-22#2019-07-15##0
+SPRLIB#BD1017C_01#*PGM#QSECOFR#Etat Tarifs Clients             (Fichier)#139264#BD1017C#2022-08-22#2016-02-11##0
+SPRLIB#BD3010A#*PGM#QPGMR#Externalisation Trp : affect. 4PLM trps niv 1 J224#266240##2022-08-25###0
+SPRLIB#BD3010D#*PGM#QPGMR#Création transporteur 4PL rang 1 dans REREL   J224#610304##2022-08-25###0
+SPRLIB#BD6001F#*PGM#QSECOFR#Transmission des documents: RECUP VALEURS_pour FAX#90112#BD6001F#2022-08-25#2014-01-31##0
+SPRLIB#BD6001FOLD#*PGM#QPGMR#Transmission des documents: RECUP VALEURS_pour FAX#90112#BD6001F#2022-08-25#1997-05-26##0
+SPRLIB#BD7000A#*PGM#QPGMR#Récupération du tarif d'une commande d'achat  J230#348160#BD7000A#2022-08-25#2020-12-21##0
+SPRLIB#BD7000A_01#*PGM#QPGMR#Récupération du tarif d'une commande d'achat#192512#BD7000A#2022-08-25#1993-08-20##0
+SPRLIB#BD7000B#*PGM#QPGMR#Récupération du tarif & date commande d'achat J199#348160#BD7000B#2022-08-25#2018-12-21##0
+SPRLIB#BD8000K#*PGM#QPGMR#Contrôles sur fichiers GAEL#81920#BD8000K#2022-08-25#2005-01-27##0
+SPRLIB#BD8001K#*PGM#QPGMR#Contrôles sur fichiers GAEL#77824#BD8001K#2022-08-25#2000-01-18##0
+SPRLIB#BD8002K#*PGM#QPGMR#Contrôles sur fichiers GAEL pour CIMEP et MONDIA#81920#BD8002K#2022-08-25#2005-02-23##0
+SPRLIB#BD9000A#*PGM#QPGMR#Base de données : Mise à jour#114688#BD9000A#2022-08-25###0
+SPRLIB#BD9000B#*PGM#QPGMR#Base de données : Mise à jour (batch)#69632#BD9000B#2022-08-25#1992-07-12##0
+SPRLIB#BD9000G#*PGM#QPGMR#Correction incident général : Sup IGINC       J220#712704##2022-08-25###0
+SPRLIB#BD9000J#*PGM#QPGMR#Contrôle données stratégiques                 J220#270336##2022-08-25###0
+SPRLIB#BD9001A#*PGM#QPGMR#Base de données : Gestion des cdes d'achats   J220#1437696#BD9001A#2022-08-25#2020-01-29##0
+SPRLIB#BD9001A_01#*PGM#QSECOFR#Base de données : Gestion des cdes d'achats#1413120#BD9001A#2022-08-25#2015-03-31##0
+SPRLIB#BD9002A#*PGM#QPGMR#Base de données : MàJ prévis. et transport    J220#1617920#BD9002A#2022-08-25#2020-01-29##0
+SPRLIB#BD9002A_01#*PGM#QPGMR#Base de données : MàJ prévis. et transport#1564672#BD9002A#2022-08-25#2015-10-16##0
+SPRLIB#BD9003A#*PGM#QPGMR#Base de données : Proc. fin sem. report stock#401408#BD9003A#2022-08-25#1993-04-13##0
+SPRLIB#BD9003B#*PGM#QPGMR#Base de données : Proc. fin sem. accords cadres#643072#BD9003B#2022-08-25###0
+SPRLIB#BD9004A#*PGM#QPGMR#Base de données : MàJ relicat A.C. stock#331776#BD9004A#2022-08-25#1993-09-13##0
+SPRLIB#BD9005A#*PGM#QPGMR#Base de données : Màj stock (exécutions)      J220#2826240#BD9005A#2022-08-25#2020-01-29##0
+SPRLIB#BD9005A_01#*PGM#QPGMR#Base de données : Màj stock (exécutions)#1777664#BD9005A#2022-08-25#2014-07-21##0
+SPRLIB#BD9006A#*PGM#QPGMR#Base de données : Proc. fin mois clôture stock#344064#BD9006A#2022-08-25#2001-04-27##0
+SPRLIB#BD9006B#*PGM#QPGMR#Base de données : Proc. fin mois clôture stock lot#122880#BD9006B#2022-08-25#2001-10-05##0
+SPRLIB#BD9006C#*PGM#QPGMR#Base de données : Proc. fin mois rotation usines#131072#BD9006C#2022-08-25#2001-04-27##0
+SPRLIB#BD9006D#*PGM#QPGMR#Base de données : fin d'année ancienneté lot#200704#BD9006D#2022-08-25#2001-03-07##0
+SPRLIB#BD9007A#*PGM#QPGMR#Base de données : MàJ commandes et retours cl J220#634880#BD9007A#2022-08-25#2020-01-29##0
+SPRLIB#BD9007A_01#*PGM#QPGMR#Base de données : MàJ commandes et retours cliJ129#614400#BD9007A#2022-08-25#2017-03-23##0
+SPRLIB#BD9007D#*PGM#QPGMR#Base de données : fin mois ancienneté lot#155648#BD9007D#2022-08-25#2001-07-09##0
+SPRLIB#BD9008A#*PGM#QPGMR#Base de données : Mise à jour facturation fou J220#393216#BD9008A#2022-08-25#2020-01-29##0
+SPRLIB#BD9008N#*PGM#QPGMR#Base de données : Mise à jour facturation fourn.#192512#BD9008N#2022-08-25#2001-04-13##0
+SPRLIB#BD9009A#*PGM#QPGMR#Base de données : Mise à jour facturation trsp.#151552#BD9009A#2022-08-25#1993-07-07##0
+SPRLIB#BD9010A#*PGM#QPGMR#Remise à niveau stock previsionnel#425984#BD9010A#2022-08-25#2001-03-01##0
+SPRLIB#BD9100A#*PGM#QPGMR#Autoris/Interdi modif données transport       J224#241664#BD9100A#2022-08-25#2020-07-16##0
+SPRLIB#BD9801C#*PGM#QPGMR#Base de données : Purge cde achats sur entrepôts#946176#BD9801C#2022-08-25#2014-11-12##0
+SPRLIB#BD9801D#*PGM#QPGMR#Base de données : Purge achats Rotation navire#126976#BD9801D#2022-08-25#1994-03-21##0
+SPRLIB#BD9801E#*PGM#QPGMR#BD : Purge cde achats sur entrepôts < an - 10#778240#BD9801E#2022-08-25#2013-09-25##0
+SPRLIB#BD9802C#*PGM#QPGMR#Base de données : Purge CCP sur entrepôts#634880#BD9802C#2022-08-25#1998-03-04##0
+SPRLIB#BD9802D#*PGM#QPGMR#Base de données : Purge ventes Accords Cadres#831488#BD9802D#2022-08-25#1999-11-30##0
+SPRLIB#BD9803C#*PGM#QPGMR#Base de données : Purge CCP Directes#1028096#BD9803C#2022-08-25#1998-03-04##0
+SPRLIB#BD9803D#*PGM#QPGMR#Base de données : Purge stocks#864256#BD9803D#2022-08-25#1993-05-19##0
+SPRLIB#BD9804C#*PGM#QPGMR#Base de données : Purge Ordres de mouvement#331776#BD9804C#2022-08-25#1998-03-04##0
+SPRLIB#BD9805C#*PGM#QPGMR#Base de données : Purge des Découpes#376832#BD9805C#2022-08-25#1998-03-04##0
+SPRLIB#BD9807C#*PGM#QPGMR#Base de données : Purge Litiges#1241088#BD9807C#2022-08-25#2001-01-23##0
+SPRLIB#BD9808C#*PGM#QPGMR#Base de données : Purge stocks articles#614400#BD9808C#2022-08-25#1998-03-04##0
+SPRLIB#BD9809C#*PGM#QPGMR#Base de données : Purge ventes Accords Cadres#1495040#BD9809C#2022-08-25#1998-03-04##0
+SPRLIB#BD9810C#*PGM#QPGMR#Base de données : Purge des navires#126976#BD9810C#2022-08-25#1998-03-04##0
+SPRLIB#BD9811C#*PGM#QPGMR#Base de données : Purge des transports#364544#BD9811C#2022-08-25#2005-06-21##0
+SPRLIB#BD9812C#*PGM#QPGMR#Base de données : Purge des cessions internes#159744#BD9812C#2022-08-25#1998-03-04##0
+SPRLIB#BD9813C#*PGM#QSECOFR#Base de données : Purge des enreg. supprimés#221184#BD9813C#2022-08-25#2014-02-06##0
+SPRLIB#BD99ALN#*PGM#QPGMR#Valorisation stocks : Extrac. cours de route (ALN)#167936#BD99ALN#2022-08-25#2001-05-14##0
+SPRLIB#BD99PRA#*PGM#QPGMR#recherche d'un prix d'achat#135168#BD99PRA#2022-08-25#1994-10-07##0
+SPRLIB#BD9901C#*PGM#QSECOFR#IC Achats de papier : Factures/Avoirs#352256#BD9901C#2022-08-25#2016-10-19##0
+SPRLIB#BD9902D#*PGM#QPGMR#IC Achats de papier : Factures/Avoirs non parvenus#139264#BD9902D#2022-08-25#2001-05-11##0
+SPRLIB#BD9902E#*PGM#QPGMR#IC Achats de papier : Fact/Avoirs à imputer#147456#BD9902E#2022-08-25#2001-05-11##0
+SPRLIB#BD9902F#*PGM#QPGMR#IC Achats de papier : Extraction cours de route#204800#BD9902F#2022-08-25#2001-05-11##0
+SPRLIB#BD9902G#*PGM#QPGMR#IC Achats de papier : Intégration cours de route#118784#BD9902G#2022-08-25#2000-11-28##0
+SPRLIB#BD9902H#*PGM#QPGMR#IC Achats de papier : Intégration fichier compta#278528#BD9902H#2022-08-25#2001-11-10##0
+SPRLIB#BD9902J#*PGM#QPGMR#Provisions d'achat dans BD9902W avec nat.    J150B#311296##2022-08-25###0
+SPRLIB#BD9903C#*PGM#QPGMR#IC Achats de papier : Ajustements#307200#BD9903C#2022-08-25#2001-11-10##0
+SPRLIB#BD9904C#*PGM#QPGMR#IC Ventes de papier : Factures/Avoirs         J175#1204224##2022-08-25###0
+SPRLIB#BD9904C_23#*PGM#QPGMR#IC Ventes de papier : Factures/Avoirs         J125#1007616#BD9904C#2022-08-25#2016-12-23##0
+SPRLIB#BD9905C#*PGM#QSECOFR#IC Transports : Factures/Avoirs              J255A#434176#BD9905C#2022-08-25#2022-06-03##0
+SPRLIB#BD9905C_01#*PGM#QSECOFR#IC Transports : Factures/Avoirs#372736#BD9905C#2022-08-25#2013-12-13##0
+SPRLIB#BD9906D#*PGM#QPGMR#IC Transports : Fact/Avoirs non parvenus (ALN)J255#212992#BD9906D#2022-08-25#2022-07-06##0
+SPRLIB#BD9906E#*PGM#QPGMR#IC Transports : Factures/Avoirs non parvenus#258048#BD9906E#2022-08-25#2004-09-05##0
+SPRLIB#BD9906F#*PGM#QPGMR#Provisions trsp: tarif dégradé si non trouvé  J331#335872##2022-08-25###0
+SPRLIB#BD9906J#*PGM#QPGMR#Provisions transport dans BD9906W avec nat.  J150B#327680##2022-08-25###0
+SPRLIB#BD9907C#*PGM#QPGMR#IC Transports : Ajustements  (ALN)#323584#BD9907C#2022-08-25#2001-11-10##0
+SPRLIB#BD9908C#*PGM#QPGMR#Valorisation stocks : Extraction stock par lot#163840#BD9908C#2022-08-25#2001-05-14##0
+SPRLIB#BD9908D#*PGM#QPGMR#Valorisation stocks : Valo lots achetés       J211#1392640##2022-08-25###0
+SPRLIB#BD9908E#*PGM#QPGMR#Valorisation stocks : Valoris lots de découpe J297#258048#BD9908E#2022-08-25#2022-02-08##0
+SPRLIB#BD9908F#*PGM#QPGMR#Valorisation stocks : Géné. des écritures#380928#BD9908F#2022-08-25#2001-12-12##0
+SPRLIB#BD9908G#*PGM#QPGMR#Valorisation stocks : Extraction cours de route#217088#BD9908G#2022-08-25#2001-05-14##0
+SPRLIB#BD9908H#*PGM#QPGMR#Valorisation stocks : Intégration cours de route#221184#BD9908H#2022-08-25#2001-05-14##0
+SPRLIB#BD9908J#*PGM#QPGMR#Valorisation des lots de LVLVA                J211#917504##2022-08-25###0
+SPRLIB#BD9909C#*PGM#QSECOFR#IC Facturation interne : Ventes#311296#BD9909C#2022-08-25#2013-11-27##0
+SPRLIB#BD9909D#*PGM#QSECOFR#IC Facturation interne : Achats#311296#BD9909D#2022-08-25#2013-11-27##0
+SPRLIB#BD9910C#*PGM#QPGMR#Etat justificatif Valo des stocks#221184#BD9910C#2022-08-25#2001-05-14##0
+SPRLIB#BD9911A#*PGM#QPGMR#IC Ventes papier : Traitements des BS non facturés#266240#BD9911A#2022-08-25#2014-07-21##0
+SPRLIB#BD9911B#*PGM#QPGMR#IC Ventes papier : Traitements des BS factura J214#270336#BD9911B#2022-08-25#2019-09-18##0
+SPRLIB#BD9911C#*PGM#QPGMR#IC Ventes papier : Factures/Avoirs Pro#311296#BD9911C#2022-08-25#2014-07-22##0
+SPRLIB#BD9912C#*PGM#QPGMR#Justificatif  Ventes  internes  (ALN)#122880#BD9912C#2022-08-25#1994-01-27##0
+SPRLIB#BD9912D#*PGM#QPGMR#Justificatif  Achats  internes   (ALN)#122880#BD9912D#2022-08-25#1994-01-27##0
+SPRLIB#BD9951C#*PGM#QSECOFR#IC TALENTIA Achats papier : Fact./Avoirs      J149#278528#BD9951C#2022-08-25#2017-11-07##0
+SPRLIB#BD9952H#*PGM#QSECOFR#IC TALENTIA Achats papier : Fact./Av. non parvJ149#196608#BD9952H#2022-08-25#2017-11-07##0
+SPRLIB#BD9953C#*PGM#QSECOFR#IC TALENTIA Achats de papier : Ajustements    J149#249856#BD9953C#2022-08-25#2017-11-07##0
+SPRLIB#BD9954C#*PGM#QSECOFR#IC TALENTIA Ventes de papier : Factures/AvoirsJ149#507904#BD9954C#2022-08-25#2017-11-07##0
+SPRLIB#BD9955C#*PGM#QSECOFR#IC TALENTIA Transports : Factures/Avoirs      J149#290816#BD9955C#2022-08-25#2017-11-07##0
+SPRLIB#BD9956E#*PGM#QSECOFR#IC TALENTIA Transports : Fact/Av non parvenus J149#176128#BD9956E#2022-08-25#2017-11-07##0
+SPRLIB#BD9957C#*PGM#QSECOFR#IC TALENTIA Transports : Ajustements  (ALN)   J149#262144#BD9957C#2022-08-25#2017-11-07##0
+SPRLIB#BD9958F#*PGM#QSECOFR#IC TALENTIA Valorisation stocks : Géné. écri. J149#311296#BD9958F#2022-08-25#2017-11-07##0
+SPRLIB#BD9959C#*PGM#QSECOFR#IC TALENTIA Facturation interne : Ventes      J149#237568#BD9959C#2022-08-25#2017-11-07##0
+SPRLIB#BD9959D#*PGM#QSECOFR#IC TALENTIA Facturation interne : Achats      J149#237568#BD9959D#2022-08-25#2017-11-07##0
+SPRLIB#BD9961C#*PGM#QSECOFR#IC TALENTIA Ventes papier : Fact./Av. Provis. J149#233472#BD9961C#2022-08-25#2017-11-07##0
+SPRLIB#BD9991C#*PGM#QSECOFR#Duplication interfaces GAEL vers TALENTIA     J149#421888##2022-08-25###0
+SPRLIB#CALCULET#*PGM#QPGMR#Calculette#229376##2022-08-25###0
+SPRLIB#CC0101A#*PGM#QSECOFR#Fichier commandes clients ponct. : Sél.       J221#483328#CC0101A#2022-08-25#2020-04-27##0
+SPRLIB#CC0101A1#*PGM#QPGMR#Commandes clients ponct. : Sél. PAPTRANS#245760#CC0101A1#2022-08-25#2000-11-09##0
+SPRLIB#CC0101B#*PGM#QPGMR#Fichier commandes clients ponct. : S-fic.     J215#1495040#CC0101B#2022-08-25#2020-03-30##0
+SPRLIB#CC0101D#*PGM#QSECOFR#Fichier commandes clients ponct. : Gestion    J221#2039808#CC0101D#2022-08-25#2020-04-27##0
+SPRLIB#CC0101K#*PGM#QSECOFR#Fichier commandes clients ponct. : Contrôle#139264#CC0101K#2022-08-25#2016-03-02##0
+SPRLIB#CC0102B#*PGM#QPGMR#Fichier commandes clients ponct. : Sous-fichieJ125#233472#CC0102B#2022-08-25#2016-11-29##0
+SPRLIB#CC0102D#*PGM#QPGMR#Fichier commandes clients ponct. : Gestion    J220#700416#CC0102D#2022-08-25#2020-02-26##0
+SPRLIB#CC0102K#*PGM#QPGMR#Fichier commandes clients ponct. : Contrôle#81920#CC0102K#2022-08-25#1992-12-11##0
+SPRLIB#CC0103B#*PGM#QPGMR#Fichier commandes clients ponct. : Sous-fichieJ163#360448#CC0103B#2022-08-25#2019-03-22##0
+SPRLIB#CC0103K#*PGM#QPGMR#Fichier commandes clients ponct. : Contrôle#81920#CC0103K#2022-08-25#1992-12-14##0
+SPRLIB#CC0104A#*PGM#QPGMR#Fichier commandes récupérateurs  : Sélection#180224#CC0104A#2022-08-25#2014-07-21##0
+SPRLIB#CC0104B#*PGM#QPGMR#Fichier commandes récupérateurs : Sous-fichier#241664#CC0104B#2022-08-25#2014-07-21##0
+SPRLIB#CC0104D#*PGM#QPGMR#Fichier commandes récupérateurs : Gestion#315392#CC0104D#2022-08-25#2014-07-21##0
+SPRLIB#CC0104K#*PGM#QPGMR#Fichier commandes récupérateurs : Contrôle#81920#CC0104K#2022-08-25#1992-12-15##0
+SPRLIB#CC0105B#*PGM#QPGMR#Fichier commandes récupérateurs : Sous-fichierJ125#221184#CC0105B#2022-08-25#2016-11-29##0
+SPRLIB#CC0105D#*PGM#QPGMR#Fichier commandes récupérateurs : Gestion     J220#1085440#CC0105D#2022-08-25#2020-02-26##0
+SPRLIB#CC0105K#*PGM#QPGMR#Fichier commandes récupérateurs : Contrôle#81920#CC0105K#2022-08-25#1994-12-19##0
+SPRLIB#CC0106A#*PGM#QSECOFR#Gestion retours clients : Sélection#200704#CC0106A#2022-08-25#2014-04-22##0
+SPRLIB#CC0106B#*PGM#QPGMR#Gestion retours clients : Sous-fichier#360448#CC0106B#2022-08-25#2014-07-22##0
+SPRLIB#CC0106D#*PGM#QPGMR#Gestion retours de papier : Gestion           J220#1662976#CC0106D#2022-08-25#2020-02-26##0
+SPRLIB#CC0106K#*PGM#QPGMR#Gestion retours de papier : Contrôle#81920#CC0106K#2022-08-25#1993-03-19##0
+SPRLIB#CC0107D#*PGM#QPGMR#Gestion régularisations financières : Gestion#614400#CC0107D#2022-08-25#2014-07-22##0
+SPRLIB#CC0107K#*PGM#QPGMR#Gestion régularisations financières : Contrôle#81920#CC0107K#2022-08-25#1993-05-18##0
+SPRLIB#CC0108B#*PGM#QPGMR#Gestion retours de papier : Exécutions        J163#348160#CC0108B#2022-08-25#2019-03-22##0
+SPRLIB#CC0109A#*PGM#QPGMR#Gestion des commandes clients à transmettre selec.#155648#CC0109A#2022-08-25#1999-07-06##0
+SPRLIB#CC0109B#*PGM#QPGMR#Gestion des commandes clients à transmettre list.#331776#CC0109B#2022-08-25#2014-07-22##0
+SPRLIB#CC0109D#*PGM#QPGMR#Gestion des commandes clients à transmettre maj#114688#CC0109D#2022-08-25#1995-08-07##0
+SPRLIB#CC0109K#*PGM#QPGMR#Gestion des commandes clients à transmettre ctlk#81920#CC0109K#2022-08-25#1995-04-28##0
+SPRLIB#CC0110A#*PGM#QPGMR#Consultation des mouvements clients : Sélection#135168#CC0110A#2022-08-25#1999-07-06##0
+SPRLIB#CC0111A#*PGM#QPGMR#Gestion C.C.P.sans transport à transmettre selec.#151552#CC0111A#2022-08-25#1999-07-15##0
+SPRLIB#CC0111B#*PGM#QPGMR#Gestion C.C.P.sans transport à trans... list.#528384#CC0111B#2022-08-25#2014-07-16##0
+SPRLIB#CC0111D#*PGM#QPGMR#Gestion C.C.P.sans transport à transmettre maj#114688#CC0111D#2022-08-25#1998-10-02##0
+SPRLIB#CC0111K#*PGM#QPGMR#Gestion C.C.P.sans transport à transmettre ctlk#81920#CC0111K#2022-08-25#1998-10-02##0
+SPRLIB#CC0199D#*PGM#QPGMR#Fichier commandes clients ponct. : Gestion    J220#962560#CC0199D#2022-08-25#2020-02-26##0
+SPRLIB#CC1001A#*PGM#QPGMR#Edition des A.R.C.                 (Sélection)#155648#CC1001A#2022-08-25#1999-07-06##0
+SPRLIB#CC1001C#*PGM#QPGMR#Edition des Commandes clients      (Fichier)#147456#CC1001C#2022-08-25#2014-07-21##0
+SPRLIB#CC1001D#*PGM#QPGMR#Edition des A.R.C (Edition)#720896#CC1001D#2022-08-25#2014-11-26##0
+SPRLIB#CC1002A#*PGM#QPGMR#Suivi des CCP#151552#CC1002A#2022-08-25#1999-07-06##0
+SPRLIB#CC1002C#*PGM#QPGMR#Etat de suivi des CCP#274432#CC1002C#2022-08-25#2014-07-21##0
+SPRLIB#CC1002D#*PGM#QPGMR#Etat de suivi des CCP#270336#CC1002D#2022-08-25#1999-08-18##0
+SPRLIB#CC1003A#*PGM#QPGMR#Etat des CCP à surveiller (Sélection)  (ALN)#139264#CC1003A#2022-08-25#1999-07-06##0
+SPRLIB#CC1003C#*PGM#QPGMR#Etat des CCP à surveiller (Fichier)  (ALN)#241664#CC1003C#2022-08-25#2014-07-22##0
+SPRLIB#CC1003D#*PGM#QPGMR#Etat des CCP à surveiller (Edition)  (ALN)#196608#CC1003D#2022-08-25#1999-08-19##0
+SPRLIB#CC1003N#*PGM#QPGMR#Etat des CCP à surveiller (Traitement de nuit)#49152#CC1003N#2022-08-25#1993-12-09##0
+SPRLIB#CC1004A#*PGM#QPGMR#Etat des prévisions réalisations#143360#CC1004A#2022-08-25#2001-01-19##0
+SPRLIB#CC1004C#*PGM#QPGMR#Etat des prévisions réalisations#630784#CC1004C#2022-08-25#2014-07-21##0
+SPRLIB#CC1004D#*PGM#QPGMR#Etat des prévisions réalisations#311296#CC1004D#2022-08-25#2002-03-14##0
+SPRLIB#CC1005A#*PGM#QPGMR#Edition des C.C.P. chez imprimeurs   (Sélection)#159744#CC1005A#2022-08-25#1999-07-06##0
+SPRLIB#CC1005C#*PGM#QPGMR#Edition des C.C.P. chez imprimeurs    (Fichier)#147456#CC1005C#2022-08-25#1998-07-23##0
+SPRLIB#CC1005D#*PGM#QPGMR#Edition des C.C.P chez imprimeurs   (FAX)#356352#CC1005D#2022-08-25#2014-11-26##0
+SPRLIB#CC1007A#*PGM#QPGMR#Réalisat° Mens. Ts Clients - Sélection#110592#CC1007A#2022-08-25#2000-06-20##0
+SPRLIB#CC1007C#*PGM#QPGMR#Réalisat° Mens. Ts Clients-Constitut° Fichier de W#147456#CC1007C#2022-08-25#2014-07-21##0
+SPRLIB#CC1007D#*PGM#QPGMR#Réalisat° Mens. Ts Clients - Edition#192512#CC1007D#2022-08-25#2000-06-20##0
+SPRLIB#CC1012A#*PGM#QPGMR#Consommation annuelle tous clients - Sélection#106496#CC1012A#2022-08-25#2000-08-18##0
+SPRLIB#CC1012D#*PGM#QPGMR#Consommation annuelle tous clients (CFPP + SPPP)#188416#CC1012D#2022-08-25#2001-02-28##0
+SPRLIB#CC2001A#*PGM#QPGMR#Edition des A.R.C                  (Sélection)#147456#CC2001A#2022-08-25#2000-10-04##0
+SPRLIB#CC2001D#*PGM#QPGMR#Edition des A.R.C                  (Edition)#262144#CC2001D#2022-08-25#2000-11-10##0
+SPRLIB#CC2002A#*PGM#QPGMR#Edition des A.R.C sans transport   (Sélection)#147456#CC2002A#2022-08-25#2000-10-05##0
+SPRLIB#CC2002D#*PGM#QPGMR#Edition des A.R.C sans transport   (Edition)#233472#CC2002D#2022-08-25#2000-12-12##0
+SPRLIB#CI1001A#*PGM#QPGMR#Lancement des interfaces comptables : Sélection#147456#CI1001A#2022-08-25#1999-07-06##0
+SPRLIB#CI1001B#*PGM#QPGMR#Lancement de l' interface comptable : Gestion#151552#CI1001B#2022-08-25#1995-03-31##0
+SPRLIB#CI1001C#*PGM#QPGMR#CIMEP - Interface comptable#204800#CI1001C#2022-08-25#2001-10-12##0
+SPRLIB#CI1001N#*PGM#QPGMR#Interfaces Comptables (trait de nuit) (ALN)#65536#CI1001N#2022-08-25#1995-03-16##0
+SPRLIB#CONVEURO#*PGM#QPGMR#Convertisseur#102400##2022-08-25###0
+SPRLIB#COURSR#*PGM#QPGMR#Valorisation stocks : Extraction cours de route#184320#COURSR#2022-08-25#1994-03-03##0
+SPRLIB#CPYTARP#*PGM#QPGMR#Copie tarifs de TATAC vers PFPVB (one shot)   Jxxx#286720##2022-08-25###0
+SPRLIB#DP0101A#*PGM#QPGMR#Fichier depreciation stock     selection#196608#DP0101A#2022-08-25#1999-07-06##0
+SPRLIB#DP0101B#*PGM#QPGMR#Dépréciation : Liste#303104#DP0101B#2022-08-25#2002-01-21##0
+SPRLIB#DP0101D#*PGM#QPGMR#Dépréciation   : Gestion#266240#DP0101D#2022-08-25#2001-01-23##0
+SPRLIB#DP0101K#*PGM#QPGMR#Dépréciation  : Contrôle#81920#DP0101K#2022-08-25#2001-01-23##0
+SPRLIB#DP0190A#*PGM#QPGMR#Dépréciation fin d'année#126976#DP0190A#2022-08-25#2001-05-11##0
+SPRLIB#DP0190C#*PGM#QSECOFR#Chargement fichier dépréciation  fin année#249856#DP0190C#2022-08-25#2015-04-10##0
+SPRLIB#DP0190D#*PGM#QPGMR#chargement fichier dépréciation  fin de mois#143360#DP0190D#2022-08-25#1995-02-21##0
+SPRLIB#DP0191A#*PGM#QPGMR#Dépréciation fin de mois#135168#DP0191A#2022-08-25#2001-04-09##0
+SPRLIB#DP0191B#*PGM#QPGMR#Récupération des lots dépréciés transférés#143360#DP0191B#2022-08-25#2001-04-09##0
+SPRLIB#DP0191C#*PGM#QPGMR#Chargement fichier dépréciation  fin de mois#188416#DP0191C#2022-08-25#2001-11-20##0
+SPRLIB#DP0501A#*PGM#QPGMR#Fichier depreciation stock     selection#192512#DP0501A#2022-08-25#1999-07-06##0
+SPRLIB#DP0501B#*PGM#QPGMR#Consultation dépréciation du stocks : Lots#278528#DP0501B#2022-08-25#2001-01-23##0
+SPRLIB#DP1001A#*PGM#QPGMR#Liste provit.dépréciation STOCK      (Sélection)#188416#DP1001A#2022-08-25#2001-11-12##0
+SPRLIB#DP1001C#*PGM#QPGMR#Edition anciennete des lots (Fichier)#262144#DP1001C#2022-08-25#2001-01-23##0
+SPRLIB#DP1001D#*PGM#QPGMR#Edition anciennete des lots    Stock#225280#DP1001D#2022-08-25#2001-01-23##0
+SPRLIB#DP1001E#*PGM#QPGMR#Edition anciennete des lots    fin de mois#241664#DP1001E#2022-08-25#1999-08-18##0
+SPRLIB#DP1001F#*PGM#QPGMR#Edition anciennete des lots    fin d'année#229376#DP1001F#2022-08-25#1999-08-18##0
+SPRLIB#DP1002A#*PGM#QPGMR#Dépréciation du stock - Sélection#110592#DP1002A#2022-08-25#2000-06-15##0
+SPRLIB#DP1002C#*PGM#QPGMR#Dépréciation du stock - Constitut° Fichier de W#155648#DP1002C#2022-08-25#2001-01-23##0
+SPRLIB#DP1002D1#*PGM#QPGMR#Dépréciation du stock - Edit° & Consti. Fich. BD#180224#DP1002D1#2022-08-25#2001-01-23##0
+SPRLIB#DP1002D2#*PGM#QPGMR#Dépréciation du stock - Edition#176128#DP1002D2#2022-08-25#2001-01-23##0
+SPRLIB#DT0101A#*PGM#QPGMR#Conversion de dates : Fenêtre#106496#DT0101A#2022-08-25#1997-07-10##0
+SPRLIB#DT0102A#*PGM#QPGMR#Contrôle date, conversion et contrôle entre borne#102400#DT0102A#2022-08-25#1997-07-10##0
+SPRLIB#ERRORTRP#*PGM#QPGMR#Gestion erreur pgm interface transport        J224#237568##2022-08-25###0
+SPRLIB#EXAN01#*PGM#QPGMR#Analyse cohérence de fichiers#94208#EXAN01#2022-08-25#1997-06-19##0
+SPRLIB#EX0704C#*PGM#QPGMR#Suppression des enregistrement de VSVST#118784#EX0704C#2022-08-25#1998-02-18##0
+SPRLIB#EX0710#*PGM#QPGMR#Constitution fichier valeur d'assurance#98304#EX0710#2022-08-25#2001-03-09##0
+SPRLIB#EX0740C#*PGM#QPGMR#Màj LVLVA (R) avant clôture 1er Mois/ANNEE#106496#EX0740C#2022-08-25#2001-03-09##0
+SPRLIB#EX0801E#*PGM#QPGMR#Récupération horodatage                       J150#172032##2022-08-25###0
+SPRLIB#EX9001#*PGM#QPGMR#Chargement LDA pour travaux de nuit#49152#EX9001#2022-08-25#2001-11-10##0
+SPRLIB#EX9010#*PGM#QPGMR#Chargement LDA pour travaux de nuit PAPTRANS#49152#EX9010#2022-08-25#2000-12-04##0
+SPRLIB#EX9710A#*PGM#QSECOFR#Contrôle facturation : Charge fichier témoin  J151#3825664##2022-08-25###0
+SPRLIB#FATALPGM#*PGM#QPGMR#Gestion erreur pgm interface transport        J224#253952##2022-08-25###0
+SPRLIB#FC0101A#*PGM#QSECOFR#Validation des mouvements facturables : Sélection#274432#FC0101A#2022-08-25#2016-04-21##0
+SPRLIB#FC0101B#*PGM#QPGMR#Facturation des mouvements facturables : Sous-J197#495616#FC0101B#2022-08-25#2018-10-10##0
+SPRLIB#FC0101D#*PGM#QPGMR#Validation des mouvements facturables : Gesti J200#704512#FC0101D#2022-08-25#2019-01-22##0
+SPRLIB#FC0101K#*PGM#QPGMR#Validation des mouvements facturables : Contrôle#81920#FC0101K#2022-08-25#1994-10-24##0
+SPRLIB#FC0501A#*PGM#QPGMR#Tarification (Simulation) : Sélection#233472#FC0501A#2022-08-25#2014-07-21##0
+SPRLIB#FC0501B#*PGM#QPGMR#Tarification (Simulation) : Sous-fichier#299008#FC0501B#2022-08-25#2016-04-08##0
+SPRLIB#FC0501C#*PGM#QPGMR#Tarification : Calcul                        J205A#507904#FC0501C#2022-08-25#2019-11-18##0
+SPRLIB#FC0501C_01#*PGM#QPGMR#Tarification : Calcul                         J129#507904#FC0501C#2022-08-25#2017-04-12##0
+SPRLIB#FC0501D#*PGM#QPGMR#Extraction des info. tarifs client            J230#864256##2022-08-25###0
+SPRLIB#FC0501D_01#*PGM#QPGMR#Nouvelle tarification : Calcul                J129#1626112##2022-08-25###0
+SPRLIB#FC0501D_02#*PGM#QPGMR#Extraction des info. tarifs client           J205A#720896##2022-08-25###0
+SPRLIB#FC0502A#*PGM#QPGMR#Consultation de l'encours payeur : Sélection#118784#FC0502A#2022-08-25#1999-07-06##0
+SPRLIB#FC0502B#*PGM#QPGMR#Consultation de l'encours payeur : Gestion#208896#FC0502B#2022-08-25#2014-07-22##0
+SPRLIB#FC0503A#*PGM#QSECOFR#Fichier Real. Vente: Sélection#208896#FC0503A#2022-08-25#2014-04-29##0
+SPRLIB#FC0503B#*PGM#QPGMR#Fichier Stat vente: Consultation#516096#FC0503B#2022-08-25#2014-07-21##0
+SPRLIB#FC0504A#*PGM#QPGMR#Consultation encours client : sélection#118784#FC0504A#2022-08-25#1999-07-06##0
+SPRLIB#FC0504B#*PGM#QPGMR#Consultation de l'encours client : Gestion#192512#FC0504B#2022-08-25#1999-07-06##0
+SPRLIB#FC0504C#*PGM#QPGMR#Consultation encours client(Détail)#225280#FC0504C#2022-08-25#1999-07-06##0
+SPRLIB#FC1001A#*PGM#QPGMR#MAJ globalisée des tarifs catalogue (Sélection)#155648#FC1001A#2022-08-25#1999-07-06##0
+SPRLIB#FC1001C#*PGM#QPGMR#MAJ globalisée des tarifs catalogue (Edition)#208896#FC1001C#2022-08-25#1999-08-18##0
+SPRLIB#FC1002A#*PGM#QPGMR#Liste des prix de base payeur (Sélection)#147456#FC1002A#2022-08-25#1999-07-06##0
+SPRLIB#FC1002C#*PGM#QPGMR#Liste des prix de base payeur (Edition)#225280#FC1002C#2022-08-25#1999-08-18##0
+SPRLIB#FC1003A#*PGM#QPGMR#Traitements de facturation (Sélection)        J194#430080#FC1003A#2022-08-25#2018-10-04##0
+SPRLIB#FC1003AXXX#*PGM#QPGMR#Traitements de facturation (Sélection)#421888#FC1003A#2022-08-25#2004-09-05##0
+SPRLIB#FC1003C#*PGM#QSECOFR#Traitements de facturation (Extraction)#663552#FC1003C#2022-08-25#2016-04-21##0
+SPRLIB#FC1003C_SV#*PGM#QSECOFR#Traitements de facturation (Extraction)#663552#FC1003C#2022-08-25#2016-04-21##0
+SPRLIB#FC1003C2#*PGM#QPGMR#Traitements de facturation (Controle)#151552#FC1003C2#2022-08-25#2014-07-21##0
+SPRLIB#FC1003D#*PGM#QPGMR#Traitements de facturation (Valorisation)#409600#FC1003D#2022-08-25#2016-11-02##0
+SPRLIB#FC1003E#*PGM#QPGMR#Traitements de facturation (Mouvements à valider)#217088#FC1003E#2022-08-25#2014-07-22##0
+SPRLIB#FC1003H#*PGM#QPGMR#Traitements de facturation (Numérotations)    J157#438272#FC1003H#2022-08-25#2017-12-12##0
+SPRLIB#FC1003H_23#*PGM#QPGMR#Traitements de facturation (Numérotations)   wJ125#434176#FC1003H#2022-08-25#2017-01-20##0
+SPRLIB#FC1003I#*PGM#QPGMR#Traitements de facturation (Editions)         J157#1171456#FC1003I#2022-08-25#2017-12-13##0
+SPRLIB#FC1003I_A#*PGM#QPGMR#Traitements de facturation (Editions)        FJ126#1122304#FC1003I#2022-08-25#2017-03-08##0
+SPRLIB#FC1003I_S1#*PGM#QPGMR#Traitements de facturation (Editions)#1024000#FC1003I#2022-08-25#2016-05-20##0
+SPRLIB#FC1003I_23#*PGM#QPGMR#Traitements de facturation (Editions)         J125#1118208#FC1003I#2022-08-25#2016-12-21##0
+SPRLIB#FC1003R#*PGM#QPGMR#Traitements pré facuration Controle regroup.  J190#339968##2022-08-25###0
+SPRLIB#FC1004A#*PGM#QPGMR#Liste des commandes à tarif forcé (Sélection)#188416#FC1004A#2022-08-25#1999-07-06##0
+SPRLIB#FC1004C#*PGM#QPGMR#Liste des commandes à tarif forcé (Fichier)#151552#FC1004C#2022-08-25#1997-07-10##0
+SPRLIB#FC1004D#*PGM#QPGMR#Liste des commandes à tarif forcé (Edition)#184320#FC1004D#2022-08-25#1999-08-18##0
+SPRLIB#FC1005A#*PGM#QPGMR#MAJ rétroactive des tarifs (Sélection)#217088#FC1005A#2022-08-25#1999-07-06##0
+SPRLIB#FC1005C#*PGM#QPGMR#MAJ rétroactive des tarifs (Fichier)#159744#FC1005C#2022-08-25#1993-10-13##0
+SPRLIB#FC1005D#*PGM#QPGMR#MAJ rétroactive des tarifs (Edition)#405504#FC1005D#2022-08-25#1999-08-18##0
+SPRLIB#FC1006A#*PGM#QPGMR#Mise à jour de l'encours commercial (Sélection)#118784#FC1006A#2022-08-25#2001-03-07##0
+SPRLIB#FC1006B#*PGM#QSECOFR#Mise à jour de l'encours commercial#176128#FC1006B#2022-08-25#2014-04-30##0
+SPRLIB#FC1006C#*PGM#QPGMR#Mise à jour de l'encours commercial (Traitement)#434176#FC1006C#2022-08-25#2014-07-21##0
+SPRLIB#FC1006D#*PGM#QSECOFR#Màj de l'encours réel du jour du client payeur#225280#FC1006D#2022-08-25#2014-05-05##0
+SPRLIB#FC1006N#*PGM#QPGMR#M.A.J.encours commercial (Traitement nuit)#49152#FC1006N#2022-08-25#1993-12-13##0
+SPRLIB#FC1007A#*PGM#QSECOFR#Traitements de facturation (Sélection)#221184#FC1007A#2022-08-25#2015-04-09##0
+SPRLIB#FC1007I#*PGM#QSECOFR#Traitements de facturation (Editions)         J126#479232#FC1007I#2022-08-25#2017-03-28##0
+SPRLIB#FC1007I_S1#*PGM#QPGMR#Traitements de facturation (Editions)#974848#FC1007I#2022-08-25#2016-04-21##0
+SPRLIB#FC1013A#*PGM#QPGMR#Traitements de facturation (Sélection)#172032#FC1013A#2022-08-25#2001-02-02##0
+SPRLIB#FC1013C#*PGM#QPGMR#Traitements de facturation (Extraction)#372736#FC1013C#2022-08-25#2001-03-26##0
+SPRLIB#FC1013C2#*PGM#QPGMR#Traitements de facturation (Controle)#151552#FC1013C2#2022-08-25#2000-12-11##0
+SPRLIB#FC1013D#*PGM#QPGMR#Traitements de facturation (Valorisation)#397312#FC1013D#2022-08-25#2000-11-28##0
+SPRLIB#FC1013E#*PGM#QPGMR#Traitements de facturation (Mouvements à valider)#212992#FC1013E#2022-08-25#2001-02-02##0
+SPRLIB#FC1013H#*PGM#QPGMR#Traitements de facturation (Numérotations)#245760#FC1013H#2022-08-25#2001-01-12##0
+SPRLIB#FC1013I#*PGM#QPGMR#Traitements de facturation (Editions)#327680#FC1013I#2022-08-25#2001-03-12##0
+SPRLIB#FC1017A#*PGM#QPGMR#Traitements de facturation (Sélection)#172032#FC1017A#2022-08-25#2001-01-30##0
+SPRLIB#FC1017I#*PGM#QPGMR#Traitements de facturation (Editions)#282624#FC1017I#2022-08-25#2001-02-02##0
+SPRLIB#GETINFCLO#*PGM#QPGMR#Données de paramétrage des requêtes#139264##2022-08-25###0
+SPRLIB#HA0102D#*PGM#QPGMR#Traitement des commandes : Gestion  (ALN)#892928#HA0102D#2022-08-25#2015-05-29##0
+SPRLIB#HA0103A#*PGM#QSECOFR#Fichier commande d'achat : Sélection#188416#HA0103A#2022-08-25#2015-05-29##0
+SPRLIB#HA0103B#*PGM#QSECOFR#Fichier Commande d'achat : Sous-fichier  (ALN)#442368#HA0103B#2022-08-25#2013-11-21##0
+SPRLIB#HA0103K#*PGM#QPGMR#Fichier commande d'achat : Contrôle#81920#HA0103K#2022-08-25#1995-03-07##0
+SPRLIB#HA0104B#*PGM#QPGMR#Fichier Accusés de réception : Sous-fichier#241664#HA0104B#2022-08-25#1996-04-19##0
+SPRLIB#HA0104D#*PGM#QPGMR#Fichier Accusés de réception : Gestion  (ALN)#438272#HA0104D#2022-08-25#1996-05-31##0
+SPRLIB#HA0104K#*PGM#QPGMR#Fichier Accusés de réception : Contrôle#81920#HA0104K#2022-08-25#1995-11-28##0
+SPRLIB#HA0107B#*PGM#QSECOFR#Gestion des prévisions de livraison : Sous-fichier#262144#HA0107B#2022-08-25#2014-05-07##0
+SPRLIB#HA0107D#*PGM#QPGMR#Gestion des prévisions de livraison : Gestion(ALN)#524288#HA0107D#2022-08-25#1996-05-31##0
+SPRLIB#HA0107K#*PGM#QPGMR#Gestion des prévisions de livraison : Contrôle#81920#HA0107K#2022-08-25#1995-11-28##0
+SPRLIB#HA0108B#*PGM#QPGMR#Fichier Avis d'expédition : Sous-fichier#282624#HA0108B#2022-08-25#1995-11-22##0
+SPRLIB#HA0108D#*PGM#QPGMR#Fichier Avis d'expédition : Gestion  (ALN)#565248#HA0108D#2022-08-25#1996-05-31##0
+SPRLIB#HA0108K#*PGM#QPGMR#Fichier Avis d'expédition : Contrôle#81920#HA0108K#2022-08-25#1995-11-23##0
+SPRLIB#HA0109A#*PGM#QSECOFR#Contrôle des factures fourn. : pied selection#180224#HA0109A#2022-08-25#2015-05-29##0
+SPRLIB#HA0109B#*PGM#QSECOFR#Contrôle des factures fourn. : pied sous-fichier#491520#HA0109B#2022-08-25#2015-06-23##0
+SPRLIB#HA0109D#*PGM#QSECOFR#Contrôle des factures fourn. : pied saisie (ALN)#335872#HA0109D#2022-08-25#2015-05-29##0
+SPRLIB#HA0109F#*PGM#QPGMR#Contrôle des factures fourn. : cde non tot payées#233472#HA0109F#2022-08-25#2001-02-26##0
+SPRLIB#HA0109K#*PGM#QPGMR#Contrôle des factures fourn. : pied contrôle#86016#HA0109K#2022-08-25#1995-03-07##0
+SPRLIB#HA0110B#*PGM#QPGMR#Contrôle des factures fourn. : sf exécution#270336#HA0110B#2022-08-25#2001-02-26##0
+SPRLIB#HA0110D#*PGM#QPGMR#Contrôle des factures fourn. : topage exécution#208896#HA0110D#2022-08-25#1995-03-07##0
+SPRLIB#HA0110K#*PGM#QPGMR#Contrôle des factures fourn. : ctrl exécution#81920#HA0110K#2022-08-25#1995-03-07##0
+SPRLIB#HA0111B#*PGM#QPGMR#Contrôle des factures fourn. : ajustements pied#270336#HA0111B#2022-08-25#1995-03-07##0
+SPRLIB#HA0111D#*PGM#QPGMR#Contrôle des factures fourn. : maj ajustement#274432#HA0111D#2022-08-25#1995-03-07##0
+SPRLIB#HA0111K#*PGM#QPGMR#Contrôle des factures fourn. : ctl ajustement#81920#HA0111K#2022-08-25#1995-03-07##0
+SPRLIB#HA0150B#*PGM#QPGMR#Gestion retours fournisseurs (R+F) S-fic#299008#HA0150B#2022-08-25#1995-11-30##0
+SPRLIB#HA0150D#*PGM#QSECOFR#Gestion retours fournisseurs (R) : Gestion#794624#HA0150D#2022-08-25#2014-02-04##0
+SPRLIB#HA0150K#*PGM#QPGMR#Gestion retours fournisseurs (R) : Contrôle#81920#HA0150K#2022-08-25#1995-11-27##0
+SPRLIB#HA0151B#*PGM#QPGMR#Gestion prévisions de retour (R) : Sous-fichier#245760#HA0151B#2022-08-25#1995-11-27##0
+SPRLIB#HA0151D#*PGM#QPGMR#Gestion prévisions de retour (R) : Gestion#475136#HA0151D#2022-08-25#1996-05-31##0
+SPRLIB#HA0151K#*PGM#QPGMR#Gestion prévisions de retour (R) : Contrôle#81920#HA0151K#2022-08-25#1995-11-27##0
+SPRLIB#HA0152B#*PGM#QPGMR#Gestion des retours directs  (R) : Sous-fichier#278528#HA0152B#2022-08-25#1995-11-27##0
+SPRLIB#HA0152D#*PGM#QPGMR#Gestion des retours directs  (R) : Gestion#487424#HA0152D#2022-08-25#1996-05-31##0
+SPRLIB#HA0152K#*PGM#QPGMR#Gestion des retours directs  (R) : Contrôle#81920#HA0152K#2022-08-25#1995-11-27##0
+SPRLIB#HA0153D#*PGM#QSECOFR#Gestion retours fournisseurs (F) : Gestion#417792#HA0153D#2022-08-25#2014-02-04##0
+SPRLIB#HA0170A#*PGM#QPGMR#Histo. Litiges: Sélection#204800#HA0170A#2022-08-25#1995-11-22##0
+SPRLIB#HA0170B#*PGM#QPGMR#Fichier Litiges: Fenêtre#417792#HA0170B#2022-08-25#1995-12-05##0
+SPRLIB#HA0170D#*PGM#QPGMR#Fichier Litiges: Gestion#327680#HA0170D#2022-08-25#1995-11-22##0
+SPRLIB#HA0170K#*PGM#QPGMR#Fichier Litiges: Contrôle#81920#HA0170K#2022-08-25#1995-11-22##0
+SPRLIB#HA0171B#*PGM#QPGMR#Fichier événements : Fenêtre#299008#HA0171B#2022-08-25#1995-11-22##0
+SPRLIB#HA0171D#*PGM#QPGMR#Fichier événements : Gestion#196608#HA0171D#2022-08-25#1995-11-22##0
+SPRLIB#HA0171K#*PGM#QPGMR#Fichier événements : Contrôle#81920#HA0171K#2022-08-25#1995-11-22##0
+SPRLIB#HA7000A#*PGM#QPGMR#Récupération du tarif d'une commande d'achat#192512#HA7000A#2022-08-25#1995-03-08##0
+SPRLIB#HC0101A#*PGM#QPGMR#Fichier commandes clients ponct. : Sél. (ALN)#274432#HC0101A#2022-08-25#2014-07-22##0
+SPRLIB#HC0101B#*PGM#QPGMR#Fichier commandes clients ponct. : S-fic. (ALN)#499712#HC0101B#2022-08-25#2014-11-12##0
+SPRLIB#HC0101D#*PGM#QPGMR#Fichier commandes clients ponct. : Gestion#999424#HC0101D#2022-08-25#2014-11-12##0
+SPRLIB#HC0101K#*PGM#QPGMR#Fichier commandes clients ponct. : Contrôle#81920#HC0101K#2022-08-25#1995-03-08##0
+SPRLIB#HC0102B#*PGM#QSECOFR#Fichier commandes clients ponct. : Sous-fichier#229376#HC0102B#2022-08-25#2014-05-07##0
+SPRLIB#HC0102D#*PGM#QPGMR#Fichier commandes clients ponct. : Gestion#409600#HC0102D#2022-08-25#1995-03-08##0
+SPRLIB#HC0102K#*PGM#QPGMR#Fichier commandes clients ponct. : Contrôle#81920#HC0102K#2022-08-25#1995-03-08##0
+SPRLIB#HC0103B#*PGM#QPGMR#Fichier commandes clients ponct. : Sous-fichier#221184#HC0103B#2022-08-25#1995-03-08##0
+SPRLIB#HC0103K#*PGM#QPGMR#Fichier commandes clients ponct. : Contrôle#81920#HC0103K#2022-08-25#1995-03-08##0
+SPRLIB#HC0104D#*PGM#QPGMR#Fichier commandes récupérateurs : Gestion#307200#HC0104D#2022-08-25#1995-11-23##0
+SPRLIB#HC0104K#*PGM#QPGMR#Fichier commandes récupérateurs : Contrôle#81920#HC0104K#2022-08-25#1995-12-04##0
+SPRLIB#HC0106B#*PGM#QSECOFR#Gestion retours clients : Sous-fichier#327680#HC0106B#2022-08-25#2014-04-02##0
+SPRLIB#HC0106D#*PGM#QPGMR#Gestion retours de papier : Gestion#884736#HC0106D#2022-08-25#1995-11-28##0
+SPRLIB#HC0106K#*PGM#QPGMR#Gestion retours de papier : Contrôle#81920#HC0106K#2022-08-25#1995-11-28##0
+SPRLIB#HC0108B#*PGM#QPGMR#Gestion retours de papier : Exécutions#217088#HC0108B#2022-08-25#1995-04-05##0
+SPRLIB#HP0101A#*PGM#QPGMR#Gestion objectifs & accords cadre : sélection PP#167936#HP0101A#2022-08-25#1995-11-25##0
+SPRLIB#HP0101B#*PGM#QPGMR#Gestion objectifs & accords cadre : liste PP#229376#HP0101B#2022-08-25#1995-03-15##0
+SPRLIB#HP0101D#*PGM#QPGMR#Gestion objectifs & accords cadre : gestion#462848#HP0101D#2022-08-25#2014-07-21##0
+SPRLIB#HP0101K#*PGM#QPGMR#Gestion objectifs & accords cadre : contrôles#90112#HP0101K#2022-08-25#1995-03-08##0
+SPRLIB#HP0102B#*PGM#QPGMR#Objectifs et accords : Ventilation par laize#331776#HP0102B#2022-08-25#1995-03-08##0
+SPRLIB#HP0103B#*PGM#QPGMR#Objectifs et accords : Ventilation par usine#327680#HP0103B#2022-08-25#1995-03-08##0
+SPRLIB#HP0105B#*PGM#QPGMR#Gestion des accords cadre : Liste  page  (ALN)#282624#HP0105B#2022-08-25#1995-03-08##0
+SPRLIB#HP0105D#*PGM#QPGMR#Gestion des accords cadre : Mise à jour CELINE#741376#HP0105D#2022-08-25#1995-12-01##0
+SPRLIB#HP0105K#*PGM#QPGMR#Gestion des accords cadre : Contrôle#81920#HP0105K#2022-08-25#1995-11-28##0
+SPRLIB#HP0106B#*PGM#QPGMR#Gestion des accords cadre : Prévis. Accord Cadre#532480#HP0106B#2022-08-25#1995-03-08##0
+SPRLIB#HP0107B#*PGM#QPGMR#Gestion des accords cadre : Prévivions Externes#528384#HP0107B#2022-08-25#1995-03-08##0
+SPRLIB#HP0108B#*PGM#QPGMR#Gestion des accords cadre : Prév Internes (ALN)#684032#HP0108B#2022-08-25#1995-03-08##0
+SPRLIB#HP0109B#*PGM#QPGMR#Gestion des accords cadre : Liste des exécutions#274432#HP0109B#2022-08-25#1995-03-08##0
+SPRLIB#HS0101A#*PGM#QPGMR#Fichier ordres de mouvements : Sélection  (ALN)#225280#HS0101A#2022-08-25#1995-12-05##0
+SPRLIB#HS0101B#*PGM#QSECOFR#Fichier ordres de mouvements : Sous-fichier(ALN)#966656#HS0101B#2022-08-25#2014-05-07##0
+SPRLIB#HS0101D#*PGM#QPGMR#Fichier ordres de mouvements : Gestion#618496#HS0101D#2022-08-25#1995-11-22##0
+SPRLIB#HS0101K#*PGM#QPGMR#Fichier ordres de mouvements : Contrôle#81920#HS0101K#2022-08-25#1995-11-22##0
+SPRLIB#HS0103A#*PGM#QSECOFR#Fichier mouvements : Sélection (ALN)#237568#HS0103A#2022-08-25#2014-05-07##0
+SPRLIB#HS0103B#*PGM#QSECOFR#Fichier mouvements : Sous-fichier (ALN)#552960#HS0103B#2022-08-25#2014-05-07##0
+SPRLIB#HS0103D#*PGM#QSECOFR#Fichier mouvements : Gestion   (ALN)#1740800#HS0103D#2022-08-25#2015-11-26##0
+SPRLIB#HS0103K#*PGM#QPGMR#Fichier mouvements : Contrôle#81920#HS0103K#2022-08-25#2001-01-23##0
+SPRLIB#HS0105A#*PGM#QPGMR#Fichier découpes : Sélection#118784#HS0105A#2022-08-25#1995-11-27##0
+SPRLIB#HS0105B#*PGM#QSECOFR#Fichier découpes : Sous-fichier#258048#HS0105B#2022-08-25#2014-05-07##0
+SPRLIB#HS0105D#*PGM#QPGMR#Fichier découpes : Gestion#245760#HS0105D#2022-08-25#1995-11-27##0
+SPRLIB#HS0105K#*PGM#QPGMR#Fichier découpes : Contrôle#81920#HS0105K#2022-08-25#1995-11-27##0
+SPRLIB#HS0106B#*PGM#QPGMR#Fichier découpes : Sous-fichier (détail)#233472#HS0106B#2022-08-25#1995-11-27##0
+SPRLIB#HS0106D#*PGM#QPGMR#Fichier découpes : Gestion (détail)#204800#HS0106D#2022-08-25#1995-11-27##0
+SPRLIB#HS0106K#*PGM#QPGMR#Fichier découpes : Contrôle (détail)#81920#HS0106K#2022-08-25#1995-12-05##0
+SPRLIB#HS0107B#*PGM#QPGMR#Fichier découpes : Sous-fichier (exécutions)#208896#HS0107B#2022-08-25#1995-11-27##0
+SPRLIB#HS0107K#*PGM#QPGMR#Fichier découpes : Contrôle (exécutions)#81920#HS0107K#2022-08-25#1995-11-27##0
+SPRLIB#HS0501A#*PGM#QSECOFR#Consultation des stocks : Sélection#376832#HS0501A#2022-08-25#2016-01-28##0
+SPRLIB#HS0501B#*PGM#QPGMR#Consultation des stocks : Affic. principal (ALN)#1466368#HS0501B#2022-08-25#1995-03-28##0
+SPRLIB#HS0502B#*PGM#QSECOFR#Consultation des stocks : Réservations#880640#HS0502B#2022-08-25#2016-01-28##0
+SPRLIB#HS0503B#*PGM#QSECOFR#Consultation des stocks : Lots#978944#HS0503B#2022-08-25#2016-01-28##0
+SPRLIB#HS0503B1#*PGM#QPGMR#Consultation des stocks : Lots anomalies (litiges)#761856#HS0503B1#2022-08-25#1995-12-05##0
+SPRLIB#HS0504B#*PGM#QSECOFR#Consultation des stocks : Détail par lot sain#249856#HS0504B#2022-08-25#2004-09-05##0
+SPRLIB#HT0101A#*PGM#QPGMR#Fichier ordres de transport : Sélection#176128#HT0101A#2022-08-25#1995-12-05##0
+SPRLIB#HT0101B#*PGM#QPGMR#Fichier ordres de transport : Sous-fichier#307200#HT0101B#2022-08-25#2000-04-20##0
+SPRLIB#HT0101D#*PGM#QPGMR#Histo. ordres de transport : Gestion  (ALN)#516096#HT0101D#2022-08-25#1995-10-31##0
+SPRLIB#HT0101K#*PGM#QPGMR#Fichier ordres de transport : Contrôle#81920#HT0101K#2022-08-25#1995-11-27##0
+SPRLIB#HT0102B#*PGM#QPGMR#Fichier arrivage : Sous-fichier#217088#HT0102B#2022-08-25#1995-11-27##0
+SPRLIB#HT0103A#*PGM#QPGMR#Contrôle des factures trsp. : pied selection#208896#HT0103A#2022-08-25#1995-10-31##0
+SPRLIB#HT0103B#*PGM#QPGMR#Contrôle des factures trsp. : pied sous-fichier#438272#HT0103B#2022-08-25#2001-02-26##0
+SPRLIB#HT0103D#*PGM#QPGMR#Contrôle des factures trsp. : pied saisie#380928#HT0103D#2022-08-25#1995-12-01##0
+SPRLIB#HT0103K#*PGM#QPGMR#Contrôle des factures trsp. : pied contrôle#86016#HT0103K#2022-08-25#1995-10-31##0
+SPRLIB#HT0104B#*PGM#QPGMR#Contrôle des factures trsp. : liste O.T. (ALN)#303104#HT0104B#2022-08-25#1995-03-07##0
+SPRLIB#HT0105B#*PGM#QPGMR#Contrôle des factures trsp. : OT n topés opt9(ALN)#360448#HT0105B#2022-08-25#1999-10-27##0
+SPRLIB#HT0106B#*PGM#QPGMR#Contrôle des factures trsp. : sf arrivages (ALN)#348160#HT0106B#2022-08-25#1995-03-07##0
+SPRLIB#HT0106D#*PGM#QPGMR#Contrôle des factures trsp. : topage arrivages#208896#HT0106D#2022-08-25#1995-03-07##0
+SPRLIB#HT0106K#*PGM#QPGMR#Contrôle des factures trsp. : ctrl arrivages#81920#HT0106K#2022-08-25#1995-03-07##0
+SPRLIB#HT0106L#*PGM#QPGMR#Contrôle des factures trsp. : vérif. arrivages#114688#HT0106L#2022-08-25#1995-03-07##0
+SPRLIB#HT0107B#*PGM#QPGMR#Contrôle des factures trsp. : ajustements pied#294912#HT0107B#2022-08-25#1995-03-08##0
+SPRLIB#HT0107D#*PGM#QPGMR#Contrôle des factures trsp. : maj ajustement#286720#HT0107D#2022-08-25#1995-03-07##0
+SPRLIB#HT0107K#*PGM#QPGMR#Contrôle des factures trsp. : ctl ajustement#81920#HT0107K#2022-08-25#1995-03-08##0
+SPRLIB#HT0108B#*PGM#QPGMR#Contrôle des factures trsp. : sf arrivages (ALN)#319488#HT0108B#2022-08-25#1995-03-08##0
+SPRLIB#HT0109B#*PGM#QPGMR#Historiqure factures trsp. :liste O.T. topés(ALN)#299008#HT0109B#2022-08-25#1999-10-27##0
+SPRLIB#IN0101A#*PGM#QPGMR#Fichier frais annexes IC : Sélection#143360#IN0101A#2022-08-25#1999-07-07##0
+SPRLIB#IN0101B#*PGM#QPGMR#Fichier frais annexes IC : Fenêtre#225280#IN0101B#2022-08-25#1993-01-22##0
+SPRLIB#IN0101C#*PGM#QPGMR#Fichier frais annexes IC : Positionnement#110592#IN0101C#2022-08-25#1993-01-22##0
+SPRLIB#IN0101D#*PGM#QPGMR#Fichier frais annexes IC : Gestion#208896#IN0101D#2022-08-25#1999-07-16##0
+SPRLIB#IN0101K#*PGM#QPGMR#Fichier frais annexes IC : Contrôle#81920#IN0101K#2022-08-25#1993-01-22##0
+SPRLIB#IN0102A#*PGM#QPGMR#Fichier tarifs de cession : Sélection#143360#IN0102A#2022-08-25#1999-07-07##0
+SPRLIB#IN0102B#*PGM#QPGMR#Fichier tarifs de cession : Sous-fichier#208896#IN0102B#2022-08-25#1999-07-07##0
+SPRLIB#IN0102D#*PGM#QPGMR#Fichier tarifs de cession : Gestion#208896#IN0102D#2022-08-25#1999-07-07##0
+SPRLIB#IN0102K#*PGM#QPGMR#Fichier tarifs de cession : Contrôle#81920#IN0102K#2022-08-25#1993-01-25##0
+SPRLIB#IN0103A#*PGM#QPGMR#Pointage des ajustements : Sélection#143360#IN0103A#2022-08-25#1999-07-07##0
+SPRLIB#IN0103B#*PGM#QPGMR#Pointage des ajustements : Sous-fichier#225280#IN0103B#2022-08-25#1999-07-07##0
+SPRLIB#IN0103D#*PGM#QPGMR#Pointage des ajustements : Mise à jour#106496#IN0103D#2022-08-25#1994-12-07##0
+SPRLIB#IN0103K#*PGM#QPGMR#Pointage des ajustements : Contrôle#81920#IN0103K#2022-08-25#1994-12-07##0
+SPRLIB#IN0104A#*PGM#QPGMR#Lancement des interfaces comptables : Sélection#147456#IN0104A#2022-08-25#2001-07-10##0
+SPRLIB#IN0104C#*PGM#QPGMR#Lancement des interfaces comptables : Gestion#151552#IN0104C#2022-08-25#1994-03-21##0
+SPRLIB#IN0104N#*PGM#QPGMR#Interfaces Comptables (trait de nuit) (ALN)#65536#IN0104N#2022-08-25#2000-11-10##0
+SPRLIB#IN0104N2#*PGM#QPGMR#Interfaces Comptables (Cloture) (ALN)#65536#IN0104N2#2022-08-25#1994-11-03##0
+SPRLIB#IN0104N3#*PGM#QPGMR#Interfaces Comptables (trait de nuit) PAPTRANS#65536#IN0104N3#2022-08-25#2001-01-25##0
+SPRLIB#IN0104T#*PGM#QSECOFR#IC TALENSIA Appel interfaces compta : Gestion J149#155648#IN0104T#2022-08-25#2017-10-24##0
+SPRLIB#IN0105A#*PGM#QPGMR#Pointage des ajustements trsp. : Sélection#143360#IN0105A#2022-08-25#1999-07-07##0
+SPRLIB#IN0105B#*PGM#QPGMR#Pointage des ajustements trsp. : Sous-fichier#192512#IN0105B#2022-08-25#1999-07-07##0
+SPRLIB#IN0105D#*PGM#QPGMR#Pointage des ajustements trsp. : Mise à jour#102400#IN0105D#2022-08-25#1993-03-26##0
+SPRLIB#IN0105K#*PGM#QPGMR#Pointage des ajustements trsp. : Contrôle#81920#IN0105K#2022-08-25#1993-03-26##0
+SPRLIB#IN0106A#*PGM#QPGMR#Grille interne des frais annexes : Sélection#143360#IN0106A#2022-08-25#1999-07-07##0
+SPRLIB#IN0106B#*PGM#QPGMR#Grille interne des frais annexes : Sous-fichier#204800#IN0106B#2022-08-25#1999-07-07##0
+SPRLIB#IN0106D#*PGM#QPGMR#Grille interne des frais annexes : Gestion#204800#IN0106D#2022-08-25#1999-07-07##0
+SPRLIB#IN0106K#*PGM#QPGMR#Grille interne des frais annexes : Contrôle#81920#IN0106K#2022-08-25#1993-03-29##0
+SPRLIB#IN0107A#*PGM#QPGMR#Grille externe des frais annexes : Sélection#143360#IN0107A#2022-08-25#1999-07-07##0
+SPRLIB#IN0107B#*PGM#QPGMR#Grille externe des frais annexes : Sous-fichier#204800#IN0107B#2022-08-25#1999-07-07##0
+SPRLIB#IN0107D#*PGM#QPGMR#Grille externe des frais annexes : Gestion#200704#IN0107D#2022-08-25#1999-07-07##0
+SPRLIB#IN0107K#*PGM#QPGMR#Grille externe des frais annexes : Contrôle#81920#IN0107K#2022-08-25#1993-03-30##0
+SPRLIB#IN0108A#*PGM#QPGMR#Grille des frais divers : Sélection#143360#IN0108A#2022-08-25#1999-07-07##0
+SPRLIB#IN0108B#*PGM#QPGMR#Grille des frais divers : Sous-fichier#208896#IN0108B#2022-08-25#1999-07-07##0
+SPRLIB#IN0108D#*PGM#QPGMR#Grille des frais divers : Gestion#204800#IN0108D#2022-08-25#1999-07-07##0
+SPRLIB#IN0108K#*PGM#QPGMR#Grille des frais divers : Contrôle#81920#IN0108K#2022-08-25#1994-12-05##0
+SPRLIB#IN0114C#*PGM#QPGMR#Valorisation stocks : Intégrat. MSMST#245760#IN0114C#2022-08-25#2001-05-14##0
+SPRLIB#IN0114C1#*PGM#QPGMR#Creation du fichier 'VSVST'#159744#IN0114C1#2022-08-25#1996-04-01##0
+SPRLIB#IN0118A#*PGM#QPGMR#Gestion des intracommunautaires - sélection#143360#IN0118A#2022-08-25#1999-10-19##0
+SPRLIB#IN0118B#*PGM#QPGMR#Gestion des intracommunautaires - liste#151552#IN0118B#2022-08-25#2000-01-24##0
+SPRLIB#IN0118D#*PGM#QPGMR#Gestion des intracommunautaires - affichage#245760#IN0118D#2022-08-25#2013-11-12##0
+SPRLIB#IN1001A#*PGM#QPGMR#Edition des ajust. fournisseur pointés : Sélection#147456#IN1001A#2022-08-25#1999-07-07##0
+SPRLIB#IN1001C#*PGM#QPGMR#Edition des ajust. fournisseur pointés : Fichier#114688#IN1001C#2022-08-25#1994-03-21##0
+SPRLIB#IN1001D#*PGM#QPGMR#Edition des ajust. fournisseur pointés : Edition#176128#IN1001D#2022-08-25#1999-08-18##0
+SPRLIB#IN1002A#*PGM#QPGMR#Edition des ajust. trsp non pointés : Sélection#147456#IN1002A#2022-08-25#1999-07-07##0
+SPRLIB#IN1002C#*PGM#QPGMR#Edition des ajust. trsp non pointés : Fichier#114688#IN1002C#2022-08-25#1993-03-26##0
+SPRLIB#IN1002D#*PGM#QPGMR#Edition des ajust. trsp non pointés : Edition#176128#IN1002D#2022-08-25#1999-08-18##0
+SPRLIB#IN1003A#*PGM#QPGMR#Traitements de facturation interne (Sélection)J283#155648#IN1003A#2022-08-25#2021-11-04##0
+SPRLIB#IN1003A_01#*PGM#QPGMR#Traitements de facturation interne (Sélection)#143360#IN1003A#2022-08-25#1999-07-07##0
+SPRLIB#IN1003C#*PGM#QPGMR#Traitements de facturation interne (Ext.) (AL J305#704512#IN1003C#2022-08-25#2022-03-10##0
+SPRLIB#IN1003C_SV#*PGM#QPGMR#Traitements de facturation interne (Ext.) (AL J199#704512#IN1003C#2022-08-25#2019-01-21##0
+SPRLIB#IN1003D#*PGM#QPGMR#Traitements de facturation interne (Numérotations)#155648#IN1003D#2022-08-25#1993-10-13##0
+SPRLIB#IN1003E#*PGM#QPGMR#Traitements de facturation interne (Edition)#233472#IN1003E#2022-08-25#1999-04-30##0
+SPRLIB#IN1003N#*PGM#QPGMR#Facturation interne (Traitement de nuit)#69632#IN1003N#2022-08-25#2001-03-21##0
+SPRLIB#IN1004A#*PGM#QPGMR#Edition du cours de route  (ALN)#122880#IN1004A#2022-08-25#1999-07-07##0
+SPRLIB#IN1004C#*PGM#QPGMR#Extraction cours de route  (ALN)#192512#IN1004C#2022-08-25#1994-04-05##0
+SPRLIB#IN1005A#*PGM#QPGMR#Generation anciennete lot   (ALN)#110592#IN1005A#2022-08-25#1999-07-07##0
+SPRLIB#IN1006A#*PGM#QPGMR#Generation anciennete lot par entrepot        J283#122880#IN1006A#2022-08-25#2022-02-10##0
+SPRLIB#IN1007A#*PGM#QPGMR#Edition anciennete des lots#159744#IN1007A#2022-08-25#2001-03-21##0
+SPRLIB#IN1007C1#*PGM#QPGMR#Edition détaillée ancienneté lots(cent/an/mois)#147456#IN1007C1#2022-08-25#2001-01-23##0
+SPRLIB#IN1007C2#*PGM#QPGMR#Edition cumulée ancienneté lots(an/mois)#147456#IN1007C2#2022-08-25#2001-01-23##0
+SPRLIB#IN1007C3#*PGM#QPGMR#Edition cumulée ancienneté lots(cste/an/mois)#147456#IN1007C3#2022-08-25#2001-01-23##0
+SPRLIB#IN1009A#*PGM#QPGMR#Liste  provision   achats   (Sélection)#122880#IN1009A#2022-08-25#2001-03-15##0
+SPRLIB#IN1009C#*PGM#QPGMR#Liste provision achats   (Fichier)#147456#IN1009C#2022-08-25#2000-11-10##0
+SPRLIB#IN1010A#*PGM#QPGMR#Liste  provision   transports     (Sélection)#122880#IN1010A#2022-08-25#2001-12-18##0
+SPRLIB#IN1010C#*PGM#QPGMR#Liste  provision   transports     (Fichier)#184320#IN1010C#2022-08-25#2002-10-10##0
+SPRLIB#IN1011A#*PGM#QPGMR#Provisions pour hausses des prix Sélection#147456#IN1011A#2022-08-25#1999-07-07##0
+SPRLIB#IN1011B#*PGM#QPGMR#Provisions pour hausses des prix Fic trav 1#167936#IN1011B#2022-08-25#2001-01-23##0
+SPRLIB#IN1011C#*PGM#QPGMR#Provisions pour hausses des prix Fic trav 2#180224#IN1011C#2022-08-25#2001-03-09##0
+SPRLIB#IN1011D#*PGM#QPGMR#Provisions pour hausses des prix Fic trac 3#102400#IN1011D#2022-08-25#1996-02-15##0
+SPRLIB#IN1011E#*PGM#QPGMR#Provisions pour hausses des prix Edition#159744#IN1011E#2022-08-25#1999-08-18##0
+SPRLIB#IN1011F#*PGM#QPGMR#Provisions pour hausses des prix cours de route#147456#IN1011F#2022-08-25#1996-02-26##0
+SPRLIB#IN1011G#*PGM#QPGMR#Valorisation stocks : Extraction cours de route#217088#IN1011G#2022-08-25#2001-04-06##0
+SPRLIB#IN1011H#*PGM#QPGMR#Valorisation stocks : Intégration cours de route#131072#IN1011H#2022-08-25#1996-02-26##0
+SPRLIB#IN1012A#*PGM#QPGMR#Liste  provision   Ventes   (Sélection)#122880#IN1012A#2022-08-25#1999-07-07##0
+SPRLIB#IN1012C#*PGM#QPGMR#Traitements des BS non facturés (Extraction)#245760#IN1012C#2022-08-25#2014-07-23##0
+SPRLIB#IN1012D#*PGM#QPGMR#Traitements des BS facturables (Extraction)#151552#IN1012D#2022-08-25#2014-07-23##0
+SPRLIB#IN1013A#*PGM#QPGMR#Edition anciennete des lots#163840#IN1013A#2022-08-25#2001-03-21##0
+SPRLIB#IN1013C#*PGM#QPGMR#Edition anciennete des lots (Fichier)#204800#IN1013C#2022-08-25#2001-01-23##0
+SPRLIB#IN1013D#*PGM#QPGMR#Edition anciennete des lots#278528#IN1013D#2022-08-25#1999-08-18##0
+SPRLIB#IN1014A#*PGM#QPGMR#Edition du stock comptable (Sélection)#147456#IN1014A#2022-08-25#2001-08-17##0
+SPRLIB#IN1014C#*PGM#QPGMR#Etat des stocks comptable#180224#IN1014C#2022-08-25#2001-07-12##0
+SPRLIB#IN1014D#*PGM#QPGMR#Etat des stocks comptable (Tonnes/Rames)#307200#IN1014D#2022-08-25#2001-07-10##0
+SPRLIB#IN1014E#*PGM#QPGMR#Etat des stocks comptable (Valeurs)#258048#IN1014E#2022-08-25#2001-05-11##0
+SPRLIB#IN1014N#*PGM#QPGMR#Edition du stock comptable (envoi cloture)#61440#IN1014N#2022-08-25#2001-05-11##0
+SPRLIB#IN1018A#*PGM#QPGMR#Gestion des intracommunautaires - sélection#122880#IN1018A#2022-08-25#2001-12-12##0
+SPRLIB#IN1018C#*PGM#QPGMR#Créat.fich.pour comp.des intracom. (commerciales)#114688#IN1018C#2022-08-25#1999-07-19##0
+SPRLIB#IN1018C2#*PGM#QPGMR#Créat.fich.pour comp.des intracom. (comptable)#106496#IN1018C2#2022-08-25#2001-11-30##0
+SPRLIB#IN1018D#*PGM#QPGMR#Etat de comp.des intracommunautaires#180224#IN1018D#2022-08-25#2001-12-12##0
+SPRLIB#IN1023A#*PGM#QPGMR#Traitements de facturation interne (Sélection)J190#249856##2022-08-25###0
+SPRLIB#IN1023C#*PGM#QPGMR#Traitements de facturation interne (Ext.) (A J205A#708608##2022-08-25###0
+SPRLIB#IN1023C_01#*PGM#QPGMR#Traitements de facturation interne (Ext.) (ALNJ190#700416##2022-08-25###0
+SPRLIB#IN1033A#*PGM#QPGMR#Ré-édition de facture(s) interne(s) Sélection J281#221184#IN1033A#2022-08-25#2021-10-15##0
+SPRLIB#IN1090A#*PGM#QPGMR#Transfert Balance Comptable#135168#IN1090A#2022-08-25#2001-06-27##0
+SPRLIB#IN1090C#*PGM#QPGMR#Transfert Balance Comptable -  Fichier#217088#IN1090C#2022-08-25#2001-05-30##0
+SPRLIB#IN2001A#*PGM#QPGMR#Trigger LMINT : interface limite de crédit    J217#430080##2022-08-25###0
+SPRLIB#IN2002A#*PGM#QPGMR#Trigger ENINT : interface encours commerce.   J207#528384##2022-08-25###0
+SPRLIB#LIV220406A#*PGM#QPGMR#Contrôle des factures trsp. : pied sous-fichier#438272#TR0103B#2022-08-25#2000-08-11##0
+SPRLIB#MAJOTR#*PGM#QPGMR#Base de données : Gestion des ordres de transports#188416#MAJOTR#2022-08-25#1999-03-24##0
+SPRLIB#MAJUSI#*PGM#QPGMR#Base de données : Gestion tonnages sur usines#151552#MAJUSI#2022-08-25#2001-04-27##0
+SPRLIB#MAJVSTC#*PGM#QPGMR# Maj fichier  VSVST  apres cloture manque valeur #131072#MAJVSTC#2022-08-25#2001-05-11##0
+SPRLIB#MA1001#*PGM#QPGMR#rpg edit.etiquettes marketing#98304#MA1001#2022-08-25#1994-01-10##0
+SPRLIB#MA1002#*PGM#QPGMR#rpg edit.etiquettes pour tous par page (24)#98304#MA1002#2022-08-25#1994-03-07##0
+SPRLIB#MA1003A#*PGM#QPGMR#Liste du fichier marketing   (Sélection)#110592#MA1003A#2022-08-25#1999-07-06##0
+SPRLIB#MA1003C#*PGM#QPGMR#Liste du fichier marketing    (Fichier)#90112#MA1003C#2022-08-25#1994-06-22##0
+SPRLIB#MA1004A#*PGM#QPGMR#Liste du fichier Stock (Sélection)#110592#MA1004A#2022-08-25#1999-07-06##0
+SPRLIB#MA1004B#*PGM#QPGMR#liste du fichier Stock (Fichier)#135168#MA1004B#2022-08-25#1998-03-12##0
+SPRLIB#MA1004C#*PGM#QPGMR#liste du fichier Stock (Fichier)#90112#MA1004C#2022-08-25#1998-03-12##0
+SPRLIB#MA1005#*PGM#QPGMR#Edition des etiquettes STOCK#102400#MA1005#2022-08-25#1998-03-12##0
+SPRLIB#MCDDCM#*PGM#QPGMR#Récupère la date de dernière clôture          J283#151552##2022-08-25###0
+SPRLIB#MOU_R_MAIL#*PGM#QPGMR#Mouchard des courriels envoyés#233472##2022-08-25###0
+SPRLIB#MOUL_HA045#*PGM#QSECOFR#Remise en adéquation de ARTART & ARARTX#135168#MOUL_HA045#2022-08-25#2015-08-31##0
+SPRLIB#MOULECECCR#*PGM#QSECOFR#Modif struct. ECECC pgm à lancer 1 fois#110592#MOULECECCR#2022-08-25#2014-02-19##0
+SPRLIB#MOULMSMST#*PGM#QPGMR#MàJ MSMST pour anulation facturation interne#135168#MOULMSMST#2022-08-25#2001-02-16##0
+SPRLIB#MO1001B#*PGM#QPGMR#Interface Comptable MONDIA - Gestion#151552#MO1001B#2022-08-25#2004-06-30##0
+SPRLIB#MO1001C#*PGM#QPGMR#Interface Comptable MONDIA#233472#MO1001C#2022-08-25#2005-02-22##0
+SPRLIB#MO1001N#*PGM#QPGMR#Interface Comptable MONDIA - Trait de nuit#65536#MO1001N#2022-08-25#2004-06-30##0
+SPRLIB#PA1001A#*PGM#QPGMR#Interface Comptable PAPTRANS - Sélection#143360#PA1001A#2022-08-25#2002-03-15##0
+SPRLIB#PA1001B#*PGM#QPGMR#Interface Comptable PAPTRANS - Gestion#151552#PA1001B#2022-08-25#2002-01-03##0
+SPRLIB#PA1001C#*PGM#QPGMR#Interface Comptable PAPTRANS#225280#PA1001C#2022-08-25#2002-03-15##0
+SPRLIB#PA1001N#*PGM#QPGMR#Interface Comptable PAPTRANS - Trait de nuit#65536#PA1001N#2022-08-25#2002-01-03##0
+SPRLIB#PC0101A#*PGM#QSECOFR#Gestion objectifs & accords cadre : sélect.   J228#573440##2022-08-25###0
+SPRLIB#PC0101A_01#*PGM#QSECOFR#Gestion objectifs & accords cadre : sélect. J140/4#552960##2022-08-25###0
+SPRLIB#PC0101B#*PGM#QSECOFR#Gestion objectifs & accords cadre : liste PPJ140/4#577536##2022-08-25###0
+SPRLIB#PC0101D#*PGM#QPGMR#Gestion objectifs & accords cadre : gestion#462848#PC0101D#2022-08-25#2014-07-21##0
+SPRLIB#PC0101G#*PGM#QPGMR#Duplication des PI d'1 année sur 1 autre      J228#3575808##2022-08-25###0
+SPRLIB#PC0101G_01#*PGM#QPGMR#Duplication des PI d'1 année sur 1 autre      J204#3670016##2022-08-25###0
+SPRLIB#PC0101K#*PGM#QPGMR#Gestion objectifs & accords cadre : contrôles#90112#PC0101K#2022-08-25#1992-12-07##0
+SPRLIB#PC0102B#*PGM#QPGMR#Objectifs et accords : Ventilation par laize#335872#PC0102B#2022-08-25#1999-07-06##0
+SPRLIB#PC0103B#*PGM#QPGMR#Objectifs et accords : Ventilation par usine#327680#PC0103B#2022-08-25#1999-07-06##0
+SPRLIB#PC0105B#*PGM#QSECOFR#Gestion des accords cadre : Liste  page  (ALJ140/4#626688##2022-08-25###0
+SPRLIB#PC0105D#*PGM#QPGMR#Gestion des accords cadre : Mise à jour       J237#1318912#PC0105D#2022-08-25#2021-02-02##0
+SPRLIB#PC0105K#*PGM#QPGMR#Gestion des accords cadre : Contrôle#81920#PC0105K#2022-08-25#1995-12-04##0
+SPRLIB#PC0106B#*PGM#QPGMR#Gestion des accords cadre : Prévis. Accord Cadre#532480#PC0106B#2022-08-25#1999-07-06##0
+SPRLIB#PC0107B#*PGM#QPGMR#Gestion des accords cadre : Prévivions Externes#528384#PC0107B#2022-08-25#1999-07-06##0
+SPRLIB#PC0108B#*PGM#QPGMR#Gestion des accords cadre Prév Internes (ALN) J220#1216512#PC0108B#2022-08-25#2020-02-27##0
+SPRLIB#PC0109B#*PGM#QPGMR#Gestion des accords cadre : Liste des exécutioJ163#536576#PC0109B#2022-08-25#2019-03-22##0
+SPRLIB#PC0120A#*PGM#QPGMR#Gestion des prévisions internes  (ALN)#200704#PC0120A#2022-08-25#1999-07-06##0
+SPRLIB#PC0120B#*PGM#QPGMR#Gestion des prévisions internes: Ss-fichier (ALN)#880640#PC0120B#2022-08-25#2014-07-21##0
+SPRLIB#PC0130A#*PGM#QPGMR#Gestion des Accords Cadres à transmettre selec.#151552#PC0130A#2022-08-25#1999-07-06##0
+SPRLIB#PC0130B#*PGM#QPGMR#Gestion des Accords Cadres à transmettre list.#258048#PC0130B#2022-08-25#1999-07-06##0
+SPRLIB#PC0130D#*PGM#QPGMR#Gestion des Accords Cadres à transmettre maj#323584#PC0130D#2022-08-25#1995-10-02##0
+SPRLIB#PC0130K#*PGM#QPGMR#Gestion des Accords Cadres à transmettre ctlk#81920#PC0130K#2022-08-25#1995-08-09##0
+SPRLIB#PC0190A#*PGM#QPGMR#Calcul couverture des clients                 J283#118784#PC0190A#2022-08-25#2022-01-28##0
+SPRLIB#PC0190B#*PGM#QPGMR#Constitution moyenne des consommation#147456#PC0190B#2022-08-25#2001-04-11##0
+SPRLIB#PC0190C#*PGM#QPGMR#Constitution moyenne des consommation#229376#PC0190C#2022-08-25#2001-04-11##0
+SPRLIB#PC0190D#*PGM#QPGMR#Constitution couverture pour client#245760#PC0190D#2022-08-25#2001-06-06##0
+SPRLIB#PC0190N#*PGM#QPGMR#Calcul couverture des clients (Nuit)#57344#PC0190N#2022-08-25#2001-01-23##0
+SPRLIB#PC0195A#*PGM#QPGMR#Solde des prévisions internes : Sélection     J125#217088#PC0195A#2022-08-25#2016-11-22##0
+SPRLIB#PC0195B#*PGM#QPGMR#Solde des prévisions internes : Sous-fichier  J190#1507328#PC0195B#2022-08-25#2018-06-29##0
+SPRLIB#PC0195BOLD#*PGM#QPGMR#Solde des prévisions internes : Sous-fichier  J130#1458176#PC0195B#2022-08-25#2017-01-31##0
+SPRLIB#PC0195B2#*PGM#QPGMR#Solde des prévisions internes : Sous-fichier  J130#1458176#PC0195B#2022-08-25#2017-02-21##0
+SPRLIB#PC0195D#*PGM#QPGMR#Solde des prévisions internes : Mise à jour   J220#274432#PC0195D#2022-08-25#2020-02-27##0
+SPRLIB#PC0195K#*PGM#QPGMR#Gestion des accords cadre : Contrôle#81920#PC0195K#2022-08-25#2016-06-07##0
+SPRLIB#PC0501A#*PGM#QSECOFR#Consultation des prévisions internes        J140/4#237568#PC0501A#2022-08-25#2018-02-13##0
+SPRLIB#PC0501B#*PGM#QSECOFR#Consultation des prévisions internes#495616#PC0501B#2022-08-25#2016-01-28##0
+SPRLIB#PC0502A#*PGM#QPGMR#Couverture client Sélection#188416#PC0502A#2022-08-25#2014-07-21##0
+SPRLIB#PC0502B#*PGM#QSECOFR#couverture clients liste#557056#PC0502B#2022-08-25#2016-01-28##0
+SPRLIB#PC0503B#*PGM#QSECOFR#Répartition articles#606208#PC0503B#2022-08-25#2016-01-28##0
+SPRLIB#PC1001A#*PGM#QPGMR#Suivi des réalisations par catégories (Sélection)#155648#PC1001A#2022-08-25#1999-07-06##0
+SPRLIB#PC1001C#*PGM#QPGMR#Intégration des réalisations (Fichier)#122880#PC1001C#2022-08-25#1994-01-21##0
+SPRLIB#PC1001D#*PGM#QPGMR#Intégration des prévisions AC (Fichier)#184320#PC1001D#2022-08-25#1999-05-07##0
+SPRLIB#PC1001E#*PGM#QPGMR#Intégration des prévisions CP (Fichier)#139264#PC1001E#2022-08-25#1997-07-10##0
+SPRLIB#PC1001F#*PGM#QPGMR#Historique des prévisions par catégorie (Edition)#327680#PC1001F#2022-08-25#1999-04-30##0
+SPRLIB#PC1001G#*PGM#QPGMR#Synthèse des prévisions par catégorie (Edition)#262144#PC1001G#2022-08-25#1999-04-30##0
+SPRLIB#PC1002A#*PGM#QPGMR#Suivi des réalisations par titres (Sélection)#155648#PC1002A#2022-08-25#1999-07-06##0
+SPRLIB#PC1002C#*PGM#QPGMR#Intégration des réalisations (Fichier)#122880#PC1002C#2022-08-25#1994-01-21##0
+SPRLIB#PC1002D#*PGM#QPGMR#Intégration des prévisions AC (Fichier)#184320#PC1002D#2022-08-25#1999-05-07##0
+SPRLIB#PC1002E#*PGM#QPGMR#Intégration des prévisions CP (Fichier)#139264#PC1002E#2022-08-25#1997-07-10##0
+SPRLIB#PC1002F#*PGM#QPGMR#Historique des prévisions par titre (Edition)#319488#PC1002F#2022-08-25#1999-04-30##0
+SPRLIB#PC1002G#*PGM#QPGMR#Synthèse des prévisions par titre (Edition)#253952#PC1002G#2022-08-25#1999-04-30##0
+SPRLIB#PC1003A#*PGM#QPGMR#Edition   prévisions par imprimerie (Sélection)#155648#PC1003A#2022-08-25#2002-09-04##0
+SPRLIB#PC1003C#*PGM#QPGMR#Intégration des prévisions AC (Fichier)#192512#PC1003C#2022-08-25#2014-07-21##0
+SPRLIB#PC1003F#*PGM#QPGMR#Historique des prévisions par titre (Edition)#217088#PC1003F#2022-08-25#2004-09-05##0
+SPRLIB#PC1004A#*PGM#QPGMR#Edition des Accords Cadres Céline 290895 (Selecti)#184320#PC1004A#2022-08-25#1999-07-06##0
+SPRLIB#PC1004C#*PGM#QPGMR#Edition des Accords Cadres Céline 300895 (Fichier)#172032#PC1004C#2022-08-25#1995-10-05##0
+SPRLIB#PC1004D#*PGM#QPGMR#Edition des Accords <V2>#503808#PC1004D#2022-08-25#2014-07-21##0
+SPRLIB#PU0101A#*PGM#QSECOFR#Epuration des Codes Articles - Sélection#368640#PU0101A#2022-08-25#2014-10-06##0
+SPRLIB#PU0101B#*PGM#QSECOFR#Fichier article : Consultation en fenêtrage#184320#PU0101B#2022-08-25#2014-10-06##0
+SPRLIB#PU0102A#*PGM#QPGMR#Epuration des Tiers Clients#552960#PU0102A#2022-08-25#2014-07-22##0
+SPRLIB#PU0103A#*PGM#QPGMR#Epuration Historique Incidents.            JIRA200#126976##2022-08-25###0
+SPRLIB#PU1001A#*PGM#QPGMR#Lancement purges : Sélection#159744#PU1001A#2022-08-25#2004-09-05##0
+SPRLIB#PU1001C#*PGM#QPGMR#Lancement purges : Traitement#151552#PU1001C#2022-08-25#1998-03-04##0
+SPRLIB#PU1001D#*PGM#QSECOFR#Passage des historique cde achat année - 19#708608#PU1001D#2022-08-25#2014-02-05##0
+SPRLIB#PU1001E#*PGM#QSECOFR#Créat ds LOLOT cdes achats qui n'exsitent pas#126976#PU1001E#2022-08-25#2014-02-06##0
+SPRLIB#PU1001F#*PGM#QSECOFR#Suppression LVLVA plus anciens que 9 ans#118784#PU1001F#2022-08-25#2014-02-11##0
+SPRLIB#PU1002A#*PGM#QPGMR#Lancement purges : Sélection#143360#PU1002A#2022-08-25#2004-09-05##0
+SPRLIB#PU1002C#*PGM#QPGMR#Lancement purges : Gestion des ordres transports#192512#PU1002C#2022-08-25#2001-02-28##0
+SPRLIB#PU1003A#*PGM#QPGMR#Lancement purges : Sélection#139264#PU1003A#2022-08-25#2004-09-05##0
+SPRLIB#PU1003C#*PGM#QPGMR#Base données : Gest.des objectifs accord cadre#778240#PU1003C#2022-08-25#1999-03-23##0
+SPRLIB#SO1001A#*PGM#QPGMR#SOVAP - Lancement interf cptables : Sélection#147456#SO1001A#2022-08-25#2001-05-09##0
+SPRLIB#SO1001C#*PGM#QPGMR#SOVAP - Interface comptable#217088#SO1001C#2022-08-25#2001-06-10##0
+SPRLIB#SO1001K#*PGM#QPGMR#SOVAP - Intégration de SoICS#114688#SO1001K#2022-08-25#1999-10-21##0
+SPRLIB#ST0101A#*PGM#QPGMR#Fichier ordres de mouvements : Sélection  (ALN)#229376#ST0101A#2022-08-25#1999-07-07##0
+SPRLIB#ST0101B#*PGM#QPGMR#Fichier ordres de mouvements : Sous-fichier(ALJ125#983040#ST0101B#2022-08-25#2016-11-29##0
+SPRLIB#ST0101D#*PGM#QPGMR#Fichier ordres de mouvements : Gestion        J220#1134592#ST0101D#2022-08-25#2020-03-11##0
+SPRLIB#ST0101DSV#*PGM#QPGMR#Fichier ordres de mouvements : Gestion#622592#ST0101D#2022-08-25#1999-07-07##0
+SPRLIB#ST0101K#*PGM#QPGMR#Fichier ordres de mouvements : Contrôle#73728#ST0101K#2022-08-25#1992-01-12##0
+SPRLIB#ST0102A#*PGM#QPGMR#Gestion des O.M. à transmettre : Sélection#172032#ST0102A#2022-08-25#1999-07-07##0
+SPRLIB#ST0102B#*PGM#QPGMR#Gestion des O.M. à transmettre : Sous-fic (ALN)#286720#ST0102B#2022-08-25#1999-07-15##0
+SPRLIB#ST0102D#*PGM#QPGMR#Gestion des O.M. à transmettre : Mise à jour#114688#ST0102D#2022-08-25#1995-01-30##0
+SPRLIB#ST0102K#*PGM#QPGMR#Gestion des O.M. à transmettre : Contrôle#81920#ST0102K#2022-08-25#1995-01-27##0
+SPRLIB#ST0103A#*PGM#QPGMR#Fichier mouvements : Sélection                J163#401408#ST0103A#2022-08-25#2019-03-22##0
+SPRLIB#ST0103B#*PGM#QPGMR#Fichier mouvements : Sous-fichier             J163#897024#ST0103B#2022-08-25#2019-03-18##0
+SPRLIB#ST0103D#*PGM#QPGMR#Fichier mouvements : Gestion                  J220#1769472#ST0103D#2022-08-25#2020-02-26##0
+SPRLIB#ST0103DSV#*PGM#QPGMR#Fichier mouvements : Gestion#987136#ST0103D#2022-08-25#2001-03-21##0
+SPRLIB#ST0103G#*PGM#QPGMR#Création auto. mvt. BE suite à un BS sur OST  J193#782336##2022-08-25###0
+SPRLIB#ST0103K#*PGM#QSECOFR#Fichier mouvements : Contrôle               J140/2#135168#ST0103K#2022-08-25#2018-02-08##0
+SPRLIB#ST0105A#*PGM#QPGMR#Fichier découpes : Sélection#122880#ST0105A#2022-08-25#1999-07-07##0
+SPRLIB#ST0105B#*PGM#QPGMR#Fichier découpes : Sous-fichier               J125#266240#ST0105B#2022-08-25#2016-11-29##0
+SPRLIB#ST0105D#*PGM#QPGMR#Fichier découpes : Gestion#249856#ST0105D#2022-08-25#1999-07-07##0
+SPRLIB#ST0105K#*PGM#QPGMR#Fichier découpes : Contrôle#81920#ST0105K#2022-08-25#1992-11-30##0
+SPRLIB#ST0106B#*PGM#QPGMR#Fichier découpes : Sous-fichier (détail)#237568#ST0106B#2022-08-25#1999-07-07##0
+SPRLIB#ST0106D#*PGM#QPGMR#Fichier découpes : Gestion (détail)#204800#ST0106D#2022-08-25#1999-07-07##0
+SPRLIB#ST0106K#*PGM#QPGMR#Fichier découpes : Contrôle (détail)#73728#ST0106K#2022-08-25#1992-04-12##0
+SPRLIB#ST0107B#*PGM#QPGMR#Fichier découpes : Sous-fichier (exécutions)  J163#348160#ST0107B#2022-08-25#2019-03-22##0
+SPRLIB#ST0107K#*PGM#QPGMR#Fichier découpes : Contrôle (exécutions)#81920#ST0107K#2022-08-25#1992-12-08##0
+SPRLIB#ST0108A#*PGM#QPGMR#Automatisation de la découpe (Sélection)      J258#2899968##2022-08-25###0
+SPRLIB#ST0108A_02#*PGM#QPGMR#Automatisation de la découpe (Sélection)      J193#3002368##2022-08-25###0
+SPRLIB#ST0108A_03#*PGM#QPGMR#Automatisation de la découpe (Sélection)      J193#3006464##2022-08-25###0
+SPRLIB#ST0108A_04#*PGM#QPGMR#Automatisation de la découpe (Sélection)      J258#3010560##2022-08-25###0
+SPRLIB#ST0108C#*PGM#QPGMR#Automatisation de la découpe (Traitement)     J258#2969600##2022-08-25###0
+SPRLIB#ST0108C_01#*PGM#QPGMR#Automatisation de la découpe (Traitement)     J193#2998272##2022-08-25###0
+SPRLIB#ST0108C_03#*PGM#QPGMR#Automatisation de la découpe (Traitement)     J193#2994176##2022-08-25###0
+SPRLIB#ST0108C_04#*PGM#QPGMR#Automatisation de la découpe (Traitement)     J230#2965504##2022-08-25###0
+SPRLIB#ST0170C#*PGM#QPGMR#Création du fichier ordres                   J205A#471040#ST0170C#2022-08-25#2019-08-01##0
+SPRLIB#ST0170C_01#*PGM#QPGMR#Création du fichier ordres#282624#ST0170C#2022-08-25#2014-07-21##0
+SPRLIB#ST0175A#*PGM#QPGMR#Initialisation fichiers pour PRESSLOG#151552#ST0175A#2022-08-25#1999-07-07##0
+SPRLIB#ST0175C#*PGM#QPGMR#Initialisation de fichiers à transmettre#327680#ST0175C#2022-08-25#2014-09-19##0
+SPRLIB#ST0180A#*PGM#QPGMR#Injection des mouvements Presslog (Sélection)#122880#ST0180A#2022-08-25#1999-07-07##0
+SPRLIB#ST0180C#*PGM#QPGMR#Injection des mouvements Presslog (Traitement)#262144#ST0180C#2022-08-25#2000-10-18##0
+SPRLIB#ST0180D#*PGM#QPGMR#Injection des mouvements Presslog (Batch)     J220#1486848#ST0180D#2022-08-25#2020-03-12##0
+SPRLIB#ST0180N#*PGM#QPGMR#Injection des mouvements Presslog (Sélection)#57344#ST0180N#2022-08-25#1994-06-29##0
+SPRLIB#ST0185A#*PGM#QPGMR#Initialisation fichiers pour PRESSLOG#118784#ST0185A#2022-08-25#1999-07-07##0
+SPRLIB#ST0185C#*PGM#QPGMR#Récupération des Ordres de mouvements Presslog#176128#ST0185C#2022-08-25#1996-06-06##0
+SPRLIB#ST0185N#*PGM#QPGMR#Récupération ordres de mouvement des entrepôts#49152#ST0185N#2022-08-25#1996-04-23##0
+SPRLIB#ST0190A#*PGM#QPGMR#Processus de fin de semaine : Sélection#208896#ST0190A#2022-08-25#2000-11-20##0
+SPRLIB#ST0190B#*PGM#QPGMR#Processus de fin de semaine : Appel#409600#ST0190B#2022-08-25#2000-11-20##0
+SPRLIB#ST0190N#*PGM#QPGMR#Processus de fin de semaine : Sélection (ALN)#69632#ST0190N#2022-08-25#2000-11-20##0
+SPRLIB#ST0191A#*PGM#QPGMR#Clôture mensuelle : Sélection#208896#ST0191A#2022-08-25#2001-10-05##0
+SPRLIB#ST0191B#*PGM#QPGMR#Clôture mensuelle : Appel#163840#ST0191B#2022-08-25#2001-07-09##0
+SPRLIB#ST0191C#*PGM#QPGMR#Clôture annuelle  : Historique#405504#ST0191C#2022-08-25#2002-01-15##0
+SPRLIB#ST0191N#*PGM#QPGMR#Clôture mensuelle : Sélection (Trt Nuit)#143360#ST0191N#2022-08-25#2001-04-27##0
+SPRLIB#ST0192B#*PGM#QSECOFR#Epuration lots avec bobines sans tonnage    J140/6#1429504##2022-08-25###0
+SPRLIB#ST0501A#*PGM#QSECOFR#Consultation des stocks : Sélection#389120#ST0501A#2022-08-25#2016-01-27##0
+SPRLIB#ST0501A1#*PGM#QSECOFR#Consultation des stocks : Sélection (f15) (ALN)#368640#ST0501A1#2022-08-25#2016-01-28##0
+SPRLIB#ST0501B#*PGM#QSECOFR#Consultation des stocks : Affic. principal#2371584#ST0501B#2022-08-25#2016-01-27##0
+SPRLIB#ST0502B#*PGM#QSECOFR#Consultation des stocks : Réservations#888832#ST0502B#2022-08-25#2016-01-27##0
+SPRLIB#ST0503B#*PGM#QSECOFR#Consultation des stocks : Lots              J140/3#675840#ST0503B#2022-08-25#2018-02-14##0
+SPRLIB#ST0503BVS#*PGM#QPGMR#Consultation des stocks : Lots#585728#ST0503B#2022-08-25#1995-01-03##0
+SPRLIB#ST0503B1#*PGM#QPGMR#Consultation des stocks : Lots anomalies (litiges)#765952#ST0503B1#2022-08-25#1999-07-15##0
+SPRLIB#ST0503E#*PGM#QPGMR#Affichage Stock prévisionnel disponible       J156#573440##2022-08-25###0
+SPRLIB#ST0504B#*PGM#QPGMR#Consultation des stocks : Détail / lot sain   J163#434176#ST0504B#2022-08-25#2019-03-22##0
+SPRLIB#ST0506A#*PGM#QPGMR#Consultation des stocks à 4 semaines : Sélection#180224#ST0506A#2022-08-25#1999-07-07##0
+SPRLIB#ST0506B#*PGM#QPGMR#Consultation des stocks à 4 semaines : Affichage#622592#ST0506B#2022-08-25#1999-07-07##0
+SPRLIB#ST0510A#*PGM#QPGMR#Consult.par ancienneté des lots stocks : Sélection#204800#ST0510A#2022-08-25#1999-07-07##0
+SPRLIB#ST0510B#*PGM#QPGMR#Consultation des stocks : Lots#638976#ST0510B#2022-08-25#2001-03-09##0
+SPRLIB#ST1001A#*PGM#QPGMR#Transmission des O.M. : Sélection#147456#ST1001A#2022-08-25#1999-08-02##0
+SPRLIB#ST1001C#*PGM#QPGMR#Transmission des O.M. : Extraction fichier (ALN)#221184#ST1001C#2022-08-25#2001-02-28##0
+SPRLIB#ST1001D#*PGM#QSECOFR#Transmission des O.M (Edition)                J172#528384#ST1001D#2022-08-25#2018-03-07##0
+SPRLIB#ST1004A#*PGM#QPGMR#Etat détaillé des stocks par mois (Sélection)#200704#ST1004A#2022-08-25#2001-03-20##0
+SPRLIB#ST1004C#*PGM#QPGMR#Etat détaillé des stocks par mois (Fichier)#258048#ST1004C#2022-08-25#1996-04-17##0
+SPRLIB#ST1004D#*PGM#QPGMR#Etat détaillé des stocks par mois (Edition)#208896#ST1004D#2022-08-25#1999-06-21##0
+SPRLIB#ST1005A#*PGM#QPGMR#Etat général des stocks par mois (Sélection)#167936#ST1005A#2022-08-25#2002-01-16##0
+SPRLIB#ST1005C#*PGM#QSECOFR#Etat général des stocks par mois (Fichier)(ALN)#385024#ST1005C#2022-08-25#2015-09-10##0
+SPRLIB#ST1005D#*PGM#QSECOFR#Etat général des stocks par mois (Edition) (ALN)#241664#ST1005D#2022-08-25#2014-05-02##0
+SPRLIB#ST1006A#*PGM#QPGMR#Etat des stocks à régulariser (Sélection)#159744#ST1006A#2022-08-25#2001-03-20##0
+SPRLIB#ST1006C#*PGM#QPGMR#Etat des stocks à régulariser (Fichier)#180224#ST1006C#2022-08-25#1993-12-17##0
+SPRLIB#ST1006D#*PGM#QPGMR#Etat des stocks à régulariser (Edition)#192512#ST1006D#2022-08-25#1999-08-18##0
+SPRLIB#ST1009A#*PGM#QPGMR#Etat de ctrl des frais d'entreposage (Sélection)#167936#ST1009A#2022-08-25#2001-03-20##0
+SPRLIB#ST1009C#*PGM#QPGMR#Etat de ctrl des frais d'entreposage : Fichier#253952#ST1009C#2022-08-25#1995-01-05##0
+SPRLIB#ST1009D#*PGM#QPGMR#Etat de ctrl des frais d'entreposage : Edition#266240#ST1009D#2022-08-25#1999-08-18##0
+SPRLIB#ST1010A#*PGM#QPGMR#Edition du cours de route  Transfert (ALN)#118784#ST1010A#2022-08-25#1999-07-07##0
+SPRLIB#ST1010C#*PGM#QPGMR#Extraction cours de route  Transfert (ALN)#159744#ST1010C#2022-08-25#1996-08-01##0
+SPRLIB#ST1010D#*PGM#QPGMR#Edition cours de route transfert#225280#ST1010D#2022-08-25#1999-08-18##0
+SPRLIB#ST1011A#*PGM#QPGMR#Etat détail.stocks pour un entrepot (Sélection)#155648#ST1011A#2022-08-25#1999-07-07##0
+SPRLIB#ST1011C#*PGM#QPGMR#Etat dét.des stocks pour un entrepot (Fichier)#110592#ST1011C#2022-08-25#1995-12-01##0
+SPRLIB#ST1011D#*PGM#QPGMR#Etat dét.des stocks pour un entrepot (Edition)#180224#ST1011D#2022-08-25#1999-08-18##0
+SPRLIB#ST1012A#*PGM#QPGMR#Liste projection des niveaux de stock par entrepot#126976#ST1012A#2022-08-25#1999-07-07##0
+SPRLIB#ST1012C#*PGM#QPGMR#Maj fichier pour étude de flux#163840#ST1012C#2022-08-25#2001-02-28##0
+SPRLIB#ST1015A#*PGM#QPGMR#Etat manutention des Entrepôts (Sélection)#143360#ST1015A#2022-08-25#2001-01-10##0
+SPRLIB#ST1015C#*PGM#QPGMR#Etat manutention des Entrepôts (Fichier)#114688#ST1015C#2022-08-25#2001-01-04##0
+SPRLIB#ST1015D#*PGM#QPGMR#Etat manutention des Entrepôts (Edition)#180224#ST1015D#2022-08-25#2009-08-20##0
+SPRLIB#ST1015D_S#*PGM#QPGMR#Etat manutention des Entrepôts (Edition)#180224#ST1015D#2022-08-25#2001-02-06##0
+SPRLIB#ST1016A#*PGM#QPGMR#Etat Stock fin de mois en Entrepôts (Sélection)#143360#ST1016A#2022-08-25#2001-02-05##0
+SPRLIB#ST1016C#*PGM#QPGMR#Etat Stock fin de mois en Entrepôts (Fichier)#143360#ST1016C#2022-08-25#2001-01-04##0
+SPRLIB#ST1016D#*PGM#QPGMR#Etat Stock fin de mois en Entrepôts (Edition)#192512#ST1016D#2022-08-25#2001-02-07##0
+SPRLIB#ST1017A#*PGM#QPGMR#Etat Stock fin de mois / Usines (Sélection)#143360#ST1017A#2022-08-25#2002-02-05##0
+SPRLIB#ST1017C#*PGM#QPGMR#Etat Stock fin de mois / Usines (Fichier)#151552#ST1017C#2022-08-25#2002-02-05##0
+SPRLIB#ST1017D#*PGM#QPGMR#Etat Stock fin de mois en Entrepôts (Edition)#192512#ST1017D#2022-08-25#2002-02-05##0
+SPRLIB#ST1030A#*PGM#QPGMR#Liste Ancienneté des lots/Entrepôts  (Sélection)#110592#ST1030A#2022-08-25#2000-09-04##0
+SPRLIB#ST1045A#*PGM#QPGMR#Etat des Entrées/Sorties sur Transfert : Sélection#135168#ST1045A#2022-08-25#2001-03-20##0
+SPRLIB#ST1045C#*PGM#QPGMR#Etat des Entrées/Sorties sur Transfert : Fichier#126976#ST1045C#2022-08-25#2000-08-31##0
+SPRLIB#ST1045D#*PGM#QPGMR#Etat des Entrées/Sorties sur Transfert : Edition#196608#ST1045D#2022-08-25#2000-09-01##0
+SPRLIB#ST1045D1#*PGM#QPGMR#Etat des Entrées/Sorties sur Transfert : Edition#176128#ST1045D1#2022-08-25#2000-09-01##0
+SPRLIB#ST1079B#*PGM#QPGMR#Conversion de zones SVPLPLG#94208#ST1079B#2022-08-25#1997-12-19##0
+SPRLIB#ST1081A#*PGM#QPGMR#Liste des mvts de stock /Ano/Orig    (Sélection)#131072#ST1081A#2022-08-25#1999-07-07##0
+SPRLIB#ST1081C#*PGM#QPGMR#Liste des mvts de stock /Ano/Orig (Fichier)#180224#ST1081C#2022-08-25#1993-05-05##0
+SPRLIB#ST1081D#*PGM#QPGMR#Liste des mvts de stock /Ano/Orig (Edition)#212992#ST1081D#2022-08-25#1999-06-18##0
+SPRLIB#ST1082A#*PGM#QPGMR#Liste des mvts de stock /Ano/Orig (Sélection)#118784#ST1082A#2022-08-25#1999-07-07##0
+SPRLIB#ST1082C#*PGM#QPGMR#Liste des mvts de stock /Ano/Orig (Fichier)#126976#ST1082C#2022-08-25#1993-05-05##0
+SPRLIB#ST1082D#*PGM#QPGMR#Liste des mvts de stock /Ano/Orig (Edition)#221184#ST1082D#2022-08-25#1999-06-18##0
+SPRLIB#ST1083A#*PGM#QPGMR#Liste des mvts de stock /Ano/Orig    (Sélection)#135168#ST1083A#2022-08-25#1999-07-07##0
+SPRLIB#ST1083C#*PGM#QPGMR#Liste des mvts de stock /Ano/Orig    (Fichier)#151552#ST1083C#2022-08-25#1997-09-03##0
+SPRLIB#ST1083D#*PGM#QPGMR#Liste des mvts de stock /Ano/Orig (Edition)#212992#ST1083D#2022-08-25#1999-06-18##0
+SPRLIB#ST7901#*PGM#QPGMR#Récupération du fichier micro pour AS400 ...P0PLG#200704#ST7901#2022-08-25#2001-03-09##0
+SPRLIB#TB9901A#*PGM#QSECOFR#Contrôle en table (retour 00 = OK)            J149#126976##2022-08-25###0
+SPRLIB#TR0101A#*PGM#QPGMR#Fichier ordres de transport : Sélection#184320#TR0101A#2022-08-25#1993-09-15##0
+SPRLIB#TR0101B#*PGM#QPGMR#Fichier ordres de transport : Sous-fichier    J224#552960#TR0101B#2022-08-25#2021-03-06##0
+SPRLIB#TR0101B_01#*PGM#QPGMR#Fichier ordres de transport : Sous-fichier#307200#TR0101B#2022-08-25#2001-03-06##0
+SPRLIB#TR0101D#*PGM#QPGMR#Fichier ordres de transport : Gestion         J224#995328#TR0101D#2022-08-25#2020-06-16##0
+SPRLIB#TR0101D_01#*PGM#QPGMR#Fichier ordres de transport : Gestion#524288#TR0101D#2022-08-25#2001-03-06##0
+SPRLIB#TR0101K#*PGM#QPGMR#Fichier ordres de transport : Contrôle        J224#163840#TR0101K#2022-08-25#2021-03-06##0
+SPRLIB#TR0101K_01#*PGM#QPGMR#Fichier ordres de transport : Contrôle#81920#TR0101K#2022-08-25#1995-11-08##0
+SPRLIB#TR0101Z#*PGM#QPGMR#Vie de l'OT et actions chez le 4PL : Fenêtre  J279#294912#TR0101Z#2022-08-25#2021-12-03##0
+SPRLIB#TR0102B#*PGM#QPGMR#Fichier arrivage : Sous-fichier#212992#TR0102B#2022-08-25#1995-11-08##0
+SPRLIB#TR0103A#*PGM#QPGMR#Contrôle des factures trsp. : pied selection#204800#TR0103A#2022-08-25#1994-10-12##0
+SPRLIB#TR0103B#*PGM#QPGMR#Contrôle des fac trsp. : pied sous-fichier    J314#446464#TR0103B#2022-08-25#2022-04-01##0
+SPRLIB#TR0103D#*PGM#QSECOFR#Contrôle des factures trsp. : pied saisie     J314#409600#TR0103D#2022-08-25#2022-04-01##0
+SPRLIB#TR0103F#*PGM#QPGMR#Suppression pied facture et détopage OT/arriv J314#212992##2022-08-25###0
+SPRLIB#TR0103K#*PGM#QPGMR#Contrôle des factures trsp. : pied contrôle   J314#90112#TR0103K#2022-08-25#2022-03-31##0
+SPRLIB#TR0104B#*PGM#QPGMR#Contrôle des factures trsp. : liste O.T. (ALN)#303104#TR0104B#2022-08-25#1994-10-11##0
+SPRLIB#TR0105B#*PGM#QPGMR#Contrôle des factures trsp. : OT n topés opt9#626688#TR0105B#2022-08-25#2004-09-05##0
+SPRLIB#TR0105B_01#*PGM#QPGMR#Contrôle des factures trsp. : OT n topés opt9#376832#TR0105B#2022-08-25#2002-10-10##0
+SPRLIB#TR0106B#*PGM#QPGMR#Contrôle des factures trsp. : sf arrivages (ALN)#593920#TR0106B#2022-08-25#2004-09-05##0
+SPRLIB#TR0106B_SV#*PGM#QPGMR#Contrôle des factures trsp. : sf arrivages (ALN)#352256#TR0106B#2022-08-25#2001-01-24##0
+SPRLIB#TR0106D#*PGM#QPGMR#Contrôle des factures trsp. : topage arrivagesJ220#327680#TR0106D#2022-08-25#2020-03-11##0
+SPRLIB#TR0106K#*PGM#QPGMR#Contrôle des factures trsp. : ctrl arrivages#81920#TR0106K#2022-08-25#1993-03-22##0
+SPRLIB#TR0106L#*PGM#QPGMR#Contrôle des factures trsp. : vérif. arrivages#114688#TR0106L#2022-08-25#1993-04-15##0
+SPRLIB#TR0107B#*PGM#QPGMR#Contrôle des factures trsp. : ajustements pied#286720#TR0107B#2022-08-25#1993-07-22##0
+SPRLIB#TR0107D#*PGM#QPGMR#Contrôle des factures trsp. : maj ajustement#286720#TR0107D#2022-08-25#1993-07-01##0
+SPRLIB#TR0107K#*PGM#QPGMR#Contrôle des factures trsp. : ctl ajustement#81920#TR0107K#2022-08-25#1993-03-18##0
+SPRLIB#TR0108B#*PGM#QPGMR#Contrôle des factures trsp. : sf arrivages#315392#TR0108B#2022-08-25#1994-02-11##0
+SPRLIB#TR0109B#*PGM#QPGMR#Contrôle des factures trsp. :liste O.T. topés(ALN)#299008#TR0109B#2022-08-25#1999-04-30##0
+SPRLIB#TR0110A#*PGM#QPGMR#consultation transmissions AE/AL#180224#TR0110A#2022-08-25#1996-07-23##0
+SPRLIB#TR0110B#*PGM#QPGMR#consultation transmission AE/AL#294912#TR0110B#2022-08-25#1999-04-30##0
+SPRLIB#TR0111B#*PGM#QPGMR#Visualisation tarifs transports : sous fichier#131072#TR0111B#2022-08-25#1998-03-23##0
+SPRLIB#TR0112A#*PGM#QPGMR#Màj des écriture N/Comptables#188416#TR0112A#2022-08-25#2000-07-04##0
+SPRLIB#TR0112B#*PGM#QPGMR#Contrôle des factures trsp.#270336#TR0112B#2022-08-25#2000-07-04##0
+SPRLIB#TR0112D#*PGM#QPGMR#Màj des écriture N/Comptables#192512#TR0112D#2022-08-25#2000-07-07##0
+SPRLIB#TR0112K#*PGM#QPGMR#Contrôle des factures trsp.#81920#TR0112K#2022-08-25#1998-02-09##0
+SPRLIB#TR0190C#*PGM#QPGMR#Constitution fichier historique Transport#278528#TR0190C#2022-08-25#1996-06-05##0
+SPRLIB#TR1001A#*PGM#QPGMR#Ed. de Suivi des Ordres de Transport (Sélection)#184320#TR1001A#2022-08-25#1993-05-05##0
+SPRLIB#TR1001C#*PGM#QPGMR#Ed. de Suivi des Ordres de Transport (Fic) (ALN)#208896#TR1001C#2022-08-25#1993-09-29##0
+SPRLIB#TR1001D#*PGM#QPGMR#Ed. de suivi des Ordres de Transport (Edit. Tri 1)#204800#TR1001D#2022-08-25#1999-08-18##0
+SPRLIB#TR1001E#*PGM#QPGMR#Ed. de suivi des Ordres de Transport (Edit. Tri 2)#208896#TR1001E#2022-08-25#1999-08-18##0
+SPRLIB#TR1002A#*PGM#QPGMR#Transmission des O.T. : Sélection#151552#TR1002A#2022-08-25#1994-12-16##0
+SPRLIB#TR1002C#*PGM#QPGMR#Transmission des O.T. : Extrac fichier  (ALN)#147456#TR1002C#2022-08-25#1994-12-09##0
+SPRLIB#TR1002D#*PGM#QPGMR#Transmission des O.T. : Edition#544768#TR1002D#2022-08-25#2014-09-23##0
+SPRLIB#TR1002DOLD#*PGM#QPGMR#Transmission des O.T. : Edition#299008#TR1002D#2022-08-25#2004-09-05##0
+SPRLIB#TR1003A#*PGM#QPGMR#Transmission des O.T. : Sélection#155648#TR1003A#2022-08-25#1994-12-16##0
+SPRLIB#TR1003C#*PGM#QPGMR#Transmission des O.T. : Extraction fichier (ALN)#270336#TR1003C#2022-08-25#1996-04-01##0
+SPRLIB#TR1003D#*PGM#QSECOFR#Transmission des O.T (Edition)#344064#TR1003D#2022-08-25#2014-12-19##0
+SPRLIB#TR1004A#*PGM#QPGMR#Ed. de Suivi des Ordres de Transport (Sélection)#143360#TR1004A#2022-08-25#2000-12-19##0
+SPRLIB#TR1004C#*PGM#QPGMR#Ed. de Suivi des Ordres de Transport (Fic) (ALN)#135168#TR1004C#2022-08-25#2000-12-19##0
+SPRLIB#TR1005A#*PGM#QPGMR#Suivi du Transport Mensuel Réalisé#131072#TR1005A#2022-08-25#2002-02-06##0
+SPRLIB#TR1091A#*PGM#QPGMR#Edition Historique transport (revue)#176128#TR1091A#2022-08-25#1999-11-24##0
+SPRLIB#TR1091C#*PGM#QPGMR#Edition Historique transport : Fichier (revue)#266240#TR1091C#2022-08-25#1998-04-02##0
+SPRLIB#TR1091D#*PGM#QPGMR#Edition Historique transports : Transp. (revue)#356352#TR1091D#2022-08-25#1999-08-18##0
+SPRLIB#TR1091E#*PGM#QPGMR#Edition Historique transports : Li.départ (revue)#360448#TR1091E#2022-08-25#1999-08-18##0
+SPRLIB#TR1091F#*PGM#QPGMR#Traitement pour micro Recup fichier transport#143360#TR1091F#2022-08-25#1999-11-26##0
+SPRLIB#TR1091G#*PGM#QPGMR#Edition Historique transports : Li.arrivé (revue)#360448#TR1091G#2022-08-25#1999-08-18##0
+SPRLIB#TR1092A#*PGM#QPGMR#Edition Résultat Transport - Sélection#118784#TR1092A#2022-08-25#2002-03-26##0
+SPRLIB#TR1092C#*PGM#QPGMR#Edition Résultat Transport - Fichier#131072#TR1092C#2022-08-25#2002-03-26##0
+SPRLIB#TR1092D#*PGM#QPGMR#Edition Résultat Transport - Edition#212992#TR1092D#2022-08-25#2002-03-27##0
+SPRLIB#TR2001E#*PGM#QPGMR#Externaliser Trp : Interface GTI vers 4PLM    J279#2605056##2022-08-25###0
+SPRLIB#TR2001E_01#*PGM#QPGMR#Externaliser Trp : Interface GTI vers 4PLM    J255#2322432##2022-08-25###0
+SPRLIB#TR2001E_02#*PGM#QPGMR#Externaliser Trp : Interface GTI vers 4PLM   J255A#2363392##2022-08-25###0
+SPRLIB#TR2002E#*PGM#QPGMR#Externaliser Trp : Interface venant du 4PL    J279#274432##2022-08-25###0
+SPRLIB#TR2099A#*PGM#QPGMR#Interface transport : recherche du code 4PLM J225A#237568##2022-08-25###0
+SPRLIB#TR2100G#*PGM#QPGMR#Externaliser Trp : Accusé de réception 4PL    J224#925696##2022-08-22###0
+SPRLIB#TR2101F#*PGM#QPGMR#Externaliser Trp : Données transporteur       J224#831488##2022-08-25###0
+SPRLIB#TR2102F#*PGM#QPGMR#Externaliser Trp : Accusé de réception 4PL   J279B#1253376##2022-08-25###0
+SPRLIB#TR2102F01#*PGM#QPGMR#Externaliser Trp : Accusé de réception 4PL    J279#1228800##2022-08-25###0
+SPRLIB#TR2103F#*PGM#QPGMR#Externaliser Trp : Choix transporteur  4PL   J279B#1286144##2022-08-25###0
+SPRLIB#TR2103F01#*PGM#QPGMR#Externaliser Trp : Choix transporteur  4PL    J279#1261568##2022-08-25###0
+SPRLIB#TR2104F#*PGM#QPGMR#Externaliser Trp : Arrivages transport        J279#2125824##2022-08-25###0
+SPRLIB#TR2105F#*PGM#QPGMR#Externaliser Trp : Factures transport        J279C#1449984##2022-08-25###0
+SPRLIB#TR2105F_A#*PGM#QPGMR#Externaliser Trp : Factures transport        J314#1429504##2022-08-25###0
+SPRLIB#TR2105F_O#*PGM#QPGMR#Externaliser Trp : Factures transport        J279C#2338816##2022-08-25###0
+SPRLIB#TR2105F01#*PGM#QPGMR#Externaliser Trp : Factures transport         J224#1331200##2022-08-25###0
+SPRLIB#TR2105F02#*PGM#QPGMR#Externaliser Trp : Factures transport         J279#2236416##2022-08-25###0
+SPRLIB#TR2105F03#*PGM#QPGMR#Externaliser Trp : Factures transport        J279C#2322432##2022-08-25###0
+SPRLIB#TR2110G#*PGM#QPGMR#Externaliser Trp : Ctrl. OT transmis par 4PL J255B#1568768##2022-08-25###0
+SPRLIB#TR2110G_01#*PGM#QPGMR#Externaliser Trp : Ctrl. OT transmis par 4PL  J224#1564672##2022-08-25###0
+SPRLIB#TR2110G_02#*PGM#QPGMR#Externaliser Trp : Ctrl. OT transmis par 4PL  J224#1585152##2022-08-25###0
+SPRLIB#TR2120H#*PGM#QPGMR#Externaliser TRP : Création arrivages Achats J255D#2756608##2022-08-25###0
+SPRLIB#TR2130H#*PGM#QPGMR#Externaliser TRP : Création arrivages Ventes J255D#1331200##2022-08-25###0
+SPRLIB#TR2901A#*PGM#QPGMR#MàJ OT de 4 PLM : tarif transporteur réel     J279#1052672##2022-08-25###0
+SPRLIB#TR2905A#*PGM#QPGMR#Externaliser TRP : Actualisation des OT       J279#1257472##2022-08-25###0
+SPRLIB#TR3001A#*PGM#QPGMR#Affectation 4PLM à ordre de transport         J255#397312##2022-08-25###0
+SPRLIB#TS1001A#*PGM#QPGMR#Etat des volumes par transitaires (Sélection)#151552#TS1001A#2022-08-25#1999-07-06##0
+SPRLIB#TS1001C#*PGM#QPGMR#Etat des volumes par transitaires (Fichier)#159744#TS1001C#2022-08-25#1994-03-21##0
+SPRLIB#TS1001D#*PGM#QPGMR#Etat des volumes par transitaires (Edition)#192512#TS1001D#2022-08-25#1999-08-18##0
+SPRLIB#TS1002A#*PGM#QPGMR#Etat des commandes par transitaires (Sélection)#163840#TS1002A#2022-08-25#1999-07-06##0
+SPRLIB#TS1002C#*PGM#QPGMR#Etat des commandes par transitaires (Fichier)#184320#TS1002C#2022-08-25#1994-03-21##0
+SPRLIB#TS1002D#*PGM#QPGMR#Etat des commandes par transitaires (Edition)#208896#TS1002D#2022-08-25#1999-08-18##0
+SPRLIB#TS1003A#*PGM#QPGMR#Etat de ctrl factures transitaires (Sélection)#167936#TS1003A#2022-08-25#1999-07-06##0
+SPRLIB#TS1003C#*PGM#QPGMR#Etat de ctrl fact transitaires (Fichier) (Terres)#217088#TS1003C#2022-08-25#1995-07-10##0
+SPRLIB#TS1003C1#*PGM#QPGMR#Etat de ctrl factures transitaires (Maritime)#217088#TS1003C1#2022-08-25#1995-07-10##0
+SPRLIB#TS1003D#*PGM#QPGMR#Etat de ctrl.fact. transit. TERRESTRE (Edition)#200704#TS1003D#2022-08-25#1999-08-18##0
+SPRLIB#TS1003E#*PGM#QPGMR#Etat de ctrl.fact. transit. MARITIME  (Edition)#208896#TS1003E#2022-08-25#1999-08-18##0
+SPRLIB#TS1004A#*PGM#QPGMR#Edition des Ordres de Dédouanement     (Sélection)#176128#TS1004A#2022-08-25#1999-07-06##0
+SPRLIB#TS1004C#*PGM#QPGMR#Edition des Ordres de Dédouanement     (Fichier  )#159744#TS1004C#2022-08-25#2001-02-28##0
+SPRLIB#TS1004D#*PGM#QPGMR#Edition des ordres de dédouanement#356352#TS1004D#2022-08-25#1997-07-21##0
+SPRLIB#YA0000RPG#*PGM#QPGMR#controle ordres recus par PRESSLOG : calcul date#106496##2022-08-25###0
+SPRLIB#YLMOUVTRPG#*PGM#QPGMR#mouchard suppression commande de vente#176128##2022-08-25###0
