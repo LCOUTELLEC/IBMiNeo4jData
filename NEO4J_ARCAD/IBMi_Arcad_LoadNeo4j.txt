@@ -1,0 +1,433 @@
+// =====================================================
+// SCRIPT CYPHER - CHARGEMENT PATRIMOINE IBMi ARCAD
+// =====================================================
+// Configuration: Neo4j SSL (bolt+s://neo4j.coutellec.fr:7687)
+// Source: GitHub LCOUTELLEC/IBMiNeo4jData/NEO4J_ARCAD/csv_neo4j/
+// 
+// ⚡ PRÊT POUR L'EXÉCUTION ⚡
+// =====================================================
+
+// =========== PHASE 0: CONFIGURATION ===========
+
+// URL de base pour vos CSV sur GitHub
+:param githubBaseUrl => 'https://raw.githubusercontent.com/LCOUTELLEC/IBMiNeo4jData/main/NEO4J_ARCAD/csv_neo4j/';
+
+// =========== PHASE 1: NETTOYAGE (OPTIONNEL) ===========
+
+// ⚠️ ATTENTION: Décommentez seulement si vous voulez supprimer toutes les données
+// MATCH (n) DETACH DELETE n;
+
+// Vérification de la connexion et test d'accès aux CSV
+RETURN 'Neo4j connecté - Prêt pour le chargement' as Status, datetime() as Timestamp;
+
+// =========== PHASE 2: CRÉATION DES CONTRAINTES ET INDEX ===========
+
+// Contraintes d'unicité avec noms explicites
+CREATE CONSTRAINT constraint_programme_unique IF NOT EXISTS 
+FOR (n:Programme) REQUIRE (n.name, n.library) IS UNIQUE;
+
+CREATE CONSTRAINT constraint_table_unique IF NOT EXISTS 
+FOR (n:Table) REQUIRE (n.name, n.library) IS UNIQUE;
+
+CREATE CONSTRAINT constraint_source_unique IF NOT EXISTS 
+FOR (n:Source) REQUIRE (n.name, n.library, n.sourceFile) IS UNIQUE;
+
+CREATE CONSTRAINT constraint_application_unique IF NOT EXISTS 
+FOR (n:Application) REQUIRE n.name IS UNIQUE;
+
+CREATE CONSTRAINT constraint_type_ibmi_unique IF NOT EXISTS 
+FOR (n:TypeObjIBMi) REQUIRE n.name IS UNIQUE;
+
+CREATE CONSTRAINT constraint_type_arcad_unique IF NOT EXISTS 
+FOR (n:TypeObjARCAD) REQUIRE n.name IS UNIQUE;
+
+CREATE CONSTRAINT constraint_attribut_unique IF NOT EXISTS 
+FOR (n:Attribut) REQUIRE n.name IS UNIQUE;
+
+// Index pour optimiser les performances
+CREATE INDEX index_programme_name_lib IF NOT EXISTS FOR (n:Programme) ON (n.name, n.library);
+CREATE INDEX index_table_name_lib IF NOT EXISTS FOR (n:Table) ON (n.name, n.library);
+CREATE INDEX index_source_name_lib IF NOT EXISTS FOR (n:Source) ON (n.name, n.library);
+CREATE INDEX index_programme_attribute IF NOT EXISTS FOR (n:Programme) ON (n.attribute);
+CREATE INDEX index_table_attribute IF NOT EXISTS FOR (n:Table) ON (n.attribute);
+
+// =========== PHASE 3: CHARGEMENT DES MÉTADONNÉES ===========
+
+// 3.1 Applications
+LOAD CSV WITH HEADERS FROM $githubBaseUrl + 'applications.csv' AS row
+WITH row WHERE row.name IS NOT NULL AND trim(row.name) <> ''
+MERGE (app:Application {name: trim(row.name)})
+SET app.description = trim(row.description),
+    app.loadedAt = datetime();
+
+// 3.2 Types IBMi
+LOAD CSV WITH HEADERS FROM $githubBaseUrl + 'types_ibmi.csv' AS row
+WITH row WHERE row.type_name IS NOT NULL AND trim(row.type_name) <> ''
+MERGE (type:TypeObjIBMi {name: trim(row.type_name)})
+SET type.description = trim(row.description),
+    type.loadedAt = datetime();
+
+// 3.3 Types ARCAD
+LOAD CSV WITH HEADERS FROM $githubBaseUrl + 'types_arcad.csv' AS row
+WITH row WHERE row.type_name IS NOT NULL AND trim(row.type_name) <> ''
+MERGE (type:TypeObjARCAD {name: trim(row.type_name)})
+SET type.description = trim(row.description),
+    type.loadedAt = datetime();
+
+// 3.4 Attributs
+LOAD CSV WITH HEADERS FROM $githubBaseUrl + 'attributs.csv' AS row
+WITH row WHERE row.attr_name IS NOT NULL AND trim(row.attr_name) <> ''
+MERGE (attr:Attribut {name: trim(row.attr_name)})
+SET attr.description = trim(row.description),
+    attr.loadedAt = datetime();
+
+// =========== PHASE 4: CHARGEMENT DES SOURCES ===========
+
+LOAD CSV WITH HEADERS FROM $githubBaseUrl + 'IBMi_RefArcaddesSources.csv' AS row
+WITH row WHERE row.LST_CELTTY = 'M' 
+  AND row.LST_CTYPE IN ['RPG', 'RPGLE', 'SQLRPG', 'SQLRPGLE', 'CLP', 'CLLE', 'CBL', '*FILE']
+  AND row.LST_JOBJ IS NOT NULL AND trim(row.LST_JOBJ) <> ''
+  AND row.LST_JLIB IS NOT NULL AND trim(row.LST_JLIB) <> ''
+
+MERGE (src:Source {
+    name: trim(row.LST_JOBJ), 
+    library: trim(row.LST_JLIB),
+    sourceFile: trim(coalesce(row.LST_JSRCF, ''))
+})
+SET src.sourceType = trim(row.LST_CTYPE),
+    src.description = trim(coalesce(row.LST_CTXT, '')),
+    src.lastModified = CASE 
+        WHEN row.LST_TDATE IS NOT NULL AND row.LST_TDATE <> '' 
+        THEN CASE
+            WHEN row.LST_TDATE =~ '\\d{4}-\\d{2}-\\d{2}' THEN date(row.LST_TDATE)
+            WHEN size(toString(row.LST_TDATE)) >= 8 
+            THEN date(substring(toString(row.LST_TDATE), 0, 4) + '-' + 
+                     substring(toString(row.LST_TDATE), 4, 2) + '-' + 
+                     substring(toString(row.LST_TDATE), 6, 2))
+            ELSE null
+        END
+        ELSE null 
+    END,
+    src.lineCount = CASE 
+        WHEN row.LST_JZSEL1 IS NOT NULL 
+        THEN toInteger(row.LST_JZSEL1) 
+        ELSE 0 
+    END,
+    src.loadedAt = datetime();
+
+// =========== PHASE 5: CHARGEMENT DES PROGRAMMES ===========
+
+LOAD CSV WITH HEADERS FROM $githubBaseUrl + 'IBMi_RefArcaddesObjets_Programmes.csv' AS row
+WITH row WHERE row.LST_CELTTY = 'O' 
+  AND row.LST_CTYPE = '*PGM'
+  AND row.LST_JOBJ IS NOT NULL AND trim(row.LST_JOBJ) <> ''
+  AND row.LST_JLIB IS NOT NULL AND trim(row.LST_JLIB) <> ''
+
+MERGE (pgm:Programme {
+    name: trim(row.LST_JOBJ), 
+    library: trim(row.LST_JLIB)
+})
+SET pgm.type = trim(row.LST_CTYPE),
+    pgm.attribute = trim(coalesce(row.LST_CATR, '')),
+    pgm.arcadType = trim(coalesce(row.LST_CCPLT, '')),
+    pgm.description = trim(coalesce(row.LST_CTXT, '')),
+    pgm.lastModified = CASE 
+        WHEN row.LST_TDATE IS NOT NULL AND row.LST_TDATE <> '' 
+        THEN CASE
+            WHEN row.LST_TDATE =~ '\\d{4}-\\d{2}-\\d{2}' THEN date(row.LST_TDATE)
+            WHEN size(toString(row.LST_TDATE)) >= 8 
+            THEN date(substring(toString(row.LST_TDATE), 0, 4) + '-' + 
+                     substring(toString(row.LST_TDATE), 4, 2) + '-' + 
+                     substring(toString(row.LST_TDATE), 6, 2))
+            ELSE null
+        END
+        ELSE null 
+    END,
+    pgm.loadedAt = datetime();
+
+// =========== PHASE 6: CHARGEMENT DES TABLES ===========
+
+LOAD CSV WITH HEADERS FROM $githubBaseUrl + 'IBMi_RefArcaddesObjets_Tables.csv' AS row
+WITH row WHERE row.LST_CELTTY = 'O' 
+  AND row.LST_CTYPE = '*FILE' 
+  AND row.LST_CATR IN ['PF', 'TABLE']
+  AND row.LST_JOBJ IS NOT NULL AND trim(row.LST_JOBJ) <> ''
+  AND row.LST_JLIB IS NOT NULL AND trim(row.LST_JLIB) <> ''
+
+MERGE (tbl:Table {
+    name: trim(row.LST_JOBJ), 
+    library: trim(row.LST_JLIB)
+})
+SET tbl.type = trim(row.LST_CTYPE),
+    tbl.attribute = trim(coalesce(row.LST_CATR, '')),
+    tbl.arcadType = trim(coalesce(row.LST_CCPLT, '')),
+    tbl.description = trim(coalesce(row.LST_CTXT, '')),
+    tbl.lastModified = CASE 
+        WHEN row.LST_TDATE IS NOT NULL AND row.LST_TDATE <> '' 
+        THEN CASE
+            WHEN row.LST_TDATE =~ '\\d{4}-\\d{2}-\\d{2}' THEN date(row.LST_TDATE)
+            WHEN size(toString(row.LST_TDATE)) >= 8 
+            THEN date(substring(toString(row.LST_TDATE), 0, 4) + '-' + 
+                     substring(toString(row.LST_TDATE), 4, 2) + '-' + 
+                     substring(toString(row.LST_TDATE), 6, 2))
+            ELSE null
+        END
+        ELSE null 
+    END,
+    tbl.loadedAt = datetime();
+
+// =========== PHASE 7: RELATIONS BELONGS_TO ===========
+
+// 7.1 Programmes → Applications  
+LOAD CSV WITH HEADERS FROM $githubBaseUrl + 'IBMi_RefArcaddesObjets_Programmes.csv' AS row
+WITH row WHERE row.LST_CELTTY = 'O' 
+  AND row.LST_CTYPE = '*PGM'
+  AND row.LST_JOBJ IS NOT NULL AND trim(row.LST_JOBJ) <> ''
+  AND row.LST_JLIB IS NOT NULL AND trim(row.LST_JLIB) <> ''
+  AND row.LST_CAPP IS NOT NULL AND trim(row.LST_CAPP) <> ''
+
+MATCH (pgm:Programme {name: trim(row.LST_JOBJ), library: trim(row.LST_JLIB)})
+MATCH (app:Application {name: trim(row.LST_CAPP)})
+MERGE (pgm)-[:BELONGS_TO]->(app);
+
+// 7.2 Tables → Applications
+LOAD CSV WITH HEADERS FROM $githubBaseUrl + 'IBMi_RefArcaddesObjets_Tables.csv' AS row
+WITH row WHERE row.LST_CELTTY = 'O' 
+  AND row.LST_CTYPE = '*FILE' 
+  AND row.LST_CATR IN ['PF', 'TABLE']
+  AND row.LST_JOBJ IS NOT NULL AND trim(row.LST_JOBJ) <> ''
+  AND row.LST_JLIB IS NOT NULL AND trim(row.LST_JLIB) <> ''
+  AND row.LST_CAPP IS NOT NULL AND trim(row.LST_CAPP) <> ''
+
+MATCH (tbl:Table {name: trim(row.LST_JOBJ), library: trim(row.LST_JLIB)})
+MATCH (app:Application {name: trim(row.LST_CAPP)})
+MERGE (tbl)-[:BELONGS_TO]->(app);
+
+// 7.3 Sources → Applications
+LOAD CSV WITH HEADERS FROM $githubBaseUrl + 'IBMi_RefArcaddesSources.csv' AS row
+WITH row WHERE row.LST_CELTTY = 'M' 
+  AND row.LST_JOBJ IS NOT NULL AND trim(row.LST_JOBJ) <> ''
+  AND row.LST_JLIB IS NOT NULL AND trim(row.LST_JLIB) <> ''
+  AND row.LST_CAPP IS NOT NULL AND trim(row.LST_CAPP) <> ''
+
+MATCH (src:Source {name: trim(row.LST_JOBJ), library: trim(row.LST_JLIB)})
+MATCH (app:Application {name: trim(row.LST_CAPP)})
+MERGE (src)-[:BELONGS_TO]->(app);
+
+// =========== PHASE 8: RELATIONS GENERATES ===========
+
+// 8.1 Sources → Programmes (par correspondance nom/bibliothèque)
+MATCH (src:Source), (pgm:Programme)
+WHERE src.name = pgm.name AND src.library = pgm.library
+    AND src.sourceType IN ['RPG', 'RPGLE', 'SQLRPG', 'SQLRPGLE', 'CLP', 'CLLE', 'CBL']
+MERGE (src)-[r:GENERATES]->(pgm)
+SET r.createdAt = datetime();
+
+// 8.2 Sources → Tables (par correspondance nom/bibliothèque et type de source)
+MATCH (src:Source), (tbl:Table)
+WHERE src.name = tbl.name AND src.library = tbl.library
+    AND (src.sourceFile IN ['QDDSSRC', 'QSQLSRC'] OR src.sourceType = '*FILE')
+MERGE (src)-[r:GENERATES]->(tbl)
+SET r.createdAt = datetime();
+
+// =========== PHASE 9: RELATIONS DE TYPAGE ===========
+
+// 9.1 TYPED_AS_IBM
+MATCH (pgm:Programme), (type:TypeObjIBMi)
+WHERE pgm.type = type.name
+MERGE (pgm)-[:TYPED_AS_IBM]->(type);
+
+MATCH (tbl:Table), (type:TypeObjIBMi)
+WHERE tbl.type = type.name
+MERGE (tbl)-[:TYPED_AS_IBM]->(type);
+
+// 9.2 TYPED_AS_ARCAD (si le type ARCAD existe)
+MATCH (pgm:Programme), (type:TypeObjARCAD)
+WHERE pgm.arcadType = type.name AND pgm.arcadType IS NOT NULL AND pgm.arcadType <> ''
+MERGE (pgm)-[:TYPED_AS_ARCAD]->(type);
+
+MATCH (tbl:Table), (type:TypeObjARCAD)
+WHERE tbl.arcadType = type.name AND tbl.arcadType IS NOT NULL AND tbl.arcadType <> ''
+MERGE (tbl)-[:TYPED_AS_ARCAD]->(type);
+
+// 9.3 HAS_ATTRIBUTE
+MATCH (pgm:Programme), (attr:Attribut)
+WHERE pgm.attribute = attr.name AND pgm.attribute IS NOT NULL AND pgm.attribute <> ''
+MERGE (pgm)-[:HAS_ATTRIBUTE]->(attr);
+
+MATCH (tbl:Table), (attr:Attribut)
+WHERE tbl.attribute = attr.name AND tbl.attribute IS NOT NULL AND tbl.attribute <> ''
+MERGE (tbl)-[:HAS_ATTRIBUTE]->(attr);
+
+// =========== PHASE 10: RÉFÉRENCES CROISÉES (XREF) ===========
+
+// 10.1 Relations CALLS (Programme → Programme)
+LOAD CSV WITH HEADERS FROM $githubBaseUrl + 'IBMi_RefArcaddesXREF.csv' AS row
+WITH row WHERE row.OXR_FROM_TYPE = '*PGM' AND row.OXR_TO_TYPE = '*PGM'
+    AND row.OXR_FROM_OBJ IS NOT NULL AND trim(row.OXR_FROM_OBJ) <> ''
+    AND row.OXR_TO_OBJ IS NOT NULL AND trim(row.OXR_TO_OBJ) <> ''
+    AND row.OXR_FROM_LIB IS NOT NULL AND trim(row.OXR_FROM_LIB) <> ''
+    AND row.OXR_TO_LIB IS NOT NULL AND trim(row.OXR_TO_LIB) <> ''
+
+MATCH (fromPgm:Programme {name: trim(row.OXR_FROM_OBJ), library: trim(row.OXR_FROM_LIB)})
+MATCH (toPgm:Programme {name: trim(row.OXR_TO_OBJ), library: trim(row.OXR_TO_LIB)})
+MERGE (fromPgm)-[r:CALLS]->(toPgm)
+SET r.callType = 'CALL',
+    r.createdAt = datetime();
+
+// 10.2 Relations USES (Programme → Table)
+LOAD CSV WITH HEADERS FROM $githubBaseUrl + 'IBMi_RefArcaddesXREF.csv' AS row
+WITH row WHERE row.OXR_FROM_TYPE = '*PGM' AND row.OXR_TO_TYPE = '*FILE'
+    AND row.OXR_FROM_OBJ IS NOT NULL AND trim(row.OXR_FROM_OBJ) <> ''
+    AND row.OXR_TO_OBJ IS NOT NULL AND trim(row.OXR_TO_OBJ) <> ''
+    AND row.OXR_FROM_LIB IS NOT NULL AND trim(row.OXR_FROM_LIB) <> ''
+    AND row.OXR_TO_LIB IS NOT NULL AND trim(row.OXR_TO_LIB) <> ''
+
+MATCH (pgm:Programme {name: trim(row.OXR_FROM_OBJ), library: trim(row.OXR_FROM_LIB)})
+MATCH (tbl:Table {name: trim(row.OXR_TO_OBJ), library: trim(row.OXR_TO_LIB)})
+MERGE (pgm)-[r:USES]->(tbl)
+SET r.usageType = 'USE',
+    r.logicalFile = CASE 
+        WHEN row.OXR_TO_LF_OBJ IS NOT NULL AND trim(row.OXR_TO_LF_OBJ) <> '' 
+        THEN trim(row.OXR_TO_LF_OBJ) 
+        ELSE null 
+    END,
+    r.createdAt = datetime();
+
+// =========== PHASE 11: VALIDATION ET STATISTIQUES ===========
+
+// 11.1 Comptage des nœuds créés
+CALL {
+    MATCH (app:Application) RETURN 'Applications' as Type, count(app) as Count
+    UNION
+    MATCH (pgm:Programme) RETURN 'Programmes' as Type, count(pgm) as Count
+    UNION
+    MATCH (tbl:Table) RETURN 'Tables' as Type, count(tbl) as Count
+    UNION
+    MATCH (src:Source) RETURN 'Sources' as Type, count(src) as Count
+    UNION
+    MATCH (type:TypeObjIBMi) RETURN 'Types IBMi' as Type, count(type) as Count
+    UNION
+    MATCH (type:TypeObjARCAD) RETURN 'Types ARCAD' as Type, count(type) as Count
+    UNION
+    MATCH (attr:Attribut) RETURN 'Attributs' as Type, count(attr) as Count
+}
+RETURN Type, Count ORDER BY Type;
+
+// 11.2 Comptage des relations créées
+CALL {
+    MATCH ()-[r:BELONGS_TO]->() RETURN 'BELONGS_TO' as RelationType, count(r) as Count
+    UNION
+    MATCH ()-[r:GENERATES]->() RETURN 'GENERATES' as RelationType, count(r) as Count
+    UNION
+    MATCH ()-[r:CALLS]->() RETURN 'CALLS' as RelationType, count(r) as Count
+    UNION
+    MATCH ()-[r:USES]->() RETURN 'USES' as RelationType, count(r) as Count
+    UNION
+    MATCH ()-[r:TYPED_AS_IBM]->() RETURN 'TYPED_AS_IBM' as RelationType, count(r) as Count
+    UNION
+    MATCH ()-[r:TYPED_AS_ARCAD]->() RETURN 'TYPED_AS_ARCAD' as RelationType, count(r) as Count
+    UNION
+    MATCH ()-[r:HAS_ATTRIBUTE]->() RETURN 'HAS_ATTRIBUTE' as RelationType, count(r) as Count
+}
+RETURN RelationType, Count ORDER BY RelationType;
+
+// =========== PHASE 12: REQUÊTES DE VALIDATION MÉTIER ===========
+
+// 12.1 Top 10 des programmes les plus appelés
+MATCH (pgm:Programme)<-[:CALLS]-(caller)
+RETURN pgm.name as Programme, 
+       pgm.library as Bibliotheque, 
+       pgm.description as Description,
+       count(caller) as NombreAppelants
+ORDER BY NombreAppelants DESC LIMIT 10;
+
+// 12.2 Top 10 des tables les plus utilisées  
+MATCH (tbl:Table)<-[:USES]-(pgm)
+RETURN tbl.name as Table, 
+       tbl.library as Bibliotheque, 
+       tbl.description as Description,
+       count(pgm) as NombreUtilisateurs
+ORDER BY NombreUtilisateurs DESC LIMIT 10;
+
+// 12.3 Vue d'ensemble par application
+MATCH (app:Application)
+OPTIONAL MATCH (app)<-[:BELONGS_TO]-(pgm:Programme)
+OPTIONAL MATCH (app)<-[:BELONGS_TO]-(tbl:Table)
+OPTIONAL MATCH (app)<-[:BELONGS_TO]-(src:Source)
+RETURN app.name as Application,
+       count(DISTINCT pgm) as NombreProgrammes,
+       count(DISTINCT tbl) as NombreTables,
+       count(DISTINCT src) as NombreSources,
+       count(DISTINCT pgm) + count(DISTINCT tbl) as TotalObjets
+ORDER BY TotalObjets DESC;
+
+// =========== PHASE 13: ANALYSES AVANCÉES ===========
+
+// 13.1 Programmes "hub" (très connectés)
+MATCH (pgm:Programme)
+OPTIONAL MATCH (pgm)<-[:CALLS]-(appelant:Programme)
+OPTIONAL MATCH (pgm)-[:CALLS]->(appele:Programme)
+OPTIONAL MATCH (pgm)-[:USES]->(tbl:Table)
+WITH pgm, count(DISTINCT appelant) as NombreAppelants, 
+     count(DISTINCT appele) as NombreAppeles,
+     count(DISTINCT tbl) as NombreTablesUtilisees
+WHERE NombreAppelants > 0 OR NombreAppeles > 0 OR NombreTablesUtilisees > 0
+MATCH (pgm)-[:BELONGS_TO]->(app:Application)
+RETURN app.name as Application,
+       pgm.name as ProgrammeHub,
+       pgm.library as Bibliotheque,
+       NombreAppelants,
+       NombreAppeles,
+       NombreTablesUtilisees,
+       NombreAppelants + NombreAppeles + NombreTablesUtilisees as ScoreConnectivite
+ORDER BY ScoreConnectivite DESC LIMIT 20;
+
+// 13.2 Dépendances inter-applications
+MATCH (app1:Application)<-[:BELONGS_TO]-(pgm1:Programme)-[:CALLS|USES]->(obj)-[:BELONGS_TO]->(app2:Application)
+WHERE app1 <> app2
+WITH app1, app2, count(*) as nombreDependances
+RETURN app1.name as ApplicationSource,
+       app2.name as ApplicationCible,
+       nombreDependances as NombreDependances
+ORDER BY nombreDependances DESC LIMIT 15;
+
+// =========== RÉSUMÉ FINAL ===========
+
+RETURN '🎉 CHARGEMENT TERMINÉ AVEC SUCCÈS' as Status,
+       datetime() as Timestamp,
+       'Votre patrimoine IBM i ARCAD est maintenant dans Neo4j !' as Message;
+
+// =====================================================
+// 🚀 GUIDE D'EXÉCUTION RAPIDE
+// =====================================================
+
+/*
+1. CONNEXION:
+   - Neo4j Browser → bolt+s://neo4j.coutellec.fr:7687
+   - Entrez vos identifiants
+
+2. EXÉCUTION:
+   ⚠️ IMPORTANT: Exécutez PHASE PAR PHASE (pas tout d'un coup)
+   - Copiez/collez chaque phase séparément
+   - Attendez la fin de chaque phase avant de continuer
+   - Surveillez les compteurs de nœuds/relations
+
+3. SURVEILLANCE:
+   - Phase 11: Vérifiez les statistiques
+   - Phase 12: Testez les requêtes métier
+   - Phase 13: Explorez les analyses avancées
+
+4. EN CAS D'ERREUR:
+   - Vérifiez que l'URL GitHub est accessible
+   - Contrôlez que les CSV sont bien uploadés
+   - Regardez les messages d'erreur Neo4j
+
+RÉSULTAT ATTENDU:
+- Applications basées sur vos bibliothèques ARCAD
+- Programmes et tables avec leurs relations
+- Cartographie complète des dépendances
+- Analyses de complexité et détection de patterns
+
+Bonne exploration de votre patrimoine ! 🎯
+*/
