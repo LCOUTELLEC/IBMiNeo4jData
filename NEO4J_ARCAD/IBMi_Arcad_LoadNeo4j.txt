@@ -218,15 +218,13 @@ MERGE (src)-[:BELONGS_TO]->(app);
 
 // 8.1 Sources → Programmes (par correspondance nom/bibliothèque)
 MATCH (src:Source), (pgm:Programme)
-WHERE src.name = pgm.name AND src.library = pgm.library
-    AND src.sourceType IN ['RPG', 'RPGLE', 'SQLRPG', 'SQLRPGLE', 'CLP', 'CLLE', 'CBL']
+WHERE src.name = pgm.name AND src.sourceType = pgm.attribute
 MERGE (src)-[r:GENERATES]->(pgm)
 SET r.createdAt = datetime();
 
 // 8.2 Sources → Tables (par correspondance nom/bibliothèque et type de source)
 MATCH (src:Source), (tbl:Table)
-WHERE src.name = tbl.name AND src.library = tbl.library
-    AND (src.sourceFile IN ['QDDSSRC', 'QSQLSRC'] OR src.sourceType = '*FILE')
+WHERE src.name = tbl.name AND src.sourceType = tbl.attribute
 MERGE (src)-[r:GENERATES]->(tbl)
 SET r.createdAt = datetime();
 
@@ -262,37 +260,45 @@ MERGE (tbl)-[:HAS_ATTRIBUTE]->(attr);
 // =========== PHASE 10: RÉFÉRENCES CROISÉES (XREF) ===========
 
 // 10.1 Relations CALLS (Programme → Programme)
+// ATTENTION: OXR_TO_LIB n'est pas fiable - matching uniquement sur nom d'objet
 LOAD CSV WITH HEADERS FROM $githubBaseUrl + 'IBMi_RefArcaddesXREF.csv' AS row
-WITH row WHERE row.OXR_FROM_TYPE = '*PGM' AND row.OXR_TO_TYPE = '*PGM'
+WITH row 
+WHERE row.OXR_FROM_TYPE = '*PGM' AND row.OXR_TO_TYPE = '*PGM'
     AND row.OXR_FROM_OBJ IS NOT NULL AND trim(row.OXR_FROM_OBJ) <> ''
     AND row.OXR_TO_OBJ IS NOT NULL AND trim(row.OXR_TO_OBJ) <> ''
     AND row.OXR_FROM_LIB IS NOT NULL AND trim(row.OXR_FROM_LIB) <> ''
-    AND row.OXR_TO_LIB IS NOT NULL AND trim(row.OXR_TO_LIB) <> ''
+    // Suppression de la condition sur OXR_TO_LIB car non fiable
 
 MATCH (fromPgm:Programme {name: trim(row.OXR_FROM_OBJ), library: trim(row.OXR_FROM_LIB)})
-MATCH (toPgm:Programme {name: trim(row.OXR_TO_OBJ), library: trim(row.OXR_TO_LIB)})
+MATCH (toPgm:Programme {name: trim(row.OXR_TO_OBJ)})  // Matching uniquement sur le nom
 MERGE (fromPgm)-[r:CALLS]->(toPgm)
 SET r.callType = 'CALL',
-    r.createdAt = datetime();
+    r.createdAt = datetime(),
+    r.sourceLibrary = trim(row.OXR_FROM_LIB),
+    r.note = 'Target library ignored - OXR_TO_LIB unreliable';
 
 // 10.2 Relations USES (Programme → Table)
+// ATTENTION: OXR_TO_LIB n'est pas fiable - matching uniquement sur nom d'objet
 LOAD CSV WITH HEADERS FROM $githubBaseUrl + 'IBMi_RefArcaddesXREF.csv' AS row
-WITH row WHERE row.OXR_FROM_TYPE = '*PGM' AND row.OXR_TO_TYPE = '*FILE'
+WITH row 
+WHERE row.OXR_FROM_TYPE = '*PGM' AND row.OXR_TO_TYPE = '*FILE'
     AND row.OXR_FROM_OBJ IS NOT NULL AND trim(row.OXR_FROM_OBJ) <> ''
     AND row.OXR_TO_OBJ IS NOT NULL AND trim(row.OXR_TO_OBJ) <> ''
     AND row.OXR_FROM_LIB IS NOT NULL AND trim(row.OXR_FROM_LIB) <> ''
-    AND row.OXR_TO_LIB IS NOT NULL AND trim(row.OXR_TO_LIB) <> ''
+    // Suppression de la condition sur OXR_TO_LIB car non fiable
 
 MATCH (pgm:Programme {name: trim(row.OXR_FROM_OBJ), library: trim(row.OXR_FROM_LIB)})
-MATCH (tbl:Table {name: trim(row.OXR_TO_OBJ), library: trim(row.OXR_TO_LIB)})
+MATCH (tbl:Table {name: trim(row.OXR_TO_OBJ)})  // Matching uniquement sur le nom
 MERGE (pgm)-[r:USES]->(tbl)
 SET r.usageType = 'USE',
     r.logicalFile = CASE 
-        WHEN row.OXR_TO_LF_OBJ IS NOT NULL AND trim(row.OXR_TO_LF_OBJ) <> '' 
-        THEN trim(row.OXR_TO_LF_OBJ) 
-        ELSE null 
+        WHEN row.OXR_TO_LF_OBJ IS NOT NULL AND trim(row.OXR_TO_LF_OBJ) <> ''
+        THEN trim(row.OXR_TO_LF_OBJ)
+        ELSE null
     END,
-    r.createdAt = datetime();
+    r.sourceLibrary = trim(row.OXR_FROM_LIB),
+    r.createdAt = datetime(),
+    r.note = 'Target library ignored - OXR_TO_LIB unreliable';
 
 // =========== PHASE 11: VALIDATION ET STATISTIQUES ===========
 

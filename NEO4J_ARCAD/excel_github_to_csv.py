@@ -99,7 +99,7 @@ def process_sources_excel(excel_data, output_dir):
             df_filtered = df.copy()
         
         # Types de sources à conserver
-        types_programmes = ['RPG', 'RPGLE', 'SQLRPG', 'SQLRPGLE', 'CLP', 'CLLE', 'CBL']
+        types_programmes = ['RPG', 'RPT', 'RPGLE', 'SQLRPG', 'SQLRPGLE', 'CLP', 'CLLE', 'CBL']
         fichiers_sources_tables = ['QDDSSRC', 'QSQLSRC']
         
         if 'LST_CTYPE' in df.columns:
