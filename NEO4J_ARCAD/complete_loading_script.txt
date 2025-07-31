@@ -17,8 +17,6 @@ CREATE CONSTRAINT FOR (n:TypeObjARCAD) REQUIRE (n.name) IS UNIQUE;
 CREATE CONSTRAINT FOR (n:Attribut) REQUIRE (n.name) IS UNIQUE;
 
 // Création des index pour optimiser les performances
-CREATE INDEX FOR (n:Programme) ON (n.name, n.library);
-CREATE INDEX FOR (n:Table) ON (n.name, n.library);
 CREATE INDEX FOR (n:Source) ON (n.name, n.library);
 CREATE INDEX FOR (n:Programme) ON (n.attribute);
 CREATE INDEX FOR (n:Table) ON (n.attribute);
